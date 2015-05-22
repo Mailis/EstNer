@@ -1,0 +1,18 @@
+<rdf:RDF>
+  <owl:Class rdf:about="http://www.estnernet.ee/nerdatanet/locations#Location">
+    <rdfs:comment>Class for locations extracted from web pages' contents by estNer.</rdfs:comment>
+    <rdfs:label>location class</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.estnernet.ee/nerdatanet/organizations#Organization">
+    <rdfs:label>organization class</rdfs:label>
+     <rdfs:comment>Class for organizations extracted from web pages' contents by estNer.</rdfs:comment>
+  </owl:Class>
+  <owl:Ontology rdf:about="http://www.estnernet.ee/nerdatanet#">
+    <dc:description>Extracted estNER locations, organizations and persons.</dc:description>
+    <dc:title>estNER Ontology</dc:title>
+  </owl:Ontology>
+  <owl:DatatypeProperty rdf:about="http://www.estnernet.ee/nerdatanet#orgName"/>
+  <owl:DatatypeProperty rdf:about="http://www.estnernet.ee/nerdatanet#locationName"/>
+  <owl:DatatypeProperty rdf:about="http://www.estnernet.ee/nerdatanet#lemma"/>
+  <owl:DatatypeProperty rdf:about="http://www.estnernet.ee/nerdatanet#mentionedAtSite"/>
+</rdf:RDF>
