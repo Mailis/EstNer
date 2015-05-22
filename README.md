@@ -1,5 +1,5 @@
 # EstNer
 
-user interface is currently at 185.7.254.107/local
+user interface is currently at 185.7.254.107/local/upload_logfile/
 
 SPARQL endpoint can be tested at 185.7.254.107/local/SPARQLendpoint
