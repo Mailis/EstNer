@@ -1,0 +1,2 @@
+0 1 1 * * /usr/bin/python2 http://<master_IP_address>/monthlyUpdate_auth.py
+

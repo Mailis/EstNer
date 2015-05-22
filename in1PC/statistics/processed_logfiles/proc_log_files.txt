@@ -1,0 +1,11 @@
+13/03/2015_02:38:14 /logfiles/crawl_detail3.log 7 0:00:07.680164 100
+13/03/2015_02:41:46 /logfiles/crawl_detail3.log 7 0:00:07.276153 100
+13/03/2015_02:44:37 /logfiles/crawl_detail3.log 7 0:00:08.473565 100
+13/03/2015_02:44:48 /logfiles/crawl_detail3.log 7 0:00:01.071183 100
+13/03/2015_02:48:41 /logfiles/crawl_detail3.log 7 0:00:07.742437 100
+13/03/2015_02:50:57 /logfiles/crawl_detail3.log 7 0:00:08.251981 100
+13/03/2015 ../logfiles/crawl_detail3.log 7 0:00:00.359094 100 DOWNLOADS
+13/03/2015_02:55:24 /logfiles/crawl_detail3.log 7 0:00:08.969702 100
+13/03/2015_02:55:24DOWNLOADS /logfiles/crawl_detail3.log 7 0:00:00.364481 100
+13/03/2015_02:59:05 /logfiles/crawl.log 9 0:00:22.312886 100
+13/03/2015_02:59:05DOWNLOADS /logfiles/crawl.log 9 0:00:08.927684 100

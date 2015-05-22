@@ -1,0 +1,3830 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ner="http://www.estnernet.ee/nerdatanet#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#katri_lehis">
+    <foaf:name>Katri Lehis</foaf:name>
+    <foaf:givenName>Katri</foaf:givenName>
+    <foaf:familyName>Lehis</foaf:familyName>
+    <ner:lemma>katri lehis</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <ner:lemma>Katri lehis</ner:lemma>
+    <ner:lemma>Katrina Lehis</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tv-alg_tibor">
+    <foaf:familyName>Tibor</foaf:familyName>
+    <foaf:name>Tv-Alg Tibor</foaf:name>
+    <ner:lemma>TV-alus TIBOR</ner:lemma>
+    <ner:lemma>TV-alg Tibor</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://aatrium.ee/"/>
+    <ner:lemma>tv-alg tibor</ner:lemma>
+    <foaf:givenName>Tv-Alg</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tãµlgitud_tekstikorrektuur">
+    <foaf:givenName>Tãµlgitud</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.tolge24.ee/"/>
+    <ner:lemma>tÃµlgitud tekstikorrektuur</ner:lemma>
+    <ner:lemma>tãµlgitud tekstikorrektuur</ner:lemma>
+    <ner:lemma>tekstikorrektuur</ner:lemma>
+    <foaf:name>Tãµlgitud Tekstikorrektuur</foaf:name>
+    <ner:lemma>tÃµlgitud tekstikorrektuuri</ner:lemma>
+    <foaf:familyName>Tekstikorrektuur</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#restline">
+    <foaf:name>Restline</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.pesa24.ee/"/>
+    <ner:lemma>restline</ner:lemma>
+    <ner:lemma>RESTLINE</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#autogrupp_oã">
+    <ner:lemma>autogrupp oã</ner:lemma>
+    <ner:lemma>autogrupp OÃ</ner:lemma>
+    <foaf:givenName>Autogrupp</foaf:givenName>
+    <ner:lemma>Autogrupp OÃ</ner:lemma>
+    <foaf:name>Autogrupp Oã</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.auto-diagnostika.ee/"/>
+    <foaf:familyName>Oã</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#function_mmswapimgrestore">
+    <foaf:familyName>Mmswapimgrestore</foaf:familyName>
+    <ner:lemma>function MMswapImgRestore</ner:lemma>
+    <ner:lemma>function MM_swapImgRestore</ner:lemma>
+    <ner:lemma>function mmswapimgrestore</ner:lemma>
+    <foaf:givenName>Function</foaf:givenName>
+    <foaf:name>Function Mmswapimgrestore</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.nakmansat.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#nino_cerruti">
+    <foaf:familyName>Cerruti</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.kaunis.ee/"/>
+    <foaf:name>Nino Cerruti</foaf:name>
+    <ner:lemma>nino cerruti</ner:lemma>
+    <foaf:givenName>Nino</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tãµnu_sannik">
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <foaf:familyName>Sannik</foaf:familyName>
+    <foaf:givenName>Tãµnu</foaf:givenName>
+    <foaf:name>Tãµnu Sannik</foaf:name>
+    <ner:lemma>TÃµnu Sannik</ner:lemma>
+    <ner:lemma>tãµnu sannik</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tiksoja_puidugrupp">
+    <foaf:familyName>Puidugrupp</foaf:familyName>
+    <foaf:name>Tiksoja Puidugrupp</foaf:name>
+    <ner:lemma>tiksoja puidugrupp</ner:lemma>
+    <foaf:givenName>Tiksoja</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.tiksoja.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#s4_funk-sina">
+    <ner:mentionedAtSite rdf:resource="http://www.hobekivi.ee/"/>
+    <foaf:familyName>Funk-Sina</foaf:familyName>
+    <ner:lemma>S4 funk-sina</ner:lemma>
+    <ner:lemma>S4 Funk-SA</ner:lemma>
+    <foaf:name>S4 Funk-Sina</foaf:name>
+    <ner:lemma>s4 funk-sina</ner:lemma>
+    <foaf:givenName>S4</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kamin_hãµbeleek">
+    <ner:mentionedAtSite rdf:resource="http://www.hobekivi.ee/"/>
+    <ner:lemma>kamin HÃµbeleek</ner:lemma>
+    <foaf:name>Kamin Hãµbeleek</foaf:name>
+    <ner:lemma>Kamin HÃµbeleek</ner:lemma>
+    <ner:lemma>kamin hãµbeleek</ner:lemma>
+    <foaf:familyName>Hãµbeleek</foaf:familyName>
+    <foaf:givenName>Kamin</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#lisa_superkross">
+    <ner:lemma>superkross</ner:lemma>
+    <foaf:name>Lisa Superkross</foaf:name>
+    <foaf:familyName>Superkross</foaf:familyName>
+    <ner:lemma>lisa superkross</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.saueautoklubi.ee/"/>
+    <ner:lemma>Lisaks Superkrossile</ner:lemma>
+    <foaf:givenName>Lisa</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#mã¼ã¼a_superkross">
+    <ner:lemma>mã¼ã¼a superkross</ner:lemma>
+    <foaf:familyName>Superkross</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.saueautoklubi.ee/"/>
+    <ner:lemma>MÃ¼Ã¼a Superkrossi</ner:lemma>
+    <ner:lemma>MÃ¼Ã¼a superkross</ner:lemma>
+    <foaf:givenName>Mã¼Ã¼A</foaf:givenName>
+    <foaf:name>Mã¼Ã¼A Superkross</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tiina_tammeveski">
+    <ner:lemma>Tiina tammeveski</ner:lemma>
+    <ner:lemma>tiina tammeveski</ner:lemma>
+    <foaf:name>Tiina Tammeveski</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.tolge24.ee/"/>
+    <foaf:familyName>Tammeveski</foaf:familyName>
+    <foaf:givenName>Tiina</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tã¶ã¶datud_analã¼ã¼si">
+    <ner:lemma>tÃ¶Ã¶datud analÃ¼Ã¼sil</ner:lemma>
+    <foaf:familyName>Analã¼Ã¼Si</foaf:familyName>
+    <ner:lemma>tã¶ã¶datud analã¼ã¼si</ner:lemma>
+    <foaf:name>Tã¶Ã¶Datud Analã¼Ã¼Si</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>analÃ¼Ã¼si</ner:lemma>
+    <foaf:givenName>Tã¶Ã¶Datud</foaf:givenName>
+    <ner:lemma>tÃ¶Ã¶datud analÃ¼Ã¼si</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tarmo_raidma">
+    <foaf:name>Tarmo Raidma</foaf:name>
+    <foaf:givenName>Tarmo</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.omdia.ee/"/>
+    <foaf:familyName>Raidma</foaf:familyName>
+    <ner:lemma>tarmo raidma</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ðñð¸ð³ð»ð°ñð°ðµð¼_ð¸ð·ññð°ññ">
+    <ner:lemma>ðñð¸ð³ð»ð°ñð°ðµð¼ ð¸ð·ññð°ññ</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.alfabeta.ee/"/>
+    <foaf:givenName>ÐÑÐ¸Ð³Ð»Ð°ÑÐ°Ðµð¼</foaf:givenName>
+    <foaf:familyName>Ð¸Ð·ÑÑÐ°ÑÑ</foaf:familyName>
+    <ner:lemma>ÐÑÐ¸Ð³Ð»Ð°ÑÐ°ÐµÐ¼ Ð¸Ð·ÑÑÐ°ÑÑ</ner:lemma>
+    <foaf:name>ÐÑÐ¸Ð³Ð»Ð°ÑÐ°Ðµð¼ Ð¸Ð·ÑÑÐ°ÑÑ</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#seadus_ã¼hisosa">
+    <foaf:name>Seadus Ã¼Hisosa</foaf:name>
+    <ner:lemma>seadus ã¼hisosa</ner:lemma>
+    <ner:lemma>seadus Ã¼hisosa</ner:lemma>
+    <foaf:familyName>Ã¼Hisosa</foaf:familyName>
+    <ner:lemma>seadus</ner:lemma>
+    <foaf:givenName>Seadus</foaf:givenName>
+    <ner:lemma>Seaduse Ã¼hisosaks</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ðñð¿ð¾ð»ð½ðµð½ð½ñðµ_ñð°ð±ð¾ññ">
+    <ner:lemma>ÐÑÐ¿Ð¾Ð»Ð½ÐµÐ½Ð½ÑÐµ ÑÐ°Ð±Ð¾ÑÑ</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.kohimo.ee/"/>
+    <foaf:familyName>ÑÐ°Ð±Ð¾ÑÑ</foaf:familyName>
+    <ner:lemma>ÐÑÐ¿Ð¾Ð»Ð½ÐµÐ½Ð½ÑÐµ ÑÐ°Ð±Ð¾ÑÑ</ner:lemma>
+    <foaf:name>ÐÑÐ¿Ð¾Ð»Ð½Ðµð½Ð½ÑÐµ ÑÐ°Ð±Ð¾ÑÑ</foaf:name>
+    <ner:lemma>ðñð¿ð¾ð»ð½ðµð½ð½ñðµ ñð°ð±ð¾ññ</ner:lemma>
+    <foaf:givenName>ÐÑÐ¿Ð¾Ð»Ð½Ðµð½Ð½ÑÐµ</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#german_vaiksnora">
+    <foaf:familyName>Vaiksnora</foaf:familyName>
+    <foaf:givenName>German</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <ner:lemma>German Vaiksnoras</ner:lemma>
+    <ner:lemma>german vaiksnora</ner:lemma>
+    <foaf:name>German Vaiksnora</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#jã¼rgen_ligi">
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>JÃ¼rgen ligi</ner:lemma>
+    <ner:lemma>jã¼rgen ligi</ner:lemma>
+    <ner:lemma>JÃ¼rgen Ligi</ner:lemma>
+    <foaf:name>Jã¼Rgen Ligi</foaf:name>
+    <foaf:givenName>Jã¼Rgen</foaf:givenName>
+    <foaf:familyName>Ligi</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#lauatennis_meistrivãµistlus">
+    <ner:lemma>lauatennis meistrivÃµistlus</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <ner:lemma>lauatennis meistrivãµistlus</ner:lemma>
+    <foaf:familyName>Meistrivãµistlus</foaf:familyName>
+    <ner:lemma>lauatennise meistrivÃµistlustel</ner:lemma>
+    <foaf:name>Lauatennis Meistrivãµistlus</foaf:name>
+    <foaf:givenName>Lauatennis</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#auto_oã">
+    <foaf:givenName>Auto</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.entar.ee/"/>
+    <ner:lemma>Auto OÃ</ner:lemma>
+    <ner:lemma>auto OÃ</ner:lemma>
+    <foaf:familyName>Oã</foaf:familyName>
+    <foaf:name>Auto Oã</foaf:name>
+    <ner:lemma>auto oã</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#siiskoostã¶ã¶s">
+    <ner:mentionedAtSite rdf:resource="http://www.aksalis.ee/"/>
+    <ner:lemma>siiskoostã¶ã¶s</ner:lemma>
+    <ner:lemma>siiskoostÃ¶Ã¶s</ner:lemma>
+    <foaf:name>Siiskoostã¶Ã¶S</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ñðµð·ðºð°_ð¼ð°ñðµñð¸ð°ð»ð¾ð²">
+    <foaf:familyName>Ð¼Ð°ÑÐµñÐ¸Ð°Ð»Ð¾Ð²</foaf:familyName>
+    <ner:lemma>ÑÐµÐ·ÐºÐ° Ð¼Ð°ÑÐµÑÐ¸Ð°Ð»Ð¾Ð²</ner:lemma>
+    <foaf:givenName>ÑÐµð·Ðºð°</foaf:givenName>
+    <ner:lemma>ñðµð·ðºð° ð¼ð°ñðµñð¸ð°ð»ð¾ð²</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.kohimo.ee/"/>
+    <foaf:name>ÑÐµð·Ðºð° Ð¼Ð°ÑÐµñÐ¸Ð°Ð»Ð¾Ð²</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#62_eur">
+    <ner:mentionedAtSite rdf:resource="http://www.comtour.ee/"/>
+    <ner:lemma>62 eur</ner:lemma>
+    <foaf:familyName>Eur</foaf:familyName>
+    <foaf:name>62 Eur</foaf:name>
+    <foaf:givenName>62</foaf:givenName>
+    <ner:lemma>62 EUR</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#laur_luik">
+    <ner:lemma>Laur luik</ner:lemma>
+    <foaf:givenName>Laur</foaf:givenName>
+    <ner:lemma>Lauri Luik</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:familyName>Luik</foaf:familyName>
+    <foaf:name>Laur Luik</foaf:name>
+    <ner:lemma>laur luik</ner:lemma>
+    <ner:lemma>luik</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#lennuvã¤li">
+    <foaf:name>Lennuvã¤Li</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://eera.ee/"/>
+    <ner:lemma>lennuvã¤li</ner:lemma>
+    <ner:lemma>LennuvÃ¤li</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#liljan_mã¤nniste">
+    <ner:lemma>Liljan MÃ¤nniste</ner:lemma>
+    <ner:lemma>liljan mã¤nniste</ner:lemma>
+    <foaf:givenName>Liljan</foaf:givenName>
+    <foaf:name>Liljan Mã¤Nniste</foaf:name>
+    <foaf:familyName>Mã¤Nniste</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.tolge24.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#elegant_theme">
+    <foaf:familyName>Theme</foaf:familyName>
+    <ner:lemma>elegant theme</ner:lemma>
+    <foaf:name>Elegant Theme</foaf:name>
+    <ner:lemma>Elegant Themes</ner:lemma>
+    <foaf:givenName>Elegant</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://famino.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#anzelika_fedoruk">
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:name>Anzelika Fedoruk</foaf:name>
+    <ner:lemma>anzelika fedoruk</ner:lemma>
+    <foaf:familyName>Fedoruk</foaf:familyName>
+    <foaf:givenName>Anzelika</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#helme">
+    <ner:lemma>helme</ner:lemma>
+    <foaf:name>Helme</foaf:name>
+    <ner:lemma>Helmeks</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#giid_boris">
+    <ner:lemma>Giid BORIS</ner:lemma>
+    <foaf:name>Giid Boris</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.comtour.ee/"/>
+    <ner:lemma>giid boris</ner:lemma>
+    <ner:lemma>giid Boris</ner:lemma>
+    <foaf:familyName>Boris</foaf:familyName>
+    <foaf:givenName>Giid</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#oã_aksal">
+    <ner:mentionedAtSite rdf:resource="http://www.aksalis.ee/"/>
+    <foaf:familyName>Aksal</foaf:familyName>
+    <ner:lemma>OÃ-ga Aksalis</ner:lemma>
+    <foaf:name>Oã Aksal</foaf:name>
+    <ner:lemma>OÃ Aksal</ner:lemma>
+    <foaf:givenName>Oã</foaf:givenName>
+    <ner:lemma>oã aksal</ner:lemma>
+    <ner:lemma>OÃ</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ja">
+    <ner:mentionedAtSite rdf:resource="http://aatrium.ee/"/>
+    <ner:lemma>ja</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.hibicus.ee/"/>
+    <ner:lemma>JA</ner:lemma>
+    <foaf:name>Ja</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.comtour.ee/"/>
+    <ner:mentionedAtSite rdf:resource="http://www.krausberg.ee/"/>
+    <ner:mentionedAtSite rdf:resource="http://www.mrgsystem.ee/ettevottest"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ettevãµtluskonkurss">
+    <ner:lemma>EttevÃµtluskonkursi</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://estanc.ee/"/>
+    <foaf:name>Ettevãµtluskonkurss</foaf:name>
+    <ner:lemma>ettevãµtluskonkurss</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#toode_estanc">
+    <foaf:givenName>Toode</foaf:givenName>
+    <foaf:name>Toode Estanc</foaf:name>
+    <foaf:familyName>Estanc</foaf:familyName>
+    <ner:lemma>toode Estanc</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://estanc.ee/"/>
+    <ner:lemma>toode estanc</ner:lemma>
+    <ner:lemma>toode Estanci</ner:lemma>
+    <ner:lemma>toode</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#black_sapphire">
+    <foaf:givenName>Black</foaf:givenName>
+    <ner:lemma>black sapphire</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+    <foaf:name>Black Sapphire</foaf:name>
+    <foaf:familyName>Sapphire</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#orientblau_metallic">
+    <ner:lemma>orientblau metallic</ner:lemma>
+    <foaf:name>Orientblau Metallic</foaf:name>
+    <foaf:givenName>Orientblau</foaf:givenName>
+    <foaf:familyName>Metallic</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#talen_em">
+    <ner:lemma>Talen EMil</ner:lemma>
+    <ner:lemma>talen em</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:familyName>Em</foaf:familyName>
+    <foaf:name>Talen Em</foaf:name>
+    <foaf:givenName>Talen</foaf:givenName>
+    <ner:lemma>Talen EM</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#9_sãµitja">
+    <foaf:familyName>Sãµitja</foaf:familyName>
+    <foaf:name>9 Sãµitja</foaf:name>
+    <ner:lemma>9 sÃµitja</ner:lemma>
+    <ner:lemma>9 sãµitja</ner:lemma>
+    <ner:lemma>9 sÃµitjale</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <foaf:givenName>9</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#faud_aviation">
+    <foaf:givenName>Faud</foaf:givenName>
+    <foaf:name>Faud Aviation</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.tanklatehnika.ee/"/>
+    <ner:lemma>faud aviation</ner:lemma>
+    <ner:lemma>Faudi Aviation</ner:lemma>
+    <foaf:familyName>Aviation</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#jã¤rva_teataja">
+    <ner:mentionedAtSite rdf:resource="http://www.parnupostimees.ee/"/>
+    <ner:lemma>JÃ¤rva Teataja</ner:lemma>
+    <foaf:givenName>Jã¤Rva</foaf:givenName>
+    <ner:lemma>JÃ¤rva teataja</ner:lemma>
+    <foaf:name>Jã¤Rva Teataja</foaf:name>
+    <ner:lemma>jã¤rva teataja</ner:lemma>
+    <foaf:familyName>Teataja</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#toolse">
+    <ner:mentionedAtSite rdf:resource="http://www.phpalmse.ee/"/>
+    <ner:lemma>toolse</ner:lemma>
+    <foaf:name>Toolse</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kauks_puhkemaja">
+    <ner:lemma>kauks puhkemaja</ner:lemma>
+    <ner:lemma>Kauksi Puhkemaja</ner:lemma>
+    <foaf:name>Kauks Puhkemaja</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.kauksipuhkemaja.ee/"/>
+    <ner:lemma>Kauks puhkemaja</ner:lemma>
+    <foaf:givenName>Kauks</foaf:givenName>
+    <ner:lemma>puhkemaja</ner:lemma>
+    <foaf:familyName>Puhkemaja</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tã¼histada">
+    <ner:lemma>tã¼histada</ner:lemma>
+    <ner:lemma>tÃ¼histada</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <foaf:name>Tã¼Histada</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#macbook_pro">
+    <ner:mentionedAtSite rdf:resource="http://www.dreamline.ee/"/>
+    <ner:lemma>macbook pro</ner:lemma>
+    <foaf:givenName>Macbook</foaf:givenName>
+    <foaf:name>Macbook Pro</foaf:name>
+    <ner:lemma>MacBook Pro</ner:lemma>
+    <foaf:familyName>Pro</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#in_english">
+    <ner:mentionedAtSite rdf:resource="http://www.pinkshop.ee/"/>
+    <ner:mentionedAtSite rdf:resource="http://www.perfetto.ee/"/>
+    <foaf:name>In English</foaf:name>
+    <foaf:givenName>In</foaf:givenName>
+    <ner:lemma>in english</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.teabeamet.ee/"/>
+    <foaf:familyName>English</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#cd/dvd_riiul">
+    <ner:lemma>CD/DVD riiul</ner:lemma>
+    <foaf:familyName>Riiul</foaf:familyName>
+    <foaf:givenName>Cd/Dvd</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://aatrium.ee/"/>
+    <ner:lemma>cd/dvd riiul</ner:lemma>
+    <ner:lemma>CD/DVD RIIULID</ner:lemma>
+    <foaf:name>Cd/Dvd Riiul</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#jaana_kukk">
+    <foaf:familyName>Kukk</foaf:familyName>
+    <ner:lemma>Jaana kukk</ner:lemma>
+    <foaf:givenName>Jaana</foaf:givenName>
+    <ner:lemma>jaana kukk</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.newton.ee/"/>
+    <foaf:name>Jaana Kukk</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kristina_kuusk">
+    <foaf:familyName>Kuusk</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <ner:lemma>kristina kuusk</ner:lemma>
+    <ner:lemma>Kristina kuusk</ner:lemma>
+    <foaf:givenName>Kristina</foaf:givenName>
+    <ner:lemma>kuusk</ner:lemma>
+    <foaf:name>Kristina Kuusk</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#võistlus">
+    <ner:lemma>võistlusel</ner:lemma>
+    <foaf:name>Võistlus</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <ner:lemma>võistlus</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#klim_gusarov">
+    <foaf:name>Klim Gusarov</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:givenName>Klim</foaf:givenName>
+    <ner:lemma>klim gusarov</ner:lemma>
+    <foaf:familyName>Gusarov</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#britney_spears">
+    <foaf:familyName>Spears</foaf:familyName>
+    <foaf:name>Britney Spears</foaf:name>
+    <foaf:givenName>Britney</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.kaunis.ee/"/>
+    <ner:lemma>britney spears</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#eik_nestor">
+    <ner:lemma>Eiki Nestori</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <ner:lemma>Eiki Nestor</ner:lemma>
+    <ner:lemma>Eik nestor</ner:lemma>
+    <ner:lemma>nestor</ner:lemma>
+    <foaf:familyName>Nestor</foaf:familyName>
+    <ner:lemma>eik nestor</ner:lemma>
+    <foaf:givenName>Eik</foaf:givenName>
+    <foaf:name>Eik Nestor</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kek_ehitud">
+    <ner:lemma>KEK</ner:lemma>
+    <ner:lemma>KEK-i Ehitus</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.kekiehitus.ee/"/>
+    <foaf:name>Kek Ehitud</foaf:name>
+    <foaf:givenName>Kek</foaf:givenName>
+    <foaf:familyName>Ehitud</foaf:familyName>
+    <ner:lemma>KEK ehitud</ner:lemma>
+    <ner:lemma>kek ehitud</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kahetsusvã¤ã¤rse">
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>kahetsusvã¤ã¤rse</ner:lemma>
+    <ner:lemma>KahetsusvÃ¤Ã¤rseks</ner:lemma>
+    <foaf:name>Kahetsusvã¤Ã¤Rse</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#katrin_pã¤rnpuu">
+    <foaf:givenName>Katrin</foaf:givenName>
+    <ner:lemma>Katrin PÃ¤rnpuu</ner:lemma>
+    <foaf:name>Katrin Pã¤Rnpuu</foaf:name>
+    <ner:lemma>katrin pã¤rnpuu</ner:lemma>
+    <foaf:familyName>Pã¤Rnpuu</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#risti_pãµle">
+    <ner:lemma>Risti pÃµle</ner:lemma>
+    <foaf:familyName>Pãµle</foaf:familyName>
+    <foaf:givenName>Risti</foaf:givenName>
+    <ner:lemma>Ristil pÃµles</ner:lemma>
+    <ner:lemma>risti pÃµle</ner:lemma>
+    <ner:lemma>risti</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:name>Risti Pãµle</foaf:name>
+    <ner:lemma>pÃµle</ner:lemma>
+    <ner:lemma>risti pãµle</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#peeter_olesk">
+    <foaf:familyName>Olesk</foaf:familyName>
+    <foaf:name>Peeter Olesk</foaf:name>
+    <foaf:givenName>Peeter</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <ner:lemma>peeter olesk</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#pã¤eva_top">
+    <foaf:name>Pã¤Eva Top</foaf:name>
+    <ner:lemma>pã¤eva top</ner:lemma>
+    <foaf:familyName>Top</foaf:familyName>
+    <ner:lemma>PÃ¤eva TOP</ner:lemma>
+    <foaf:givenName>Pã¤Eva</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#private_labe">
+    <ner:lemma>Private Label</ner:lemma>
+    <ner:lemma>private labe</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://remedia.ee/"/>
+    <foaf:name>Private Labe</foaf:name>
+    <foaf:givenName>Private</foaf:givenName>
+    <foaf:familyName>Labe</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#mãµãµk_sponsor">
+    <ner:lemma>MÃµÃµk sponsorid</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:name>Mãµãµk Sponsor</foaf:name>
+    <foaf:givenName>Mãµãµk</foaf:givenName>
+    <foaf:familyName>Sponsor</foaf:familyName>
+    <ner:lemma>MÃµÃµk sponsor</ner:lemma>
+    <ner:lemma>mãµãµk sponsor</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#genne_lab">
+    <foaf:givenName>Genne</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.gennet.ee/home/"/>
+    <ner:lemma>Gennet Lab</ner:lemma>
+    <foaf:name>Genne Lab</foaf:name>
+    <foaf:familyName>Lab</foaf:familyName>
+    <ner:lemma>genne lab</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#function_mmpreloadimage">
+    <ner:lemma>function</ner:lemma>
+    <foaf:name>Function Mmpreloadimage</foaf:name>
+    <ner:lemma>function mmpreloadimage</ner:lemma>
+    <ner:lemma>function MMpreloadImage</ner:lemma>
+    <ner:lemma>function MM_preloadImages</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.nakmansat.ee/"/>
+    <foaf:givenName>Function</foaf:givenName>
+    <foaf:familyName>Mmpreloadimage</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#orientblau_m">
+    <foaf:givenName>Orientblau</foaf:givenName>
+    <foaf:name>Orientblau M</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+    <ner:lemma>orientblau m</ner:lemma>
+    <foaf:familyName>M</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#s4_funk-plaat">
+    <ner:lemma>S4 funk-plaat</ner:lemma>
+    <foaf:familyName>Funk-Plaat</foaf:familyName>
+    <ner:lemma>S4 Funk-plaat</ner:lemma>
+    <ner:lemma>s4 funk-plaat</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.hobekivi.ee/"/>
+    <foaf:givenName>S4</foaf:givenName>
+    <foaf:name>S4 Funk-Plaat</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#cosmosshwarz_metallic">
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+    <foaf:familyName>Metallic</foaf:familyName>
+    <ner:lemma>cosmosshwarz metallic</ner:lemma>
+    <foaf:name>Cosmosshwarz Metallic</foaf:name>
+    <foaf:givenName>Cosmosshwarz</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#del_sol">
+    <foaf:name>Del Sol</foaf:name>
+    <foaf:givenName>Del</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.asaptravel.ee/"/>
+    <foaf:familyName>Sol</foaf:familyName>
+    <ner:lemma>del sol</ner:lemma>
+    <ner:lemma>del Sol</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#euroopa_kohtuma">
+    <foaf:givenName>Euroopa</foaf:givenName>
+    <ner:lemma>Euroopa Kohtus</ner:lemma>
+    <foaf:familyName>Kohtuma</foaf:familyName>
+    <foaf:name>Euroopa Kohtuma</foaf:name>
+    <ner:lemma>Euroopa kohtuma</ner:lemma>
+    <ner:lemma>euroopa</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <ner:lemma>euroopa kohtuma</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#lembi_poolak">
+    <ner:lemma>Lembit Poolak</ner:lemma>
+    <ner:lemma>lembi poolak</ner:lemma>
+    <foaf:familyName>Poolak</foaf:familyName>
+    <foaf:givenName>Lembi</foaf:givenName>
+    <foaf:name>Lembi Poolak</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#rivo_rã¤im">
+    <foaf:givenName>Rivo</foaf:givenName>
+    <foaf:familyName>Rã¤Im</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.newton.ee/"/>
+    <foaf:name>Rivo Rã¤Im</foaf:name>
+    <ner:lemma>rivo rã¤im</ner:lemma>
+    <ner:lemma>Rivo RÃ¤im</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#atlant_metallic">
+    <foaf:familyName>Metallic</foaf:familyName>
+    <ner:lemma>atlant metallic</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+    <foaf:name>Atlant Metallic</foaf:name>
+    <foaf:givenName>Atlant</foaf:givenName>
+    <ner:lemma>Atlantis Metallic</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#theme_weaver">
+    <ner:mentionedAtSite rdf:resource="http://www.keevituskoda.ee/wp/et/firmast/"/>
+    <ner:lemma>theme weaver</ner:lemma>
+    <foaf:name>Theme Weaver</foaf:name>
+    <foaf:givenName>Theme</foaf:givenName>
+    <foaf:familyName>Weaver</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#leon_gedzo">
+    <foaf:name>Leon Gedzo</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:familyName>Gedzo</foaf:familyName>
+    <foaf:givenName>Leon</foaf:givenName>
+    <ner:lemma>leon gedzo</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#anå¾elika_fedoruk">
+    <foaf:givenName>Anå¾Elika</foaf:givenName>
+    <foaf:familyName>Fedoruk</foaf:familyName>
+    <ner:lemma>anå¾elika fedoruk</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:name>Anå¾Elika Fedoruk</foaf:name>
+    <ner:lemma>AnÅ¾elika Fedoruk</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#krausberg_eesti">
+    <foaf:name>Krausberg Eesti</foaf:name>
+    <ner:lemma>krausberg eesti</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.krausberg.ee/"/>
+    <ner:lemma>Krausberg eesti</ner:lemma>
+    <foaf:familyName>Eesti</foaf:familyName>
+    <foaf:givenName>Krausberg</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#jã¼r_pihl">
+    <ner:lemma>pihl</ner:lemma>
+    <foaf:name>Jã¼R Pihl</foaf:name>
+    <foaf:familyName>Pihl</foaf:familyName>
+    <foaf:givenName>Jã¼R</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>JÃ¼ri Pihl</ner:lemma>
+    <ner:lemma>jã¼r pihl</ner:lemma>
+    <ner:lemma>JÃ¼r pihl</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#eelkãµige">
+    <foaf:name>Eelkãµige</foaf:name>
+    <ner:lemma>eelkãµige</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>EelkÃµige</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tã¤iendada">
+    <ner:lemma>tã¤iendada</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>tÃ¤iendada</ner:lemma>
+    <foaf:name>Tã¤Iendada</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#hannes_rauk">
+    <ner:lemma>hannes rauk</ner:lemma>
+    <ner:lemma>Hannes rauk</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.tennoautokool.ee/"/>
+    <foaf:name>Hannes Rauk</foaf:name>
+    <foaf:familyName>Rauk</foaf:familyName>
+    <foaf:givenName>Hannes</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ñðºð·ð°ð¼ðµð½ð°ñð¸ð¾ð½ð½ð¾_ðºð²ð°ð»ð¸ñð¸ðºð°ñð¸ð¾ð½ð½ñð¹_ñðµð½ññ">
+    <ner:mentionedAtSite rdf:resource="http://www.alfabeta.ee/"/>
+    <foaf:givenName>ÑÐºð·Ð°Ð¼Ðµð½Ð°ÑÐ¸Ð¾Ð½Ð½Ð¾ Ðºð²Ð°Ð»Ð¸ÑÐ¸Ðºð°ÑÐ¸Ð¾Ð½Ð½ÑÐ¹</foaf:givenName>
+    <ner:lemma>ÑÐºÐ·Ð°Ð¼ÐµÐ½Ð°ÑÐ¸Ð¾Ð½Ð½Ð¾ ÐºÐ²Ð°Ð»Ð¸ÑÐ¸ÐºÐ°ÑÐ¸Ð¾Ð½Ð½ÑÐ¹ ÑÐµÐ½ÑÑ</ner:lemma>
+    <ner:lemma>ñðºð·ð°ð¼ðµð½ð°ñð¸ð¾ð½ð½ð¾ ðºð²ð°ð»ð¸ñð¸ðºð°ñð¸ð¾ð½ð½ñð¹ ñðµð½ññ</ner:lemma>
+    <ner:lemma>ÑÐºÐ·Ð°Ð¼ÐµÐ½Ð°ÑÐ¸Ð¾Ð½Ð½Ð¾- ÐºÐ²Ð°Ð»Ð¸ÑÐ¸ÐºÐ°ÑÐ¸Ð¾Ð½Ð½ÑÐ¹ ÑÐµÐ½ÑÑ</ner:lemma>
+    <foaf:name>ÑÐºð·Ð°Ð¼Ðµð½Ð°ÑÐ¸Ð¾Ð½Ð½Ð¾ Ðºð²Ð°Ð»Ð¸ÑÐ¸Ðºð°ÑÐ¸Ð¾Ð½Ð½ÑÐ¹ ÑÐµð½ÑÑ</foaf:name>
+    <foaf:familyName>ÑÐµð½ÑÑ</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#aksal_oã">
+    <ner:mentionedAtSite rdf:resource="http://www.aksalis.ee/"/>
+    <foaf:name>Aksal Oã</foaf:name>
+    <ner:lemma>aksal oã</ner:lemma>
+    <ner:lemma>Aksalis OÃ</ner:lemma>
+    <ner:lemma>Aksal OÃ</ner:lemma>
+    <foaf:familyName>Oã</foaf:familyName>
+    <foaf:givenName>Aksal</foaf:givenName>
+    <ner:lemma>OÃ</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#color">
+    <ner:lemma>COLOR</ner:lemma>
+    <ner:lemma>color</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.nakmansat.ee/"/>
+    <foaf:name>Color</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#sleepwell">
+    <foaf:name>Sleepwell</foaf:name>
+    <ner:lemma>sleepwell</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.pesa24.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#siiri_ilm">
+    <foaf:familyName>Ilm</foaf:familyName>
+    <ner:lemma>siiri ilm</ner:lemma>
+    <ner:lemma>Siiri ilm</ner:lemma>
+    <foaf:givenName>Siiri</foaf:givenName>
+    <foaf:name>Siiri Ilm</foaf:name>
+    <ner:lemma>ilm</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.newton.ee/"/>
+    <ner:lemma>Siiri ilma</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#arvo_tarmula">
+    <foaf:familyName>Tarmula</foaf:familyName>
+    <foaf:name>Arvo Tarmula</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:givenName>Arvo</foaf:givenName>
+    <ner:lemma>arvo tarmula</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kaimo_jã¤rvik">
+    <foaf:name>Kaimo Jã¤Rvik</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>Kaimo JÃ¤rvik</ner:lemma>
+    <ner:lemma>kaimo jã¤rvik</ner:lemma>
+    <foaf:givenName>Kaimo</foaf:givenName>
+    <foaf:familyName>Jã¤Rvik</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#22_sãµidutund">
+    <ner:lemma>22 sãµidutund</ner:lemma>
+    <foaf:givenName>22</foaf:givenName>
+    <ner:lemma>22 sÃµidutundi</ner:lemma>
+    <foaf:name>22 Sãµidutund</foaf:name>
+    <ner:lemma>22 sÃµidutund</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.tennoautokool.ee/"/>
+    <foaf:familyName>Sãµidutund</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#stroma">
+    <ner:lemma>STROMA</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.pesa24.ee/"/>
+    <foaf:name>Stroma</foaf:name>
+    <ner:lemma>stroma</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#_font-family">
+    <foaf:name> Font-Family</foaf:name>
+    <ner:lemma> FONT-FAMILY</ner:lemma>
+    <foaf:familyName>Font-Family</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.nakmansat.ee/"/>
+    <ner:lemma> font-family</ner:lemma>
+    <ner:lemma>FONT-Family</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#koblienz_trierini">
+    <foaf:familyName>Trierini</foaf:familyName>
+    <ner:lemma>Koblienzist Trierini</ner:lemma>
+    <foaf:givenName>Koblienz</foaf:givenName>
+    <ner:lemma>koblienz trierini</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.comtour.ee/"/>
+    <foaf:name>Koblienz Trierini</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kaubandus_oã">
+    <foaf:familyName>Oã</foaf:familyName>
+    <ner:lemma>kaubandus oã</ner:lemma>
+    <ner:lemma>kaubandus OÃ</ner:lemma>
+    <ner:lemma>Kaubandus OÃ</ner:lemma>
+    <foaf:name>Kaubandus Oã</foaf:name>
+    <foaf:givenName>Kaubandus</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.pinkshop.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#oã">
+    <ner:mentionedAtSite rdf:resource="http://www.mrgsystem.ee/ettevottest"/>
+    <ner:mentionedAtSite rdf:resource="http://www.firest-consult.ee/"/>
+    <ner:lemma>oã</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.newton.ee/"/>
+    <foaf:name>Oã</foaf:name>
+    <ner:lemma>OÃ</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ã¼he_tã¼k">
+    <foaf:name>Ã¼He Tã¼K</foaf:name>
+    <ner:lemma>tÃ¼k</ner:lemma>
+    <ner:lemma>Ã¼he tÃ¼k</ner:lemma>
+    <foaf:familyName>Tã¼K</foaf:familyName>
+    <ner:lemma>Ã¼hes tÃ¼kis</ner:lemma>
+    <ner:lemma>ã¼he tã¼k</ner:lemma>
+    <ner:lemma>Ã¼he</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.toonkile.ee/"/>
+    <foaf:givenName>Ã¼He</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#vitale-xd_oã">
+    <foaf:familyName>Oã</foaf:familyName>
+    <foaf:givenName>Vitale-Xd</foaf:givenName>
+    <foaf:name>Vitale-Xd Oã</foaf:name>
+    <ner:lemma>vitale-xd oã</ner:lemma>
+    <ner:lemma>Vitale-XD OÃ</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vitale.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#development_fund">
+    <foaf:name>Development Fund</foaf:name>
+    <foaf:familyName>Fund</foaf:familyName>
+    <foaf:givenName>Development</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://estanc.ee/"/>
+    <ner:lemma>development fund</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#erkki_bahovsk">
+    <ner:lemma>erkki bahovsk</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:name>Erkki Bahovsk</foaf:name>
+    <foaf:givenName>Erkki</foaf:givenName>
+    <foaf:familyName>Bahovsk</foaf:familyName>
+    <ner:lemma>Erkki Bahovski</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#a-autokile_ou">
+    <foaf:name>A-Autokile Ou</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://a-autokile.ee/"/>
+    <ner:lemma>a-autokile ou</ner:lemma>
+    <ner:lemma>A-Autokile OU</ner:lemma>
+    <foaf:givenName>A-Autokile</foaf:givenName>
+    <foaf:familyName>Ou</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tuba_kaks">
+    <ner:lemma>Tuba kahele</ner:lemma>
+    <foaf:name>Tuba Kaks</foaf:name>
+    <ner:lemma>tuba kaks</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.economyhotel.ee/"/>
+    <foaf:givenName>Tuba</foaf:givenName>
+    <foaf:familyName>Kaks</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#reval_gin">
+    <foaf:familyName>Gin</foaf:familyName>
+    <ner:lemma>reval gin</ner:lemma>
+    <foaf:name>Reval Gin</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://remedia.ee/"/>
+    <foaf:givenName>Reval</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#sina_soov">
+    <foaf:givenName>Sina</foaf:givenName>
+    <foaf:name>Sina Soov</foaf:name>
+    <ner:lemma>sina soov</ner:lemma>
+    <ner:lemma>TEIE SOOVIL</ner:lemma>
+    <foaf:familyName>Soov</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.comtour.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#irja_pakk">
+    <foaf:familyName>Pakk</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.hobusekasvandus.ee/"/>
+    <ner:lemma>Irja pakk</ner:lemma>
+    <ner:lemma>irja pakk</ner:lemma>
+    <foaf:name>Irja Pakk</foaf:name>
+    <foaf:givenName>Irja</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#markus_salm">
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:name>Markus Salm</foaf:name>
+    <foaf:givenName>Markus</foaf:givenName>
+    <foaf:familyName>Salm</foaf:familyName>
+    <ner:lemma>Markus salm</ner:lemma>
+    <ner:lemma>markus salm</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#aid_vallik">
+    <ner:lemma>vallik</ner:lemma>
+    <ner:lemma>Aidi Vallik</ner:lemma>
+    <foaf:name>Aid Vallik</foaf:name>
+    <ner:lemma>aid vallik</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:familyName>Vallik</foaf:familyName>
+    <ner:lemma>Aid vallik</ner:lemma>
+    <foaf:givenName>Aid</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#katri_lehine">
+    <foaf:givenName>Katri</foaf:givenName>
+    <ner:lemma>Katrina Lehise</ner:lemma>
+    <foaf:name>Katri Lehine</foaf:name>
+    <foaf:familyName>Lehine</foaf:familyName>
+    <ner:lemma>Katri lehine</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <ner:lemma>katri lehine</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#looma_eesti">
+    <ner:lemma>looma eesti</ner:lemma>
+    <foaf:name>Looma Eesti</foaf:name>
+    <foaf:familyName>Eesti</foaf:familyName>
+    <ner:lemma>eesti</ner:lemma>
+    <ner:lemma>looma Eesti</ner:lemma>
+    <ner:lemma>Loov Eesti</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.director.ee/meediateenused/"/>
+    <foaf:givenName>Looma</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#majanduskomisjon_ã¼hise">
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <foaf:givenName>Majanduskomisjon</foaf:givenName>
+    <foaf:familyName>Ã¼Hise</foaf:familyName>
+    <ner:lemma>majanduskomisjoniga Ã¼hiselt</ner:lemma>
+    <foaf:name>Majanduskomisjon Ã¼Hise</foaf:name>
+    <ner:lemma>majanduskomisjon Ã¼hise</ner:lemma>
+    <ner:lemma>majanduskomisjon ã¼hise</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kek_ehitus">
+    <foaf:name>Kek Ehitus</foaf:name>
+    <foaf:givenName>Kek</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.kekiehitus.ee/"/>
+    <ner:lemma>kek ehitus</ner:lemma>
+    <ner:lemma>KEK ehitus</ner:lemma>
+    <foaf:familyName>Ehitus</foaf:familyName>
+    <ner:lemma>KEKi Ehitusele</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kristen_micha">
+    <foaf:givenName>Kristen</foaf:givenName>
+    <foaf:familyName>Micha</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>kristen micha</ner:lemma>
+    <foaf:name>Kristen Micha</foaf:name>
+    <ner:lemma>Kristen Michal</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#natalja_kotova">
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:familyName>Kotova</foaf:familyName>
+    <foaf:givenName>Natalja</foaf:givenName>
+    <ner:lemma>natalja kotova</ner:lemma>
+    <foaf:name>Natalja Kotova</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ðºð¾ð¼ð½ð°ñð°_ðð°ð»ð°ðºñð¸ðºð°">
+    <ner:lemma>ðºð¾ð¼ð½ð°ñð° ðð°ð»ð°ðºñð¸ðºð°</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.lastetuba.ee/"/>
+    <ner:lemma>ÐºÐ¾Ð¼Ð½Ð°ÑÐ° ÐÐ°Ð»Ð°ÐºÑÐ¸ÐºÐ°</ner:lemma>
+    <foaf:familyName>ÐÐ°Ð»Ð°ÐºñÐ¸Ðºð°</foaf:familyName>
+    <foaf:givenName>Ðºð¾Ð¼Ð½Ð°ÑÐ°</foaf:givenName>
+    <foaf:name>Ðºð¾Ð¼Ð½Ð°ÑÐ° ÐÐ°Ð»Ð°ÐºñÐ¸Ðºð°</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#sandra_skoblov">
+    <foaf:givenName>Sandra</foaf:givenName>
+    <ner:lemma>sandra skoblov</ner:lemma>
+    <foaf:familyName>Skoblov</foaf:familyName>
+    <foaf:name>Sandra Skoblov</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#nurgadiivan_chris">
+    <ner:lemma>nurgadiivan Chris</ner:lemma>
+    <foaf:name>Nurgadiivan Chris</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://aatrium.ee/"/>
+    <ner:lemma>nurgadiivan chris</ner:lemma>
+    <foaf:givenName>Nurgadiivan</foaf:givenName>
+    <ner:lemma>Nurgadiivan CHRIS</ner:lemma>
+    <foaf:familyName>Chris</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#anvar_samo">
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <ner:lemma>Anvar Samost</ner:lemma>
+    <ner:lemma>anvar samo</ner:lemma>
+    <foaf:familyName>Samo</foaf:familyName>
+    <foaf:givenName>Anvar</foaf:givenName>
+    <foaf:name>Anvar Samo</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#abu_dhab">
+    <ner:lemma>abu Dhab</ner:lemma>
+    <foaf:givenName>Abu</foaf:givenName>
+    <ner:lemma>Abu Dhabi</ner:lemma>
+    <foaf:familyName>Dhab</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.asaptravel.ee/"/>
+    <ner:lemma>abu</ner:lemma>
+    <ner:lemma>abu dhab</ner:lemma>
+    <foaf:name>Abu Dhab</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#entar">
+    <foaf:name>Entar</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.entar.ee/"/>
+    <ner:lemma>entar</ner:lemma>
+    <ner:lemma>Entarit</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ilja_lutsenko">
+    <ner:lemma>ilja lutsenko</ner:lemma>
+    <foaf:familyName>Lutsenko</foaf:familyName>
+    <foaf:name>Ilja Lutsenko</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:givenName>Ilja</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#_uponor">
+    <ner:lemma> uponor</ner:lemma>
+    <foaf:name> Uponor</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.mrgsystem.ee/ettevottest"/>
+    <ner:lemma> UPONOR</ner:lemma>
+    <foaf:familyName>Uponor</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#lã¤ã¤nemaa_liiklus">
+    <ner:lemma>LÃ¤Ã¤nemaa liiklus</ner:lemma>
+    <foaf:givenName>Lã¤Ã¤Nemaa</foaf:givenName>
+    <ner:lemma>liiklus</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:familyName>Liiklus</foaf:familyName>
+    <foaf:name>Lã¤Ã¤Nemaa Liiklus</foaf:name>
+    <ner:lemma>lã¤ã¤nemaa liiklus</ner:lemma>
+    <ner:lemma>LÃ¤Ã¤nemaal liiklust</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ja_jãrid">
+    <foaf:familyName>JãRid</foaf:familyName>
+    <foaf:givenName>Ja</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://aatrium.ee/"/>
+    <ner:lemma>ja JÃRID</ner:lemma>
+    <foaf:name>Ja JãRid</foaf:name>
+    <ner:lemma>JA JÃRID</ner:lemma>
+    <ner:lemma>ja jãrid</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#aria">
+    <ner:lemma>aria</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.nakmansat.ee/"/>
+    <foaf:name>Aria</foaf:name>
+    <ner:lemma>Arial</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ãhendav_sild">
+    <ner:lemma>ÃHENDAV sild</ner:lemma>
+    <foaf:givenName>ÃHendav</foaf:givenName>
+    <ner:lemma>ÃHENDAV SILD</ner:lemma>
+    <ner:lemma>ãhendav sild</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://eesti.jux.ee/"/>
+    <foaf:familyName>Sild</foaf:familyName>
+    <foaf:name>ÃHendav Sild</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tarbijapoolne_nãµudlus">
+    <foaf:familyName>Nãµudlus</foaf:familyName>
+    <foaf:name>Tarbijapoolne Nãµudlus</foaf:name>
+    <foaf:givenName>Tarbijapoolne</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>tarbijapoolne nãµudlus</ner:lemma>
+    <ner:lemma>tarbijapoolne nÃµudlus</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#1000_baltikum">
+    <foaf:givenName>1000</foaf:givenName>
+    <foaf:name>1000 Baltikum</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.abcom.ee/"/>
+    <ner:lemma>1000 Baltikumis</ner:lemma>
+    <foaf:familyName>Baltikum</foaf:familyName>
+    <ner:lemma>1000 baltikum</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#edgar_savisaar">
+    <foaf:familyName>Savisaar</foaf:familyName>
+    <foaf:name>Edgar Savisaar</foaf:name>
+    <foaf:givenName>Edgar</foaf:givenName>
+    <ner:lemma>edgar savisaar</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>Edgar savisaar</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#majandus-ja_kommunikatsiooniminister">
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>majandus-ja kommunikatsiooniminister</ner:lemma>
+    <foaf:familyName>Kommunikatsiooniminister</foaf:familyName>
+    <ner:lemma>Majandus-ja Kommunikatsiooniminister</ner:lemma>
+    <foaf:name>Majandus-Ja Kommunikatsiooniminister</foaf:name>
+    <foaf:givenName>Majandus-Ja</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#eesti-soome-saks">
+    <ner:lemma>eesti-soome-saks</ner:lemma>
+    <foaf:name>Eesti-Soome-Saks</foaf:name>
+    <ner:lemma>Eesti-Soome-Saksa</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#life_insurance">
+    <foaf:name>Life Insurance</foaf:name>
+    <ner:lemma>life insurance</ner:lemma>
+    <foaf:givenName>Life</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="https://www.swedbank.ee/private"/>
+    <foaf:familyName>Insurance</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#haljak_coin">
+    <foaf:familyName>Coin</foaf:familyName>
+    <ner:lemma>haljak coin</ner:lemma>
+    <ner:lemma>haljak Coin</ner:lemma>
+    <foaf:givenName>Haljak</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.ghcoin.ee/"/>
+    <foaf:name>Haljak Coin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#raivo_e">
+    <foaf:givenName>Raivo</foaf:givenName>
+    <foaf:name>Raivo E</foaf:name>
+    <foaf:familyName>E</foaf:familyName>
+    <ner:lemma>raivo e</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.entar.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#padding-bottom">
+    <ner:lemma>PADDING-BOTTOM</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.nakmansat.ee/"/>
+    <foaf:name>Padding-Bottom</foaf:name>
+    <ner:lemma>padding-bottom</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#violetta_gulakova">
+    <ner:lemma>violetta gulakova</ner:lemma>
+    <foaf:name>Violetta Gulakova</foaf:name>
+    <foaf:familyName>Gulakova</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:givenName>Violetta</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#projekt_oã">
+    <ner:lemma>Projekt OÃ</ner:lemma>
+    <foaf:name>Projekt Oã</foaf:name>
+    <ner:lemma>projekt OÃ</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.acr.ee/"/>
+    <foaf:givenName>Projekt</foaf:givenName>
+    <foaf:familyName>Oã</foaf:familyName>
+    <ner:lemma>projekt oã</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ð¾ñð¸ñð°">
+    <ner:mentionedAtSite rdf:resource="http://new2.virelton.ee/index.php?lang=ru"/>
+    <foaf:name>Ð¾ÑÐ¸ÑÐ°</foaf:name>
+    <ner:lemma>ð¾ñð¸ñð°</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ev_kiiev">
+    <foaf:givenName>Ev</foaf:givenName>
+    <foaf:name>Ev Kiiev</foaf:name>
+    <ner:lemma>EV Kiievi</ner:lemma>
+    <foaf:familyName>Kiiev</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.aksiaal.ee/"/>
+    <ner:lemma>EV Kiiev</ner:lemma>
+    <ner:lemma>ev kiiev</ner:lemma>
+    <ner:lemma>EV</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#liit_eete">
+    <foaf:name>Liit Eete</foaf:name>
+    <ner:lemma>liit Eete</ner:lemma>
+    <foaf:givenName>Liit</foaf:givenName>
+    <ner:lemma>Liidu EETEL</ner:lemma>
+    <foaf:familyName>Eete</foaf:familyName>
+    <ner:lemma>liit</ner:lemma>
+    <ner:lemma>liit eete</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.rantell.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ranno_friedemann">
+    <foaf:name>Ranno Friedemann</foaf:name>
+    <foaf:familyName>Friedemann</foaf:familyName>
+    <foaf:givenName>Ranno</foaf:givenName>
+    <ner:lemma>ranno friedemann</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.korstnamees.ee/index.php?id=3"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#margus_mã¤emets">
+    <foaf:familyName>Mã¤Emets</foaf:familyName>
+    <foaf:name>Margus Mã¤Emets</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.tennoautokool.ee/"/>
+    <ner:lemma>Margus MÃ¤emets</ner:lemma>
+    <foaf:givenName>Margus</foaf:givenName>
+    <ner:lemma>margus mã¤emets</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#parkhotell_palmse">
+    <foaf:givenName>Parkhotell</foaf:givenName>
+    <foaf:familyName>Palmse</foaf:familyName>
+    <ner:lemma>parkhotell palmse</ner:lemma>
+    <foaf:name>Parkhotell Palmse</foaf:name>
+    <ner:lemma>parkhotell Palmse</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.phpalmse.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#andzej_gedzo">
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:familyName>Gedzo</foaf:familyName>
+    <foaf:name>Andzej Gedzo</foaf:name>
+    <ner:lemma>andzej gedzo</ner:lemma>
+    <foaf:givenName>Andzej</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tã¤idetud_hinnapã¤ringu">
+    <foaf:name>Tã¤Idetud Hinnapã¤Ringu</foaf:name>
+    <ner:lemma>tã¤idetud hinnapã¤ringu</ner:lemma>
+    <foaf:givenName>Tã¤Idetud</foaf:givenName>
+    <ner:lemma>tÃ¤idetud hinnapÃ¤ringu</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.tolge24.ee/"/>
+    <ner:lemma>hinnapÃ¤ringu</ner:lemma>
+    <ner:lemma>tÃ¤idetud</ner:lemma>
+    <foaf:familyName>Hinnapã¤Ringu</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#nelli_paju">
+    <foaf:familyName>Paju</foaf:familyName>
+    <foaf:name>Nelli Paju</foaf:name>
+    <ner:lemma>Nelli paju</ner:lemma>
+    <foaf:givenName>Nelli</foaf:givenName>
+    <ner:lemma>nelli paju</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#comodu_oã">
+    <ner:lemma>Comodus OÃ</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.comodus.ee/et/"/>
+    <ner:lemma>comodu oã</ner:lemma>
+    <foaf:familyName>Oã</foaf:familyName>
+    <ner:lemma>Comodu OÃ</ner:lemma>
+    <ner:lemma>OÃ</ner:lemma>
+    <foaf:name>Comodu Oã</foaf:name>
+    <foaf:givenName>Comodu</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ðºð¾ð¼ð½ð°ñð°_ð¤ð°ð¼ð°ðºðµ">
+    <ner:lemma>ÐºÐ¾Ð¼Ð½Ð°ÑÐ° Ð¤Ð°Ð¼Ð°ÐºÐµ</ner:lemma>
+    <foaf:givenName>Ðºð¾Ð¼Ð½Ð°ÑÐ°</foaf:givenName>
+    <foaf:familyName>Ð¤Ð°Ð¼Ð°Ðºðµ</foaf:familyName>
+    <ner:lemma>ðºð¾ð¼ð½ð°ñð° ð¤ð°ð¼ð°ðºðµ</ner:lemma>
+    <foaf:name>Ðºð¾Ð¼Ð½Ð°ÑÐ° Ð¤Ð°Ð¼Ð°Ðºðµ</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.lastetuba.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#peep_puna">
+    <ner:lemma>Peep puna</ner:lemma>
+    <ner:lemma>peep puna</ner:lemma>
+    <foaf:familyName>Puna</foaf:familyName>
+    <foaf:givenName>Peep</foaf:givenName>
+    <foaf:name>Peep Puna</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.hobusekasvandus.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#vedruvoodi_luna">
+    <foaf:name>Vedruvoodi Luna</foaf:name>
+    <foaf:givenName>Vedruvoodi</foaf:givenName>
+    <foaf:familyName>Luna</foaf:familyName>
+    <ner:lemma>vedruvoodi luna</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.pesa24.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#merle_wilkinson">
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:familyName>Wilkinson</foaf:familyName>
+    <ner:lemma>merle wilkinson</ner:lemma>
+    <foaf:name>Merle Wilkinson</foaf:name>
+    <foaf:givenName>Merle</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#liiklusjã¤relevalve_infosã¼steem">
+    <ner:lemma>liiklusjã¤relevalve infosã¼steem</ner:lemma>
+    <foaf:givenName>Liiklusjã¤Relevalve</foaf:givenName>
+    <foaf:familyName>Infosã¼Steem</foaf:familyName>
+    <ner:lemma>liiklusjÃ¤relevalve infosÃ¼steemis</ner:lemma>
+    <ner:lemma>liiklusjÃ¤relevalve infosÃ¼steem</ner:lemma>
+    <ner:lemma>liiklusjÃ¤relevalve</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <foaf:name>Liiklusjã¤Relevalve Infosã¼Steem</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ãµigu_kov">
+    <foaf:givenName>Ãµigu</foaf:givenName>
+    <ner:lemma>Ãµigus KOV</ner:lemma>
+    <foaf:familyName>Kov</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>ãµigu kov</ner:lemma>
+    <foaf:name>Ãµigu Kov</foaf:name>
+    <ner:lemma>KOV</ner:lemma>
+    <ner:lemma>Ãµigu KOV</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#mari_anupãµld">
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <ner:lemma>mari anupãµld</ner:lemma>
+    <foaf:familyName>Anupãµld</foaf:familyName>
+    <foaf:givenName>Mari</foaf:givenName>
+    <foaf:name>Mari Anupãµld</foaf:name>
+    <ner:lemma>mari AnupÃµld</ner:lemma>
+    <ner:lemma>Mari AnupÃµld</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#saturn_hypno">
+    <foaf:familyName>Hypno</foaf:familyName>
+    <foaf:name>Saturn Hypno</foaf:name>
+    <ner:lemma>saturn hypno</ner:lemma>
+    <ner:lemma>SATURN Hypnos</ner:lemma>
+    <foaf:givenName>Saturn</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.pesa24.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kessu">
+    <foaf:name>Kessu</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.pesa24.ee/"/>
+    <ner:lemma>kessu</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ðð³ñð¾ð²ñðµ_ðºð¾ð¼ð½ð°ññ">
+    <ner:mentionedAtSite rdf:resource="http://www.lastetuba.ee/"/>
+    <ner:lemma>ÐÐ³ÑÐ¾Ð²ÑÐµ ÐºÐ¾Ð¼Ð½Ð°ÑÑ</ner:lemma>
+    <foaf:name>ÐÐ³ÑÐ¾Ð²ÑÐµ Ðºð¾Ð¼Ð½Ð°ÑÑ</foaf:name>
+    <foaf:givenName>ÐÐ³ÑÐ¾Ð²ÑÐµ</foaf:givenName>
+    <ner:lemma>ðð³ñð¾ð²ñðµ ðºð¾ð¼ð½ð°ññ</ner:lemma>
+    <ner:lemma>ÐÐ³ÑÐ¾Ð²ÑÐµ ÐºÐ¾Ð¼Ð½Ð°ÑÑ</ner:lemma>
+    <foaf:familyName>Ðºð¾Ð¼Ð½Ð°ÑÑ</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#andre_amma">
+    <foaf:name>Andre Amma</foaf:name>
+    <ner:lemma>andre amma</ner:lemma>
+    <foaf:familyName>Amma</foaf:familyName>
+    <ner:lemma>Andres Ammas</ner:lemma>
+    <foaf:givenName>Andre</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kaupo_koitla">
+    <ner:mentionedAtSite rdf:resource="http://www.tolge24.ee/"/>
+    <foaf:familyName>Koitla</foaf:familyName>
+    <foaf:name>Kaupo Koitla</foaf:name>
+    <foaf:givenName>Kaupo</foaf:givenName>
+    <ner:lemma>kaupo koitla</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tallinn_i">
+    <ner:lemma>tallinn i</ner:lemma>
+    <foaf:name>Tallinn I</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.rodoor.ee/"/>
+    <foaf:familyName>I</foaf:familyName>
+    <foaf:givenName>Tallinn</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#web_design">
+    <foaf:name>Web Design</foaf:name>
+    <foaf:familyName>Design</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://new2.virelton.ee/index.php?lang=ru"/>
+    <ner:lemma>web design</ner:lemma>
+    <foaf:givenName>Web</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#_junkers">
+    <foaf:name> Junkers</foaf:name>
+    <ner:lemma> junkers</ner:lemma>
+    <ner:lemma> JUNKERS</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.mrgsystem.ee/ettevottest"/>
+    <foaf:familyName>Junkers</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#man_lhd">
+    <ner:lemma>man lhd</ner:lemma>
+    <foaf:givenName>Man</foaf:givenName>
+    <ner:lemma>Man LHD</ner:lemma>
+    <foaf:name>Man Lhd</foaf:name>
+    <ner:lemma>man LHD</ner:lemma>
+    <foaf:familyName>Lhd</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#liiklusjã¤relevalve_infosã¼steemisâã¤riregister">
+    <foaf:familyName>Infosã¼Steemisâã¤Riregister</foaf:familyName>
+    <ner:lemma>liiklusjã¤relevalve infosã¼steemisâã¤riregister</ner:lemma>
+    <ner:lemma>liiklusjÃ¤relevalve</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <foaf:givenName>Liiklusjã¤Relevalve</foaf:givenName>
+    <foaf:name>Liiklusjã¤Relevalve Infosã¼Steemisâã¤Riregister</foaf:name>
+    <ner:lemma>liiklusjÃ¤relevalve infosÃ¼steemisÂÃ¤riregistrisse</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#jãµulusafari_kuusalu">
+    <foaf:familyName>Kuusalu</foaf:familyName>
+    <ner:lemma>JÃµulusafariga Kuusalus</ner:lemma>
+    <ner:lemma>JÃµulusafari Kuusalu</ner:lemma>
+    <foaf:name>Jãµulusafari Kuusalu</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.saueautoklubi.ee/"/>
+    <foaf:givenName>Jãµulusafari</foaf:givenName>
+    <ner:lemma>jãµulusafari kuusalu</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tã¶ã¶tama_analã¼ã¼si">
+    <foaf:givenName>Tã¶Ã¶Tama</foaf:givenName>
+    <foaf:familyName>Analã¼Ã¼Si</foaf:familyName>
+    <ner:lemma>tÃ¶Ã¶tama analÃ¼Ã¼si</ner:lemma>
+    <ner:lemma>tÃ¶Ã¶tama analÃ¼Ã¼sil</ner:lemma>
+    <foaf:name>Tã¶Ã¶Tama Analã¼Ã¼Si</foaf:name>
+    <ner:lemma>tã¶ã¶tama analã¼ã¼si</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#koh_samui">
+    <foaf:name>Koh Samui</foaf:name>
+    <foaf:givenName>Koh</foaf:givenName>
+    <foaf:familyName>Samui</foaf:familyName>
+    <ner:lemma>koh samui</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.asaptravel.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ãµigu">
+    <foaf:name>Ãµigu</foaf:name>
+    <ner:lemma>Ãµigus</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>ãµigu</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#karoliine_loit">
+    <ner:lemma>karoliine loit</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:familyName>Loit</foaf:familyName>
+    <foaf:givenName>Karoliine</foaf:givenName>
+    <foaf:name>Karoliine Loit</foaf:name>
+    <ner:lemma>Karoliine loit</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ooper_ait">
+    <ner:mentionedAtSite rdf:resource="http://www.comtour.ee/"/>
+    <foaf:familyName>Ait</foaf:familyName>
+    <ner:lemma>Ooper Aida</ner:lemma>
+    <foaf:givenName>Ooper</foaf:givenName>
+    <ner:lemma>ooper ait</ner:lemma>
+    <foaf:name>Ooper Ait</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#black_sleepwell">
+    <ner:lemma>black sleepwell</ner:lemma>
+    <ner:lemma>BLACK Sleepwell</ner:lemma>
+    <foaf:givenName>Black</foaf:givenName>
+    <foaf:familyName>Sleepwell</foaf:familyName>
+    <foaf:name>Black Sleepwell</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.pesa24.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#l-p_suletud">
+    <ner:lemma>l-p suletud</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://a-autokile.ee/"/>
+    <ner:lemma>L-P suletud</ner:lemma>
+    <foaf:familyName>Suletud</foaf:familyName>
+    <foaf:name>L-P Suletud</foaf:name>
+    <foaf:givenName>L-P</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#vermontgrã¼en_m">
+    <foaf:name>Vermontgrã¼En M</foaf:name>
+    <foaf:givenName>Vermontgrã¼En</foaf:givenName>
+    <ner:lemma>vermontgrã¼en m</ner:lemma>
+    <ner:lemma>VermontgrÃ¼en M</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+    <foaf:familyName>M</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ã¼le_eesti">
+    <ner:lemma>Ã¼le eesti</ner:lemma>
+    <foaf:familyName>Eesti</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.javest.ee/"/>
+    <ner:lemma>ã¼le eesti</ner:lemma>
+    <ner:lemma>Ã¼le Eesti</ner:lemma>
+    <foaf:name>Ã¼Le Eesti</foaf:name>
+    <foaf:givenName>Ã¼Le</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#soo_autogrupp">
+    <ner:mentionedAtSite rdf:resource="http://www.auto-diagnostika.ee/"/>
+    <ner:lemma>autogrupp</ner:lemma>
+    <ner:lemma>soo autogrupp</ner:lemma>
+    <foaf:familyName>Autogrupp</foaf:familyName>
+    <foaf:givenName>Soo</foaf:givenName>
+    <foaf:name>Soo Autogrupp</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#muumi_tã¤he">
+    <foaf:familyName>Tã¤He</foaf:familyName>
+    <ner:lemma>Muumi tÃ¤hed</ner:lemma>
+    <foaf:name>Muumi Tã¤He</foaf:name>
+    <ner:lemma>muumi</ner:lemma>
+    <ner:lemma>muumi tÃ¤he</ner:lemma>
+    <ner:lemma>muumi tã¤he</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.pesa24.ee/"/>
+    <foaf:givenName>Muumi</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#sterlinggrau_met">
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+    <foaf:name>Sterlinggrau Met</foaf:name>
+    <foaf:familyName>Met</foaf:familyName>
+    <foaf:givenName>Sterlinggrau</foaf:givenName>
+    <ner:lemma>sterlinggrau met</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#mis_sina">
+    <foaf:name>Mis Sina</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.krausberg.ee/"/>
+    <ner:lemma>MIS SU</ner:lemma>
+    <ner:lemma>mis sina</ner:lemma>
+    <foaf:givenName>Mis</foaf:givenName>
+    <foaf:familyName>Sina</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#sina_tãµlge">
+    <ner:lemma>sina TÃµlge</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.tolge24.ee/"/>
+    <ner:lemma>Sulle TÃµlge</ner:lemma>
+    <foaf:familyName>Tãµlge</foaf:familyName>
+    <ner:lemma>sina tãµlge</ner:lemma>
+    <foaf:name>Sina Tãµlge</foaf:name>
+    <foaf:givenName>Sina</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#rapla_airfield">
+    <ner:mentionedAtSite rdf:resource="http://eera.ee/"/>
+    <foaf:familyName>Airfield</foaf:familyName>
+    <foaf:name>Rapla Airfield</foaf:name>
+    <ner:lemma>rapla airfield</ner:lemma>
+    <ner:lemma>rapla Airfield</ner:lemma>
+    <foaf:givenName>Rapla</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#3d_visualiseering">
+    <foaf:name>3D Visualiseering</foaf:name>
+    <ner:lemma>3d visualiseering</ner:lemma>
+    <ner:lemma>3d</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.artes.ee/ee/"/>
+    <foaf:givenName>3D</foaf:givenName>
+    <foaf:familyName>Visualiseering</foaf:familyName>
+    <ner:lemma>3d visualiseeringud</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kã¤rol-liina_glinkin">
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <ner:lemma>KÃ¤rol-Liina Glinkin</ner:lemma>
+    <foaf:name>Kã¤Rol-Liina Glinkin</foaf:name>
+    <foaf:familyName>Glinkin</foaf:familyName>
+    <foaf:givenName>Kã¤Rol-Liina</foaf:givenName>
+    <ner:lemma>kã¤rol-liina glinkin</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#nikolai_novosjolov">
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <ner:lemma>nikolai novosjolov</ner:lemma>
+    <foaf:familyName>Novosjolov</foaf:familyName>
+    <foaf:name>Nikolai Novosjolov</foaf:name>
+    <foaf:givenName>Nikolai</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#previou_entrie">
+    <ner:lemma>Previous Entries</ner:lemma>
+    <ner:lemma>previou entrie</ner:lemma>
+    <foaf:name>Previou Entrie</foaf:name>
+    <foaf:familyName>Entrie</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <foaf:givenName>Previou</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#azizova">
+    <foaf:name>Azizova</foaf:name>
+    <ner:lemma>azizova</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ja_salm">
+    <foaf:familyName>Salm</foaf:familyName>
+    <foaf:givenName>Ja</foaf:givenName>
+    <foaf:name>Ja Salm</foaf:name>
+    <ner:lemma>ja Salm</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <ner:lemma>ja salm</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#peeter_nel">
+    <foaf:name>Peeter Nel</foaf:name>
+    <ner:lemma>peeter nel</ner:lemma>
+    <foaf:familyName>Nel</foaf:familyName>
+    <ner:lemma>Peeter Nelis</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:givenName>Peeter</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kari_beimanova">
+    <foaf:givenName>Kari</foaf:givenName>
+    <foaf:name>Kari Beimanova</foaf:name>
+    <foaf:familyName>Beimanova</foaf:familyName>
+    <ner:lemma>kari beimanova</ner:lemma>
+    <ner:lemma>kari Beimanova</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <ner:lemma>Karina Beimanova</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#confirmo_oã">
+    <foaf:familyName>Oã</foaf:familyName>
+    <ner:lemma>Confirmo OÃ</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.artes.ee/ee/"/>
+    <foaf:givenName>Confirmo</foaf:givenName>
+    <ner:lemma>confirmo oã</ner:lemma>
+    <foaf:name>Confirmo Oã</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#vedaja_ã¼hine">
+    <foaf:givenName>Vedaja</foaf:givenName>
+    <ner:lemma>vedajatele Ã¼hine</ner:lemma>
+    <foaf:name>Vedaja Ã¼Hine</foaf:name>
+    <ner:lemma>vedaja Ã¼hine</ner:lemma>
+    <foaf:familyName>Ã¼Hine</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>vedaja ã¼hine</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#vaiko_vooremaa">
+    <ner:lemma>vaiko vooremaa</ner:lemma>
+    <ner:lemma>Vaiko vooremaa</ner:lemma>
+    <foaf:givenName>Vaiko</foaf:givenName>
+    <foaf:name>Vaiko Vooremaa</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:familyName>Vooremaa</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tanel_alver">
+    <foaf:givenName>Tanel</foaf:givenName>
+    <foaf:familyName>Alver</foaf:familyName>
+    <ner:lemma>tanel alver</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:name>Tanel Alver</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#sina">
+    <ner:lemma>sina</ner:lemma>
+    <ner:lemma>SUL</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.entar.ee/"/>
+    <foaf:name>Sina</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#aivar_pãµrk">
+    <ner:lemma>Aivar PÃµrk</ner:lemma>
+    <foaf:name>Aivar Pãµrk</foaf:name>
+    <ner:lemma>aivar pãµrk</ner:lemma>
+    <foaf:familyName>Pãµrk</foaf:familyName>
+    <foaf:givenName>Aivar</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.tennoautokool.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#plaat">
+    <ner:lemma>PLAATID</ner:lemma>
+    <ner:lemma>plaat</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.hibicus.ee/"/>
+    <foaf:name>Plaat</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#vedrumadrats_luna-t_hypno">
+    <ner:mentionedAtSite rdf:resource="http://www.pesa24.ee/"/>
+    <ner:lemma>vedrumadrats luna-T Hypno</ner:lemma>
+    <ner:lemma>Vedrumadrats Luna-T Hypnos</ner:lemma>
+    <ner:lemma>vedrumadrats luna-t hypno</ner:lemma>
+    <foaf:givenName>Vedrumadrats Luna-T</foaf:givenName>
+    <foaf:name>Vedrumadrats Luna-T Hypno</foaf:name>
+    <foaf:familyName>Hypno</foaf:familyName>
+    <ner:lemma>vedrumadrats luna-T</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tai_kuningriik">
+    <ner:mentionedAtSite rdf:resource="http://www.asaptravel.ee/"/>
+    <foaf:name>Tai Kuningriik</foaf:name>
+    <foaf:givenName>Tai</foaf:givenName>
+    <foaf:familyName>Kuningriik</foaf:familyName>
+    <ner:lemma>Tai kuningriik</ner:lemma>
+    <ner:lemma>tai kuningriik</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#madis_ots">
+    <ner:lemma>madis ots</ner:lemma>
+    <foaf:givenName>Madis</foaf:givenName>
+    <foaf:name>Madis Ots</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.newton.ee/"/>
+    <ner:lemma>Madis ots</ner:lemma>
+    <foaf:familyName>Ots</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#snaki_foods">
+    <foaf:name>Snaki Foods</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <ner:lemma>snaki foods</ner:lemma>
+    <ner:lemma>Snakit Foods</ner:lemma>
+    <foaf:givenName>Snaki</foaf:givenName>
+    <foaf:familyName>Foods</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#mr_wordpress">
+    <foaf:name>Mr Wordpress</foaf:name>
+    <ner:lemma>Mr WordPress</ner:lemma>
+    <foaf:givenName>Mr</foaf:givenName>
+    <ner:lemma>mr wordpress</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://famino.ee/"/>
+    <foaf:familyName>Wordpress</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#motell_hundu">
+    <foaf:name>Motell Hundu</foaf:name>
+    <ner:lemma>motell</ner:lemma>
+    <ner:lemma>motell Hundu</ner:lemma>
+    <ner:lemma>motell hundu</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.duende.ee/"/>
+    <foaf:familyName>Hundu</foaf:familyName>
+    <foaf:givenName>Motell</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#transfer_pro">
+    <ner:lemma>transfer pro</ner:lemma>
+    <foaf:givenName>Transfer</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.dmc.ee/dmc/bureaucrat/ee/home.html"/>
+    <foaf:familyName>Pro</foaf:familyName>
+    <ner:lemma>Transfer PRO</ner:lemma>
+    <foaf:name>Transfer Pro</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#andrus_karnau…">
+    <foaf:givenName>Andrus</foaf:givenName>
+    <foaf:name>Andrus Karnau…</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <ner:lemma>andrus karnau…</ner:lemma>
+    <foaf:familyName>Karnau…</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ñðµð·ðºð°_ð¼ðµñð°ð»ð»ð°">
+    <foaf:familyName>Ð¼ÐµñÐ°Ð»Ð»Ð°</foaf:familyName>
+    <ner:lemma>ÑÐµÐ·ÐºÐ° Ð¼ÐµÑÐ°Ð»Ð»Ð°</ner:lemma>
+    <ner:lemma>ñðµð·ðºð° ð¼ðµñð°ð»ð»ð°</ner:lemma>
+    <foaf:givenName>ÑÐµð·Ðºð°</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.kohimo.ee/"/>
+    <foaf:name>ÑÐµð·Ðºð° Ð¼ÐµñÐ°Ð»Ð»Ð°</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#julia_beljajeva">
+    <foaf:name>Julia Beljajeva</foaf:name>
+    <foaf:givenName>Julia</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:familyName>Beljajeva</foaf:familyName>
+    <ner:lemma>julia beljajeva</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#andr_meister">
+    <foaf:name>Andr Meister</foaf:name>
+    <ner:lemma>meister</ner:lemma>
+    <ner:lemma>Andr meister</ner:lemma>
+    <foaf:givenName>Andr</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <ner:lemma>andr meister</ner:lemma>
+    <foaf:familyName>Meister</foaf:familyName>
+    <ner:lemma>Andri Meister</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kãik_uudis">
+    <ner:mentionedAtSite rdf:resource="http://www.kaunis.ee/"/>
+    <foaf:givenName>KãIk</foaf:givenName>
+    <foaf:familyName>Uudis</foaf:familyName>
+    <foaf:name>KãIk Uudis</foaf:name>
+    <ner:lemma>KÃIK UUDISED</ner:lemma>
+    <ner:lemma>kãik uudis</ner:lemma>
+    <ner:lemma>KÃIK uudis</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#vãµta_ã¼hendu">
+    <ner:lemma>VÃµta Ã¼hendust</ner:lemma>
+    <foaf:familyName>Ã¼Hendu</foaf:familyName>
+    <foaf:givenName>Vãµta</foaf:givenName>
+    <ner:lemma>vãµta ã¼hendu</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.artes.ee/ee/"/>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <foaf:name>Vãµta Ã¼Hendu</foaf:name>
+    <ner:lemma>VÃµta Ã¼hendu</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.inhouse.ee/"/>
+    <ner:lemma>VÃµta</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#olema">
+    <ner:lemma>olema</ner:lemma>
+    <ner:lemma>OLEME</ner:lemma>
+    <ner:lemma>ON</ner:lemma>
+    <foaf:name>Olema</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.entar.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#andrus_pajuniis">
+    <ner:lemma>Andrus Pajuniit</ner:lemma>
+    <foaf:familyName>Pajuniis</foaf:familyName>
+    <ner:lemma>Andrus pajuniis</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.newton.ee/"/>
+    <foaf:name>Andrus Pajuniis</foaf:name>
+    <ner:lemma>andrus pajuniis</ner:lemma>
+    <foaf:givenName>Andrus</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ð°ð½ð³ð»ð¸ð¹ñðºð¸ð¹_ñð·ñðº">
+    <ner:lemma>ð°ð½ð³ð»ð¸ð¹ñðºð¸ð¹ ñð·ñðº</ner:lemma>
+    <foaf:name>Ð°Ð½Ð³Ð»Ð¸Ð¹ÑÐºð¸Ð¹ ÑÐ·ÑÐº</foaf:name>
+    <ner:lemma>Ð°Ð½Ð³Ð»Ð¸Ð¹ÑÐºÐ¸Ð¹ ÑÐ·ÑÐº</ner:lemma>
+    <foaf:givenName>Ð°Ð½Ð³Ð»Ð¸Ð¹ÑÐºð¸Ð¹</foaf:givenName>
+    <foaf:familyName>ÑÐ·ÑÐº</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.alfabeta.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kaup">
+    <ner:mentionedAtSite rdf:resource="http://www.atlassegud.ee/"/>
+    <foaf:name>Kaup</foaf:name>
+    <ner:lemma>KAUBAD</ner:lemma>
+    <ner:lemma>kaup</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#rainer_saks">
+    <ner:lemma>rainer saks</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.teabeamet.ee/"/>
+    <foaf:familyName>Saks</foaf:familyName>
+    <foaf:givenName>Rainer</foaf:givenName>
+    <ner:lemma>Rainer saks</ner:lemma>
+    <foaf:name>Rainer Saks</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#k115">
+    <ner:mentionedAtSite rdf:resource="https://www.rehvid24.ee/"/>
+    <ner:lemma>k115</ner:lemma>
+    <foaf:name>K115</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#valmistamine">
+    <ner:lemma>VALMISTAMINE</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.hibicus.ee/"/>
+    <foaf:name>Valmistamine</foaf:name>
+    <ner:lemma>valmistamine</ner:lemma>
+  </foaf:Person>
+  <owl:Ontology rdf:about="http://www.estnernet.ee/nerdatanet#">
+    <dc:description>Extracted estNER locations, organizations and persons.</dc:description>
+    <dc:title>estNER Ontology</dc:title>
+  </owl:Ontology>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ãri_pã¤rnu">
+    <foaf:familyName>Pã¤Rnu</foaf:familyName>
+    <ner:lemma>Ãri PÃ¤rnu</ner:lemma>
+    <foaf:name>ÃRi Pã¤Rnu</foaf:name>
+    <ner:lemma>ãri pã¤rnu</ner:lemma>
+    <foaf:givenName>ÃRi</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://jats.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#sulev_nurm">
+    <ner:mentionedAtSite rdf:resource="http://www.artes.ee/ee/"/>
+    <foaf:name>Sulev Nurm</foaf:name>
+    <foaf:givenName>Sulev</foaf:givenName>
+    <foaf:familyName>Nurm</foaf:familyName>
+    <ner:lemma>Sulev Nurme</ner:lemma>
+    <ner:lemma>sulev nurm</ner:lemma>
+    <ner:lemma>Sulev nurm</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#valmis">
+    <ner:lemma>VALMIS</ner:lemma>
+    <foaf:name>Valmis</foaf:name>
+    <ner:lemma>valmis</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.entar.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#time/systemi">
+    <ner:lemma>time/systemi</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.timesystem.ee/"/>
+    <ner:lemma>Time/systemi</ner:lemma>
+    <foaf:name>Time/Systemi</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#paul_mã¤nd">
+    <ner:lemma>Paul MÃ¤nd</ner:lemma>
+    <foaf:givenName>Paul</foaf:givenName>
+    <ner:lemma>paul mã¤nd</ner:lemma>
+    <foaf:name>Paul Mã¤Nd</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.tormisdisain.ee/"/>
+    <foaf:familyName>Mã¤Nd</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ãlejã¤ã¤nud_eesti">
+    <foaf:name>ÃLejã¤Ã¤Nud Eesti</foaf:name>
+    <ner:lemma>ãlejã¤ã¤nud eesti</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <ner:lemma>ÃlejÃ¤Ã¤nud eesti</ner:lemma>
+    <ner:lemma>ÃlejÃ¤Ã¤nud Eesti</ner:lemma>
+    <foaf:givenName>ÃLejã¤Ã¤Nud</foaf:givenName>
+    <foaf:familyName>Eesti</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#â©_monaro">
+    <foaf:name>Â© Monaro</foaf:name>
+    <foaf:familyName>Monaro</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.monaro.ee/"/>
+    <ner:lemma>â© monaro</ner:lemma>
+    <foaf:givenName>Â©</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kutimuti_noortelaager">
+    <foaf:name>Kutimuti Noortelaager</foaf:name>
+    <ner:lemma>noortelaager</ner:lemma>
+    <ner:lemma>KUTIMUTI NOORTELAAGER</ner:lemma>
+    <foaf:familyName>Noortelaager</foaf:familyName>
+    <foaf:givenName>Kutimuti</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.kutimuti.ee/"/>
+    <ner:lemma>kutimuti noortelaager</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#lennuvã¤lja_mtã">
+    <ner:lemma>LennuvÃ¤lja MTÃ</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://eera.ee/"/>
+    <foaf:givenName>Lennuvã¤Lja</foaf:givenName>
+    <foaf:familyName>Mtã</foaf:familyName>
+    <ner:lemma>lennuvã¤lja mtã</ner:lemma>
+    <foaf:name>Lennuvã¤Lja Mtã</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#beame_oã">
+    <ner:lemma>Beame OÃ</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.beamest.ee/index.php?page=2"/>
+    <ner:lemma>beame oã</ner:lemma>
+    <foaf:givenName>Beame</foaf:givenName>
+    <foaf:name>Beame Oã</foaf:name>
+    <ner:lemma>Beamest OÃ</ner:lemma>
+    <ner:lemma>OÃ</ner:lemma>
+    <foaf:familyName>Oã</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#seakã¼la_simson">
+    <ner:lemma>SeakÃ¼la Simson</ner:lemma>
+    <foaf:familyName>Simson</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.tormisdisain.ee/"/>
+    <ner:lemma>seakã¼la simson</ner:lemma>
+    <foaf:givenName>Seakã¼La</foaf:givenName>
+    <foaf:name>Seakã¼La Simson</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#violeta_gulakova">
+    <foaf:givenName>Violeta</foaf:givenName>
+    <foaf:familyName>Gulakova</foaf:familyName>
+    <foaf:name>Violeta Gulakova</foaf:name>
+    <ner:lemma>violeta gulakova</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#diivanilaud_skyhigh">
+    <ner:lemma>Diivanilaud SKYHIGH</ner:lemma>
+    <ner:lemma>diivanilaud skyhigh</ner:lemma>
+    <ner:lemma>diivanilaud Skyhigh</ner:lemma>
+    <foaf:name>Diivanilaud Skyhigh</foaf:name>
+    <foaf:familyName>Skyhigh</foaf:familyName>
+    <foaf:givenName>Diivanilaud</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://aatrium.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#s-stamp">
+    <ner:mentionedAtSite rdf:resource="http://estanc.ee/"/>
+    <ner:lemma>s-stamp</ner:lemma>
+    <foaf:name>S-Stamp</foaf:name>
+    <ner:lemma>S-STAMP</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tã¤nada_ettevãµtte">
+    <foaf:givenName>Tã¤Nada</foaf:givenName>
+    <foaf:name>Tã¤Nada Ettevãµtte</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://europe.ee/"/>
+    <ner:lemma>tÃ¤nada ettevÃµtte</ner:lemma>
+    <foaf:familyName>Ettevãµtte</foaf:familyName>
+    <ner:lemma>tã¤nada ettevãµtte</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#pikaajaline_koostã¶ã¶kogemus">
+    <ner:lemma>pikaajaline koostÃ¶Ã¶kogemus</ner:lemma>
+    <foaf:familyName>Koostã¶Ã¶Kogemus</foaf:familyName>
+    <foaf:name>Pikaajaline Koostã¶Ã¶Kogemus</foaf:name>
+    <ner:lemma>pikaajalist koostÃ¶Ã¶kogemust</ner:lemma>
+    <foaf:givenName>Pikaajaline</foaf:givenName>
+    <ner:lemma>pikaajaline koostã¶ã¶kogemus</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.tolge24.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#elisabeth_ostrovski">
+    <ner:lemma>elisabeth ostrovski</ner:lemma>
+    <foaf:familyName>Ostrovski</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:name>Elisabeth Ostrovski</foaf:name>
+    <foaf:givenName>Elisabeth</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#statam_international">
+    <ner:mentionedAtSite rdf:resource="http://statam.ee/"/>
+    <ner:lemma>statam international</ner:lemma>
+    <foaf:name>Statam International</foaf:name>
+    <foaf:givenName>Statam</foaf:givenName>
+    <foaf:familyName>International</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#sã-ã-gitoa_laud">
+    <foaf:givenName>Sã-Ã-Gitoa</foaf:givenName>
+    <foaf:familyName>Laud</foaf:familyName>
+    <foaf:name>Sã-Ã-Gitoa Laud</foaf:name>
+    <ner:lemma>sã-ã-gitoa laud</ner:lemma>
+    <ner:lemma>SÃ-Ã-Gitoa laud</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://aatrium.ee/"/>
+    <ner:lemma>SÃÃGITOA LAUAD</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#imama_woman">
+    <foaf:givenName>Imama</foaf:givenName>
+    <ner:lemma>imama Woman</ner:lemma>
+    <ner:lemma>imama woman</ner:lemma>
+    <ner:lemma>Image Woman</ner:lemma>
+    <foaf:name>Imama Woman</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.kaunis.ee/"/>
+    <foaf:familyName>Woman</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#pliit_hu2-s">
+    <ner:lemma>pliit HU2-S</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.hobekivi.ee/"/>
+    <ner:lemma>Pliit HU2-S</ner:lemma>
+    <ner:lemma>pliit hu2-s</ner:lemma>
+    <foaf:name>Pliit Hu2-S</foaf:name>
+    <foaf:givenName>Pliit</foaf:givenName>
+    <foaf:familyName>Hu2-S</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ettevãµtlus_auhind">
+    <ner:lemma>EttevÃµtluse Auhind</ner:lemma>
+    <ner:lemma>EttevÃµtlus auhind</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://estanc.ee/"/>
+    <foaf:givenName>Ettevãµtlus</foaf:givenName>
+    <foaf:familyName>Auhind</foaf:familyName>
+    <ner:lemma>ettevãµtlus auhind</ner:lemma>
+    <foaf:name>Ettevãµtlus Auhind</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#madratsikaitse_ãµhukes">
+    <ner:lemma>madratsikaitse</ner:lemma>
+    <ner:lemma>Madratsikaitsed Ãµhukesed</ner:lemma>
+    <ner:lemma>madratsikaitse ãµhukes</ner:lemma>
+    <foaf:familyName>Ãµhukes</foaf:familyName>
+    <ner:lemma>madratsikaitse Ãµhukes</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.pesa24.ee/"/>
+    <foaf:name>Madratsikaitse Ãµhukes</foaf:name>
+    <foaf:givenName>Madratsikaitse</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#omdia_oã">
+    <foaf:familyName>Oã</foaf:familyName>
+    <ner:lemma>omdia oã</ner:lemma>
+    <ner:lemma>Omdia OÃ</ner:lemma>
+    <foaf:givenName>Omdia</foaf:givenName>
+    <foaf:name>Omdia Oã</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.omdia.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ð¿ð¾ð">
+    <ner:mentionedAtSite rdf:resource="http://www.kohimo.ee/"/>
+    <foaf:name>Ð¿Ð¾Ð</foaf:name>
+    <ner:lemma>Ð¿Ð¾Ð´</ner:lemma>
+    <ner:lemma>ð¿ð¾ð</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ðð²ñð¾ð¿ðµð¹ñðºð¸ð¼_ñð¾ñð¸ð°ð»ñð½ñð¼">
+    <ner:lemma>ÐÐ²ÑÐ¾Ð¿ÐµÐ¹ÑÐºÐ¸Ð¼ ÑÐ¾ÑÐ¸Ð°Ð»ÑÐ½ÑÐ¼</ner:lemma>
+    <ner:lemma>ðð²ñð¾ð¿ðµð¹ñðºð¸ð¼ ñð¾ñð¸ð°ð»ñð½ñð¼</ner:lemma>
+    <foaf:name>ÐÐ²ÑÐ¾Ð¿Ðµð¹ÑÐºð¸Ð¼ ÑÐ¾ÑÐ¸Ð°Ð»ÑÐ½ÑÐ¼</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.alfabeta.ee/"/>
+    <foaf:givenName>ÐÐ²ÑÐ¾Ð¿Ðµð¹ÑÐºð¸Ð¼</foaf:givenName>
+    <foaf:familyName>ÑÐ¾ÑÐ¸Ð°Ð»ÑÐ½ÑÐ¼</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#reservedstatam">
+    <ner:lemma>reservedstatam</ner:lemma>
+    <ner:lemma>reservedSTATAM</ner:lemma>
+    <foaf:name>Reservedstatam</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://statam.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#indrek_teder">
+    <ner:lemma>Indrek teder</ner:lemma>
+    <foaf:familyName>Teder</foaf:familyName>
+    <foaf:givenName>Indrek</foaf:givenName>
+    <ner:lemma>indrek teder</ner:lemma>
+    <foaf:name>Indrek Teder</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ajavahemik_24">
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:givenName>Ajavahemik</foaf:givenName>
+    <ner:lemma>ajavahemik 24</ner:lemma>
+    <ner:lemma>Ajavahemikul 24</ner:lemma>
+    <foaf:familyName>24</foaf:familyName>
+    <foaf:name>Ajavahemik 24</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#â©_inseneribã¼roo">
+    <foaf:familyName>Inseneribã¼Roo</foaf:familyName>
+    <ner:lemma>â© inseneribã¼roo</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.aksiaal.ee/"/>
+    <ner:lemma>Â© InseneribÃ¼roo</ner:lemma>
+    <foaf:name>Â© Inseneribã¼Roo</foaf:name>
+    <foaf:givenName>Â©</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#pã¤rnu_superkross">
+    <ner:lemma>pã¤rnu superkross</ner:lemma>
+    <ner:lemma>PÃ¤rnu superkross</ner:lemma>
+    <foaf:name>Pã¤Rnu Superkross</foaf:name>
+    <foaf:givenName>Pã¤Rnu</foaf:givenName>
+    <foaf:familyName>Superkross</foaf:familyName>
+    <ner:lemma>PÃ¤rnu Superkrossi</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.saueautoklubi.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#elizabeth_arden">
+    <foaf:givenName>Elizabeth</foaf:givenName>
+    <ner:lemma>elizabeth arden</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.kaunis.ee/"/>
+    <foaf:familyName>Arden</foaf:familyName>
+    <foaf:name>Elizabeth Arden</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#watsoni">
+    <ner:mentionedAtSite rdf:resource="http://www.newton.ee/"/>
+    <foaf:name>Watsoni</foaf:name>
+    <ner:lemma>watsoni</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#all_rights">
+    <ner:mentionedAtSite rdf:resource="http://vitaservis.ee/engine/opensearch.php"/>
+    <foaf:name>All Rights</foaf:name>
+    <foaf:givenName>All</foaf:givenName>
+    <foaf:familyName>Rights</foaf:familyName>
+    <ner:lemma>all rights</ner:lemma>
+    <ner:lemma>all Rights</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#from_statam">
+    <ner:lemma>from statam</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://statam.ee/"/>
+    <foaf:familyName>Statam</foaf:familyName>
+    <foaf:name>From Statam</foaf:name>
+    <ner:lemma>from Statam</ner:lemma>
+    <foaf:givenName>From</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tuba_ã¼hele">
+    <ner:mentionedAtSite rdf:resource="http://www.economyhotel.ee/"/>
+    <ner:lemma>tuba ã¼hele</ner:lemma>
+    <foaf:familyName>Ã¼Hele</foaf:familyName>
+    <ner:lemma>Tuba Ã¼hele</ner:lemma>
+    <foaf:givenName>Tuba</foaf:givenName>
+    <ner:lemma>tuba Ã¼hele</ner:lemma>
+    <foaf:name>Tuba Ã¼Hele</foaf:name>
+    <ner:lemma>tuba</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#aimar_jukkum">
+    <ner:lemma>AIMAR JUKKUM</ner:lemma>
+    <foaf:givenName>Aimar</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://eesti.jux.ee/"/>
+    <ner:lemma>aimar jukkum</ner:lemma>
+    <foaf:name>Aimar Jukkum</foaf:name>
+    <foaf:familyName>Jukkum</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#vaba_koht">
+    <ner:mentionedAtSite rdf:resource="http://www.comtour.ee/"/>
+    <foaf:name>Vaba Koht</foaf:name>
+    <foaf:familyName>Koht</foaf:familyName>
+    <foaf:givenName>Vaba</foaf:givenName>
+    <ner:lemma>VABA KOHTA</ner:lemma>
+    <ner:lemma>vaba koht</ner:lemma>
+    <ner:lemma>vaba</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#business_a5">
+    <ner:mentionedAtSite rdf:resource="http://www.timesystem.ee/"/>
+    <ner:lemma>business a5</ner:lemma>
+    <foaf:familyName>A5</foaf:familyName>
+    <foaf:givenName>Business</foaf:givenName>
+    <foaf:name>Business A5</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#mart_hiob">
+    <foaf:familyName>Hiob</foaf:familyName>
+    <foaf:givenName>Mart</foaf:givenName>
+    <ner:lemma>mart hiob</ner:lemma>
+    <foaf:name>Mart Hiob</foaf:name>
+    <ner:lemma>mart Hiob</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.artes.ee/ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ðð¿ð¸ñð°ð½ð¸ðµ_ð¿ð¾-ññññðºð¸">
+    <ner:mentionedAtSite rdf:resource="http://www.kohimo.ee/"/>
+    <ner:lemma>ÐÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ Ð¿Ð¾-ÑÑÑÑÐºÐ¸</ner:lemma>
+    <foaf:familyName>Ð¿Ð¾-ÑÑÑÑÐºð¸</foaf:familyName>
+    <foaf:givenName>ÐÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ</foaf:givenName>
+    <foaf:name>ÐÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ Ð¿Ð¾-ÑÑÑÑÐºð¸</foaf:name>
+    <ner:lemma>ðð¿ð¸ñð°ð½ð¸ðµ ð¿ð¾-ññññðºð¸</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#grupp">
+    <ner:lemma>GRUPP</ner:lemma>
+    <ner:lemma>grupp</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vitaservis.ee/"/>
+    <foaf:name>Grupp</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#datalife_engine">
+    <foaf:name>Datalife Engine</foaf:name>
+    <ner:lemma>DataLife Engine</ner:lemma>
+    <ner:lemma>datalife engine</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://vitaservis.ee/engine/opensearch.php"/>
+    <foaf:givenName>Datalife</foaf:givenName>
+    <foaf:familyName>Engine</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#münhen_saksamaa">
+    <foaf:familyName>Saksamaa</foaf:familyName>
+    <foaf:givenName>Münhen</foaf:givenName>
+    <foaf:name>Münhen Saksamaa</foaf:name>
+    <ner:lemma>münhen saksamaa</ner:lemma>
+    <ner:lemma>Münhenis Saksamaal</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.abcom.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#lään_elu">
+    <ner:lemma>elu</ner:lemma>
+    <foaf:name>Lään Elu</foaf:name>
+    <foaf:givenName>Lään</foaf:givenName>
+    <foaf:familyName>Elu</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <ner:lemma>Lääne Elu</ner:lemma>
+    <ner:lemma>lään elu</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tiit_salumägi">
+    <ner:lemma>Tiit salumägi</ner:lemma>
+    <foaf:givenName>Tiit</foaf:givenName>
+    <foaf:familyName>Salumägi</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:name>Tiit Salumägi</foaf:name>
+    <ner:lemma>Tiit Salumäe</ner:lemma>
+    <ner:lemma>tiit salumägi</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#elutuba_laud">
+    <ner:lemma>ELUTOA LAUAD</ner:lemma>
+    <foaf:name>Elutuba Laud</foaf:name>
+    <foaf:givenName>Elutuba</foaf:givenName>
+    <ner:lemma>elutuba laud</ner:lemma>
+    <foaf:familyName>Laud</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://aatrium.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#oliver_prede">
+    <foaf:name>Oliver Prede</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <ner:lemma>oliver prede</ner:lemma>
+    <foaf:familyName>Prede</foaf:familyName>
+    <foaf:givenName>Oliver</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#mã¤ngu_vãµtta">
+    <ner:lemma>mÃ¤ngu vÃµtta</ner:lemma>
+    <foaf:familyName>Vãµtta</foaf:familyName>
+    <foaf:givenName>Mã¤Ngu</foaf:givenName>
+    <foaf:name>Mã¤Ngu Vãµtta</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <ner:lemma>mã¤ngu vãµtta</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#olema_euroopa">
+    <ner:lemma>olema Euroopa</ner:lemma>
+    <foaf:name>Olema Euroopa</foaf:name>
+    <ner:lemma>on Euroopa</ner:lemma>
+    <foaf:familyName>Euroopa</foaf:familyName>
+    <ner:lemma>olema euroopa</ner:lemma>
+    <foaf:givenName>Olema</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.marli.ee/index.php?id=3"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#hind">
+    <ner:lemma>hind</ner:lemma>
+    <foaf:name>Hind</foaf:name>
+    <ner:lemma>HIND</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.comtour.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ñð°ð¹ñ">
+    <foaf:name>ÑÐ°Ð¹Ñ</foaf:name>
+    <ner:lemma>ñð°ð¹ñ</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.alfabeta.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ðð¾ð²ñðµ_ð³ññð¿ð¿ñ">
+    <ner:lemma>ðð¾ð²ñðµ ð³ññð¿ð¿ñ</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://alfabeta.ee/regrus.php"/>
+    <foaf:familyName>Ð³ÑÑÐ¿Ð¿Ñ</foaf:familyName>
+    <ner:lemma>ÐÐ¾Ð²ÑÐµ Ð³ÑÑÐ¿Ð¿Ñ</ner:lemma>
+    <foaf:name>ÐÐ¾Ð²ÑÐµ Ð³ÑÑÐ¿Ð¿Ñ</foaf:name>
+    <foaf:givenName>ÐÐ¾Ð²ÑÐµ</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ostuprotsess">
+    <ner:mentionedAtSite rdf:resource="http://www.kaunis.ee/"/>
+    <ner:lemma>ostuprotsess</ner:lemma>
+    <ner:lemma>OSTUPROTSESS</ner:lemma>
+    <foaf:name>Ostuprotsess</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#irina_embrich">
+    <foaf:givenName>Irina</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <ner:lemma>irina embrich</ner:lemma>
+    <foaf:name>Irina Embrich</foaf:name>
+    <foaf:familyName>Embrich</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#terrae_oã">
+    <foaf:familyName>Oã</foaf:familyName>
+    <foaf:givenName>Terrae</foaf:givenName>
+    <foaf:name>Terrae Oã</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.artes.ee/ee/"/>
+    <ner:lemma>Terrae OÃ</ner:lemma>
+    <ner:lemma>terrae oã</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#jevgeni_blinov">
+    <foaf:name>Jevgeni Blinov</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <ner:lemma>Jevgeni Blinovist</ner:lemma>
+    <foaf:givenName>Jevgeni</foaf:givenName>
+    <ner:lemma>jevgeni blinov</ner:lemma>
+    <foaf:familyName>Blinov</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#turvakaamera_haapsalu">
+    <ner:lemma>turvakaamera Haapsalu</ner:lemma>
+    <ner:lemma>Turvakaamera Haapsalus</ner:lemma>
+    <foaf:familyName>Haapsalu</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:givenName>Turvakaamera</foaf:givenName>
+    <foaf:name>Turvakaamera Haapsalu</foaf:name>
+    <ner:lemma>turvakaamera haapsalu</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#piirnev">
+    <ner:mentionedAtSite rdf:resource="http://www.verska.ee/"/>
+    <foaf:name>Piirnev</foaf:name>
+    <ner:lemma>piirnev</ner:lemma>
+    <ner:lemma>PIIRNEVATELE</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kogemus_mercedes-benz">
+    <ner:lemma>kogemus mercedes-benz</ner:lemma>
+    <foaf:name>Kogemus Mercedes-Benz</foaf:name>
+    <ner:lemma>kogemusi Mercedes-Benz</ner:lemma>
+    <ner:lemma>kogemus Mercedes-Benz</ner:lemma>
+    <foaf:familyName>Mercedes-Benz</foaf:familyName>
+    <foaf:givenName>Kogemus</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://dmgauto.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ðñð³ðºð°ñ_ð¼ðµð±ðµð»ñ">
+    <ner:lemma>ðñð³ðºð°ñ ð¼ðµð±ðµð»ñ</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://new2.virelton.ee/index.php?lang=ru"/>
+    <foaf:name>ÐÑÐ³Ðºð°Ñ Ð¼Ðµð±Ðµð»Ñ</foaf:name>
+    <foaf:familyName>Ð¼Ðµð±Ðµð»Ñ</foaf:familyName>
+    <foaf:givenName>ÐÑÐ³Ðºð°Ñ</foaf:givenName>
+    <ner:lemma>ÐÑÐ³ÐºÐ°Ñ Ð¼ÐµÐ±ÐµÐ»Ñ</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#reisima">
+    <ner:lemma>reisima</ner:lemma>
+    <foaf:name>Reisima</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.comtour.ee/"/>
+    <ner:lemma>REISIMA</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#oxfordgruen_metallic">
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+    <foaf:familyName>Metallic</foaf:familyName>
+    <foaf:givenName>Oxfordgruen</foaf:givenName>
+    <ner:lemma>oxfordgruen metallic</ner:lemma>
+    <foaf:name>Oxfordgruen Metallic</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#anne_vahermaa">
+    <ner:lemma>vahermaa</ner:lemma>
+    <foaf:givenName>Anne</foaf:givenName>
+    <ner:lemma>Anne vahermaa</ner:lemma>
+    <foaf:familyName>Vahermaa</foaf:familyName>
+    <foaf:name>Anne Vahermaa</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.newton.ee/"/>
+    <ner:lemma>anne vahermaa</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#by_hansanet">
+    <ner:lemma>by hansanet</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.timesystem.ee/"/>
+    <ner:lemma>by HansaNet</ner:lemma>
+    <foaf:familyName>Hansanet</foaf:familyName>
+    <foaf:name>By Hansanet</foaf:name>
+    <foaf:givenName>By</foaf:givenName>
+    <ner:lemma>by Hansanet</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#click_here">
+    <foaf:familyName>Here</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.marli.ee/index.php?id=3"/>
+    <ner:lemma>click here</ner:lemma>
+    <foaf:name>Click Here</foaf:name>
+    <foaf:givenName>Click</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#juhan_parts">
+    <foaf:givenName>Juhan</foaf:givenName>
+    <ner:lemma>Juhan parts</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <foaf:name>Juhan Parts</foaf:name>
+    <foaf:familyName>Parts</foaf:familyName>
+    <ner:lemma>juhan parts</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#carbonschwarz_metallic">
+    <foaf:name>Carbonschwarz Metallic</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+    <foaf:givenName>Carbonschwarz</foaf:givenName>
+    <foaf:familyName>Metallic</foaf:familyName>
+    <ner:lemma>carbonschwarz metallic</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#international_law">
+    <foaf:name>International Law</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://statam.ee/"/>
+    <foaf:familyName>Law</foaf:familyName>
+    <ner:lemma>international law</ner:lemma>
+    <foaf:givenName>International</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#art_media">
+    <foaf:givenName>Art</foaf:givenName>
+    <foaf:familyName>Media</foaf:familyName>
+    <foaf:name>Art Media</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.tiksoja.ee/"/>
+    <ner:lemma>art media</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#saalioksjon_xxi">
+    <ner:lemma>saalioksjon xxi</ner:lemma>
+    <ner:lemma>saalioksjon XXI</ner:lemma>
+    <foaf:name>Saalioksjon Xxi</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.ghcoin.ee/"/>
+    <foaf:givenName>Saalioksjon</foaf:givenName>
+    <ner:lemma>Saalioksjon XXI</ner:lemma>
+    <foaf:familyName>Xxi</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ðºð¾ð¼ð½ð°ñð°_patito">
+    <foaf:familyName>Patito</foaf:familyName>
+    <foaf:name>Ðºð¾Ð¼Ð½Ð°ÑÐ° Patito</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.lastetuba.ee/"/>
+    <ner:lemma>ÐºÐ¾Ð¼Ð½Ð°ÑÐ° Patito</ner:lemma>
+    <foaf:givenName>Ðºð¾Ð¼Ð½Ð°ÑÐ°</foaf:givenName>
+    <ner:lemma>ðºð¾ð¼ð½ð°ñð° patito</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#uv">
+    <ner:lemma>UV</ner:lemma>
+    <ner:lemma>uv</ner:lemma>
+    <foaf:name>Uv</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.solaarium.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#jonathan_lindström">
+    <ner:lemma>jonathan lindström</ner:lemma>
+    <foaf:givenName>Jonathan</foaf:givenName>
+    <foaf:familyName>Lindström</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:name>Jonathan Lindström</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#__">
+    <ner:lemma>"  "</ner:lemma>
+    <foaf:name>  </foaf:name>
+    <foaf:givenName> </foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.virutrans.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#web_solutions">
+    <foaf:name>Web Solutions</foaf:name>
+    <foaf:givenName>Web</foaf:givenName>
+    <ner:lemma>web solutions</ner:lemma>
+    <foaf:familyName>Solutions</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.aksiaal.ee/"/>
+    <ner:mentionedAtSite rdf:resource="http://www.tennoautokool.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#prantslane_andric">
+    <ner:lemma>prantslase Andric</ner:lemma>
+    <ner:lemma>prantslane andric</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <ner:lemma>prantslane Andric</ner:lemma>
+    <foaf:familyName>Andric</foaf:familyName>
+    <foaf:name>Prantslane Andric</foaf:name>
+    <foaf:givenName>Prantslane</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tammsaare">
+    <foaf:name>Tammsaare</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.gennet.ee/home/"/>
+    <ner:lemma>tammsaare</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#vãµi_vã¤ike">
+    <ner:lemma>vÃµi vÃ¤ike</ner:lemma>
+    <foaf:familyName>Vã¤Ike</foaf:familyName>
+    <ner:lemma>vãµi vã¤ike</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.comodus.ee/et/"/>
+    <foaf:name>Vãµi Vã¤Ike</foaf:name>
+    <foaf:givenName>Vãµi</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#madis_aben">
+    <ner:lemma>madis aben</ner:lemma>
+    <foaf:familyName>Aben</foaf:familyName>
+    <foaf:givenName>Madis</foaf:givenName>
+    <ner:lemma>madis Aben</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:name>Madis Aben</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#posi-joi_tm">
+    <ner:mentionedAtSite rdf:resource="http://alusehitus.ee/"/>
+    <ner:lemma>Posi-Joi TM</ner:lemma>
+    <ner:lemma>TM</ner:lemma>
+    <foaf:givenName>Posi-Joi</foaf:givenName>
+    <foaf:name>Posi-Joi Tm</foaf:name>
+    <foaf:familyName>Tm</foaf:familyName>
+    <ner:lemma>Posi-Joist TM</ner:lemma>
+    <ner:lemma>posi-joi tm</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#linden">
+    <foaf:name>Linden</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.pesa24.ee/"/>
+    <ner:lemma>linden</ner:lemma>
+    <ner:lemma>LINDEN</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#â©_jan">
+    <foaf:familyName>Jan</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.lastetuba.ee/"/>
+    <foaf:givenName>Â©</foaf:givenName>
+    <foaf:name>Â© Jan</foaf:name>
+    <ner:lemma>â© jan</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#background-color">
+    <foaf:name>Background-Color</foaf:name>
+    <ner:lemma>BACKGROUND-COLOR</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.nakmansat.ee/"/>
+    <ner:lemma>background-color</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#professionalism">
+    <foaf:name>Professionalism</foaf:name>
+    <ner:lemma>professionalism</ner:lemma>
+    <ner:lemma>PROFESSIONALISM</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://statam.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#taksojuhtâ">
+    <foaf:name>Taksojuhtâ</foaf:name>
+    <ner:lemma>taksojuhtâ</ner:lemma>
+    <ner:lemma>taksojuhtÂ</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#sã¼tiste">
+    <ner:lemma>sã¼tiste</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vagodent.ee/"/>
+    <foaf:name>Sã¼Tiste</foaf:name>
+    <ner:lemma>SÃ¼tiste</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#norsta_eesti">
+    <ner:lemma>Norsta eesti</ner:lemma>
+    <ner:lemma>norsta eesti</ner:lemma>
+    <foaf:name>Norsta Eesti</foaf:name>
+    <ner:lemma>eesti</ner:lemma>
+    <ner:lemma>Norstat Eesti</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.tolge24.ee/"/>
+    <foaf:familyName>Eesti</foaf:familyName>
+    <foaf:givenName>Norsta</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#oã_lakk">
+    <foaf:name>Oã Lakk</foaf:name>
+    <foaf:familyName>Lakk</foaf:familyName>
+    <ner:lemma>OÃ Laki</ner:lemma>
+    <foaf:givenName>Oã</foaf:givenName>
+    <ner:lemma>oã lakk</ner:lemma>
+    <ner:lemma>OÃ lakk</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.beamest.ee/index.php?page=2"/>
+    <ner:lemma>OÃ</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#aksal">
+    <ner:lemma>aksal</ner:lemma>
+    <foaf:name>Aksal</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.aksalis.ee/"/>
+    <ner:lemma>AKSALIS</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#riigipiir">
+    <ner:lemma>riigipiir</ner:lemma>
+    <ner:lemma>RIIGIPIIRIGA</ner:lemma>
+    <foaf:name>Riigipiir</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.verska.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#-_thermo">
+    <ner:lemma>- THERMO</ner:lemma>
+    <ner:lemma>- thermo</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.tuuljakodu.ee/"/>
+    <foaf:givenName>-</foaf:givenName>
+    <foaf:name>- Thermo</foaf:name>
+    <foaf:familyName>Thermo</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#töö">
+    <foaf:name>Töö</foaf:name>
+    <ner:lemma>töö</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.catapult.ee/"/>
+    <ner:lemma>tööd</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#sterlinggrau_metallic">
+    <foaf:givenName>Sterlinggrau</foaf:givenName>
+    <ner:lemma>sterlinggrau metallic</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+    <foaf:name>Sterlinggrau Metallic</foaf:name>
+    <foaf:familyName>Metallic</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ã¼le">
+    <foaf:name>Ã¼Le</foaf:name>
+    <ner:lemma>Ã¼les</ner:lemma>
+    <ner:lemma>ã¼le</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#system">
+    <ner:lemma>system</ner:lemma>
+    <ner:lemma>SYSTEM</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.mrgsystem.ee/ettevottest"/>
+    <foaf:name>System</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#virelton_oã">
+    <ner:mentionedAtSite rdf:resource="http://new2.virelton.ee/index.php?lang=ru"/>
+    <ner:lemma>virelton oã</ner:lemma>
+    <foaf:familyName>Oã</foaf:familyName>
+    <ner:lemma>Virelton OÃ</ner:lemma>
+    <foaf:name>Virelton Oã</foaf:name>
+    <foaf:givenName>Virelton</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#red_one">
+    <foaf:familyName>One</foaf:familyName>
+    <foaf:name>Red One</foaf:name>
+    <foaf:givenName>Red</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.catapult.ee/"/>
+    <ner:lemma>red one</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#luna_hypno">
+    <foaf:name>Luna Hypno</foaf:name>
+    <ner:lemma>Luna Hypnos</ner:lemma>
+    <ner:lemma>luna Hypno</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.pesa24.ee/"/>
+    <foaf:familyName>Hypno</foaf:familyName>
+    <ner:lemma>luna</ner:lemma>
+    <ner:lemma>luna hypno</ner:lemma>
+    <foaf:givenName>Luna</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#luna_mega">
+    <foaf:givenName>Luna</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.pesa24.ee/"/>
+    <foaf:familyName>Mega</foaf:familyName>
+    <foaf:name>Luna Mega</foaf:name>
+    <ner:lemma>luna mega</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#mameta_oy">
+    <ner:lemma>OY</ner:lemma>
+    <ner:lemma>MAMETAL OY</ner:lemma>
+    <foaf:name>Mameta Oy</foaf:name>
+    <foaf:givenName>Mameta</foaf:givenName>
+    <ner:lemma>mameta oy</ner:lemma>
+    <ner:lemma>Mameta OY</ner:lemma>
+    <foaf:familyName>Oy</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.mametal.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tarmo_lilleorg">
+    <foaf:givenName>Tarmo</foaf:givenName>
+    <ner:lemma>Tarmo lilleorg</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.throof.ee/"/>
+    <foaf:name>Tarmo Lilleorg</foaf:name>
+    <foaf:familyName>Lilleorg</foaf:familyName>
+    <ner:lemma>tarmo lilleorg</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ã¼likãµrge">
+    <ner:lemma>ã¼likãµrge</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>Ã¼likÃµrge</ner:lemma>
+    <foaf:name>Ã¼Likãµrge</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#pilootprojekt_ãµnnestumine">
+    <ner:lemma>Pilootprojekti Ãµnnestumisel</ner:lemma>
+    <ner:lemma>pilootprojekt Ãµnnestumine</ner:lemma>
+    <foaf:givenName>Pilootprojekt</foaf:givenName>
+    <foaf:name>Pilootprojekt Ãµnnestumine</foaf:name>
+    <foaf:familyName>Ãµnnestumine</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>pilootprojekt ãµnnestumine</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#helmen_kã¼tt">
+    <foaf:familyName>Kã¼Tt</foaf:familyName>
+    <foaf:givenName>Helmen</foaf:givenName>
+    <ner:lemma>Helmen KÃ¼tt</ner:lemma>
+    <foaf:name>Helmen Kã¼Tt</foaf:name>
+    <ner:lemma>helmen kã¼tt</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#em_ã¼heksanda">
+    <ner:lemma>EM-il Ã¼heksandaks</ner:lemma>
+    <foaf:name>Em Ã¼Heksanda</foaf:name>
+    <ner:lemma>EM</ner:lemma>
+    <ner:lemma>em ã¼heksanda</ner:lemma>
+    <foaf:givenName>Em</foaf:givenName>
+    <foaf:familyName>Ã¼Heksanda</foaf:familyName>
+    <ner:lemma>EM Ã¼heksanda</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ð°ð±ð¾ñð¸ðµ_ññð¾ð»ñ">
+    <foaf:givenName>Ð°Ð±Ð¾ÑÐ¸Ðµ</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://new2.virelton.ee/index.php?lang=ru"/>
+    <foaf:name>Ð°Ð±Ð¾ÑÐ¸Ðµ ÑÑÐ¾Ð»Ñ</foaf:name>
+    <ner:lemma>Ð°Ð±Ð¾ÑÐ¸Ðµ ÑÑÐ¾Ð»Ñ</ner:lemma>
+    <foaf:familyName>ÑÑÐ¾Ð»Ñ</foaf:familyName>
+    <ner:lemma>ð°ð±ð¾ñð¸ðµ ññð¾ð»ñ</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ñð²ðµð¶ð¸ð¹_ð½ð¾ð¼ðµñ">
+    <ner:mentionedAtSite rdf:resource="http://www.vestnik.ee/"/>
+    <foaf:name>ÑÐ²Ðµð¶Ð¸Ð¹ Ð½Ð¾Ð¼Ðµñ</foaf:name>
+    <ner:lemma>ÑÐ²ÐµÐ¶Ð¸Ð¹ Ð½Ð¾Ð¼ÐµÑ</ner:lemma>
+    <foaf:familyName>Ð½Ð¾Ð¼Ðµñ</foaf:familyName>
+    <foaf:givenName>ÑÐ²Ðµð¶Ð¸Ð¹</foaf:givenName>
+    <ner:lemma>ñð²ðµð¶ð¸ð¹ ð½ð¾ð¼ðµñ</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#rannarootsi_muuseum">
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:name>Rannarootsi Muuseum</foaf:name>
+    <ner:lemma>rannarootsi muuseum</ner:lemma>
+    <ner:lemma>Rannarootsi muuseum</ner:lemma>
+    <foaf:givenName>Rannarootsi</foaf:givenName>
+    <ner:lemma>Rannarootsi muuseumis</ner:lemma>
+    <foaf:familyName>Muuseum</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ñð¸ð»ð¸ð½ð’ñð¸ñðµñðºð¸ñð¸_ðºð¾ð½ð¸ñðµñðºð¸ñð¾ð±ðµñð°ðµðº">
+    <foaf:givenName>ÑÐ¸Ð»Ð¸Ð½Ð’ÑÐ¸ÑÐµñÐºð¸Ñð¸</foaf:givenName>
+    <foaf:name>ÑÐ¸Ð»Ð¸Ð½Ð’ÑÐ¸ÑÐµñÐºð¸Ñð¸ Ðºð¾Ð½Ð¸ÑÐµñÐºð¸Ñð¾Ð±ÐµñÐ°Ðµðº</foaf:name>
+    <ner:lemma>ñð¸ð»ð¸ð½ð’ñð¸ñðµñðºð¸ñð¸ ðºð¾ð½ð¸ñðµñðºð¸ñð¾ð±ðµñð°ðµðº</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.kohimo.ee/"/>
+    <ner:lemma>ÑÐ¸Ð»Ð¸Ð½Ð’ÑÐ¸ÑÐµÑÐºÐ¸ÑÐ¸ ÐºÐ¾Ð½Ð¸ÑÐµÑÐºÐ¸ÑÐ¾Ð±ÐµÑÐ°ÐµÐº</ner:lemma>
+    <ner:lemma>ÑÐ¸Ð»Ð¸Ð½Ð´ÑÐ¸ÑÐµÑÐºÐ¸ÑÐ¸ ÐºÐ¾Ð½Ð¸ÑÐµÑÐºÐ¸ÑÐ¾Ð±ÐµÑÐ°ÐµÐº</ner:lemma>
+    <foaf:familyName>Ðºð¾Ð½Ð¸ÑÐµñÐºð¸Ñð¾Ð±ÐµñÐ°Ðµðº</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#e-ãµppe_lã¤biviimine">
+    <foaf:familyName>Lã¤Biviimine</foaf:familyName>
+    <ner:lemma>e-Ãµppe lÃ¤biviimine</ner:lemma>
+    <ner:lemma>e-ãµppe lã¤biviimine</ner:lemma>
+    <ner:lemma>e-Ãµppe lÃ¤biviimisel</ner:lemma>
+    <foaf:name>E-Ãµppe Lã¤Biviimine</foaf:name>
+    <foaf:givenName>E-Ãµppe</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.tennoautokool.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#de_mallorca">
+    <foaf:familyName>Mallorca</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.asaptravel.ee/"/>
+    <foaf:givenName>De</foaf:givenName>
+    <foaf:name>De Mallorca</foaf:name>
+    <ner:lemma>de mallorca</ner:lemma>
+    <ner:lemma>de Mallorca</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#pã¤rnu_postimees">
+    <ner:lemma>pã¤rnu postimees</ner:lemma>
+    <ner:lemma>PÃ¤rnu Postimees</ner:lemma>
+    <ner:lemma>PÃ¤rnu postimees</ner:lemma>
+    <foaf:givenName>Pã¤Rnu</foaf:givenName>
+    <foaf:familyName>Postimees</foaf:familyName>
+    <foaf:name>Pã¤Rnu Postimees</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.parnupostimees.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#baltic_oã">
+    <foaf:givenName>Baltic</foaf:givenName>
+    <ner:lemma>baltic oã</ner:lemma>
+    <foaf:familyName>Oã</foaf:familyName>
+    <ner:lemma>Baltic OÃ</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.javest.ee/"/>
+    <foaf:name>Baltic Oã</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#maksim_serhovets">
+    <ner:lemma>maksim serhovets</ner:lemma>
+    <foaf:familyName>Serhovets</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:name>Maksim Serhovets</foaf:name>
+    <foaf:givenName>Maksim</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#franklin_fuelling">
+    <foaf:givenName>Franklin</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.tanklatehnika.ee/"/>
+    <foaf:familyName>Fuelling</foaf:familyName>
+    <foaf:name>Franklin Fuelling</foaf:name>
+    <ner:lemma>franklin fuelling</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tirestar_oã">
+    <ner:mentionedAtSite rdf:resource="https://www.rehvid24.ee/"/>
+    <foaf:familyName>Oã</foaf:familyName>
+    <ner:lemma>Tirestar OÃ</ner:lemma>
+    <foaf:name>Tirestar Oã</foaf:name>
+    <ner:lemma>tirestar oã</ner:lemma>
+    <foaf:givenName>Tirestar</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#jã¤relvalve_lãµke">
+    <foaf:name>Jã¤Relvalve Lãµke</foaf:name>
+    <ner:lemma>jã¤relvalve lãµke</ner:lemma>
+    <ner:lemma>jÃ¤relvalve lÃµke</ner:lemma>
+    <foaf:givenName>Jã¤Relvalve</foaf:givenName>
+    <foaf:familyName>Lãµke</foaf:familyName>
+    <ner:lemma>jÃ¤relvalveta lÃµke</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#vãµi_hã¤vinud">
+    <ner:lemma>vãµi hã¤vinud</ner:lemma>
+    <foaf:givenName>Vãµi</foaf:givenName>
+    <foaf:familyName>Hã¤Vinud</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.omdia.ee/"/>
+    <foaf:name>Vãµi Hã¤Vinud</foaf:name>
+    <ner:lemma>vÃµi hÃ¤vinud</ner:lemma>
+    <ner:lemma>vÃµi</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#en_garde">
+    <foaf:name>En Garde</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <ner:lemma>en garde</ner:lemma>
+    <foaf:givenName>En</foaf:givenName>
+    <foaf:familyName>Garde</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#jaanus_karilai">
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:familyName>Karilai</foaf:familyName>
+    <ner:lemma>Jaanus karilai</ner:lemma>
+    <foaf:name>Jaanus Karilai</foaf:name>
+    <ner:lemma>jaanus karilai</ner:lemma>
+    <foaf:givenName>Jaanus</foaf:givenName>
+    <ner:lemma>Jaanus Karilaiu</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ja_kodu">
+    <ner:mentionedAtSite rdf:resource="http://www.tuuljakodu.ee/"/>
+    <ner:lemma>ja kodu</ner:lemma>
+    <foaf:name>Ja Kodu</foaf:name>
+    <foaf:familyName>Kodu</foaf:familyName>
+    <ner:lemma>ja KODU</ner:lemma>
+    <foaf:givenName>Ja</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ez_deluxe">
+    <foaf:givenName>Ez</foaf:givenName>
+    <foaf:familyName>Deluxe</foaf:familyName>
+    <ner:lemma>ez deluxe</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.javest.ee/"/>
+    <foaf:name>Ez Deluxe</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ott_vallik…">
+    <ner:lemma>ott Vallik…</ner:lemma>
+    <ner:lemma>ott vallik…</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:name>Ott Vallik…</foaf:name>
+    <foaf:givenName>Ott</foaf:givenName>
+    <foaf:familyName>Vallik…</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#glaziergruen_metallic">
+    <foaf:name>Glaziergruen Metallic</foaf:name>
+    <ner:lemma>glaziergruen metallic</ner:lemma>
+    <foaf:givenName>Glaziergruen</foaf:givenName>
+    <foaf:familyName>Metallic</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#blue_sleepwell">
+    <ner:lemma>blue sleepwell</ner:lemma>
+    <ner:lemma>BLUE Sleepwell</ner:lemma>
+    <foaf:name>Blue Sleepwell</foaf:name>
+    <foaf:familyName>Sleepwell</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.pesa24.ee/"/>
+    <foaf:givenName>Blue</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tallinn">
+    <foaf:name>Tallinn</foaf:name>
+    <ner:lemma>tallinn</ner:lemma>
+    <ner:lemma>TALLINN</ner:lemma>
+    <ner:lemma>Tallinnas</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://statam.ee/"/>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#reis">
+    <ner:lemma>REISI</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.comtour.ee/"/>
+    <ner:lemma>reis</ner:lemma>
+    <ner:lemma>REIS</ner:lemma>
+    <foaf:name>Reis</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#pã¼rks">
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <ner:lemma>pã¼rks</ner:lemma>
+    <foaf:name>Pã¼Rks</foaf:name>
+    <ner:lemma>PÃ¼rksis</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#logi">
+    <foaf:name>Logi</foaf:name>
+    <ner:lemma>logi</ner:lemma>
+    <ner:lemma>LOGI</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tana_green">
+    <ner:mentionedAtSite rdf:resource="http://www.krausberg.ee/"/>
+    <foaf:givenName>Tana</foaf:givenName>
+    <ner:lemma>tana green</ner:lemma>
+    <foaf:familyName>Green</foaf:familyName>
+    <foaf:name>Tana Green</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ruslan_eskov">
+    <foaf:familyName>Eskov</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:givenName>Ruslan</foaf:givenName>
+    <foaf:name>Ruslan Eskov</foaf:name>
+    <ner:lemma>ruslan eskov</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#â©">
+    <ner:mentionedAtSite rdf:resource="http://www.tennoautokool.ee/"/>
+    <foaf:name>Â©</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.aksalis.ee/"/>
+    <ner:lemma>â©</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#taavo_tenno">
+    <ner:lemma>taavo tenno</ner:lemma>
+    <foaf:givenName>Taavo</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.tennoautokool.ee/"/>
+    <foaf:familyName>Tenno</foaf:familyName>
+    <foaf:name>Taavo Tenno</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#diivanilaud_industria">
+    <ner:lemma>Diivanilaud INDUSTRIAL</ner:lemma>
+    <foaf:familyName>Industria</foaf:familyName>
+    <ner:lemma>diivanilaud Industria</ner:lemma>
+    <foaf:givenName>Diivanilaud</foaf:givenName>
+    <ner:lemma>diivanilaud industria</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://aatrium.ee/"/>
+    <ner:lemma>diivanilaud</ner:lemma>
+    <foaf:name>Diivanilaud Industria</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#pidanudâvã¤ã¤rteo_ã¤hvardus">
+    <ner:lemma>pidanudâvã¤ã¤rteo ã¤hvardus</ner:lemma>
+    <foaf:name>Pidanudâvã¤Ã¤Rteo Ã¤Hvardus</foaf:name>
+    <foaf:givenName>Pidanudâvã¤Ã¤Rteo</foaf:givenName>
+    <ner:lemma>pidanudÂvÃ¤Ã¤rteo Ã¤hvardusel</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>pidanudÂvÃ¤Ã¤rteo</ner:lemma>
+    <ner:lemma>pidanudÂvÃ¤Ã¤rteo Ã¤hvardus</ner:lemma>
+    <foaf:familyName>Ã¤Hvardus</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#mariann_rood">
+    <ner:lemma>Mariann Roos</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:familyName>Rood</foaf:familyName>
+    <foaf:givenName>Mariann</foaf:givenName>
+    <ner:lemma>mariann rood</ner:lemma>
+    <foaf:name>Mariann Rood</foaf:name>
+    <ner:lemma>Mariann rood</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#jã¤rgmise">
+    <ner:lemma>jÃ¤rgmiselt</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <foaf:name>Jã¤Rgmise</foaf:name>
+    <ner:lemma>jã¤rgmise</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kremlin_award">
+    <foaf:familyName>Award</foaf:familyName>
+    <foaf:name>Kremlin Award</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://remedia.ee/"/>
+    <foaf:givenName>Kremlin</foaf:givenName>
+    <ner:lemma>kremlin award</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#top">
+    <ner:lemma>top</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.kaunis.ee/"/>
+    <ner:lemma>TOP</ner:lemma>
+    <foaf:name>Top</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#juta_sepp">
+    <ner:mentionedAtSite rdf:resource="http://www.tolge24.ee/"/>
+    <foaf:familyName>Sepp</foaf:familyName>
+    <ner:lemma>Juta sepp</ner:lemma>
+    <foaf:givenName>Juta</foaf:givenName>
+    <ner:lemma>juta sepp</ner:lemma>
+    <foaf:name>Juta Sepp</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#air_maintenance">
+    <foaf:givenName>Air</foaf:givenName>
+    <foaf:familyName>Maintenance</foaf:familyName>
+    <ner:lemma>air maintenance</ner:lemma>
+    <foaf:name>Air Maintenance</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.director.ee/meediateenused/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#hoidja">
+    <ner:lemma>hoidja</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://aatrium.ee/"/>
+    <ner:lemma>HOIDJA</ner:lemma>
+    <foaf:name>Hoidja</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#eduard_lebedev">
+    <foaf:familyName>Lebedev</foaf:familyName>
+    <foaf:name>Eduard Lebedev</foaf:name>
+    <foaf:givenName>Eduard</foaf:givenName>
+    <ner:lemma>eduard lebedev</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#staatus_jãµudnud">
+    <foaf:name>Staatus Jãµudnud</foaf:name>
+    <foaf:familyName>Jãµudnud</foaf:familyName>
+    <ner:lemma>staatus</ner:lemma>
+    <ner:lemma>staatus jãµudnud</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.entar.ee/"/>
+    <foaf:givenName>Staatus</foaf:givenName>
+    <ner:lemma>staatusesse jÃµudnud</ner:lemma>
+    <ner:lemma>staatus jÃµudnud</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#vennligst">
+    <ner:lemma>vennligst</ner:lemma>
+    <foaf:name>Vennligst</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.aksiaal.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#mã¤rt_miljan">
+    <ner:mentionedAtSite rdf:resource="http://www.newton.ee/"/>
+    <ner:lemma>MÃ¤rt Miljan</ner:lemma>
+    <foaf:familyName>Miljan</foaf:familyName>
+    <ner:lemma>mã¤rt miljan</ner:lemma>
+    <foaf:name>Mã¤Rt Miljan</foaf:name>
+    <foaf:givenName>Mã¤Rt</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tallinn-edinburgh-tallinn_lennupilet">
+    <foaf:name>Tallinn-Edinburgh-Tallinn Lennupilet</foaf:name>
+    <foaf:familyName>Lennupilet</foaf:familyName>
+    <ner:lemma>tallinn-edinburgh-tallinn lennupilet</ner:lemma>
+    <ner:lemma>Tallinn-Edinburgh-Tallinn lennupiletid</ner:lemma>
+    <ner:lemma>Tallinn-Edinburgh-Tallinn lennupilet</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.comtour.ee/"/>
+    <foaf:givenName>Tallinn-Edinburgh-Tallinn</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kãï¿½sige_hind">
+    <ner:lemma>KÃï¿½SIGE hind</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://a-autokile.ee/"/>
+    <foaf:givenName>KãÏ¿½Sige</foaf:givenName>
+    <foaf:name>KãÏ¿½Sige Hind</foaf:name>
+    <foaf:familyName>Hind</foaf:familyName>
+    <ner:lemma>KÃï¿½SIGE</ner:lemma>
+    <ner:lemma>KÃï¿½SIGE HINDA</ner:lemma>
+    <ner:lemma>kãï¿½sige hind</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#pille_boiko">
+    <foaf:familyName>Boiko</foaf:familyName>
+    <foaf:givenName>Pille</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.newton.ee/"/>
+    <foaf:name>Pille Boiko</foaf:name>
+    <ner:lemma>pille boiko</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ã¼ksne">
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>ã¼ksne</ner:lemma>
+    <foaf:name>Ã¼Ksne</foaf:name>
+    <ner:lemma>Ã¼ksnes</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#valimispeo_tallinn">
+    <ner:lemma>valimispeo tallinn</ner:lemma>
+    <ner:lemma>valimispeo Tallinn</ner:lemma>
+    <foaf:givenName>Valimispeo</foaf:givenName>
+    <foaf:familyName>Tallinn</foaf:familyName>
+    <ner:lemma>Valimispeod Tallinnas</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:name>Valimispeo Tallinn</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#fb">
+    <ner:lemma>FB</ner:lemma>
+    <foaf:name>Fb</foaf:name>
+    <ner:lemma>fb</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.newton.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#jumper">
+    <ner:lemma>JUMPER</ner:lemma>
+    <foaf:name>Jumper</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://aatrium.ee/"/>
+    <ner:lemma>jumper</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#macbook_air">
+    <foaf:familyName>Air</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.dreamline.ee/"/>
+    <ner:lemma>macbook air</ner:lemma>
+    <ner:lemma>MacBook Air</ner:lemma>
+    <foaf:name>Macbook Air</foaf:name>
+    <foaf:givenName>Macbook</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#vãµi_korstnapã¼hkija">
+    <foaf:givenName>Vãµi</foaf:givenName>
+    <ner:lemma>vÃµi korstnapÃ¼hkija</ner:lemma>
+    <ner:lemma>vãµi korstnapã¼hkija</ner:lemma>
+    <foaf:familyName>Korstnapã¼Hkija</foaf:familyName>
+    <foaf:name>Vãµi Korstnapã¼Hkija</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.potipoiss.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ñð°ð¹ñð°">
+    <ner:lemma>ñð°ð¹ñð°</ner:lemma>
+    <foaf:name>ÑÐ°Ð¹ÑÐ°</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.kohimo.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ak_rest">
+    <ner:lemma>ak rest</ner:lemma>
+    <ner:lemma>AK Restid</ner:lemma>
+    <foaf:name>Ak Rest</foaf:name>
+    <foaf:givenName>Ak</foaf:givenName>
+    <ner:lemma>AK rest</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.akrestid.ee/"/>
+    <foaf:familyName>Rest</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#embrich">
+    <ner:lemma>embrich</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:name>Embrich</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#heino_tamm">
+    <ner:lemma>heino tamm</ner:lemma>
+    <foaf:givenName>Heino</foaf:givenName>
+    <ner:lemma>Heino tamm</ner:lemma>
+    <foaf:name>Heino Tamm</foaf:name>
+    <foaf:familyName>Tamm</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#titansilber_met">
+    <foaf:givenName>Titansilber</foaf:givenName>
+    <ner:lemma>titansilber met</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+    <foaf:name>Titansilber Met</foaf:name>
+    <foaf:familyName>Met</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#1000">
+    <foaf:name>1000</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.abcom.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#alune">
+    <foaf:name>Alune</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://aatrium.ee/"/>
+    <ner:lemma>ALUSED</ner:lemma>
+    <ner:lemma>alune</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#main_menu">
+    <ner:lemma>Main menu</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.acr.ee/"/>
+    <foaf:familyName>Menu</foaf:familyName>
+    <ner:lemma>main menu</ner:lemma>
+    <foaf:name>Main Menu</foaf:name>
+    <foaf:givenName>Main</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#©_hibicu">
+    <foaf:givenName>©</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.hibicus.ee/"/>
+    <ner:lemma>© hibicu</ner:lemma>
+    <foaf:familyName>Hibicu</foaf:familyName>
+    <ner:lemma>© Hibicus</ner:lemma>
+    <foaf:name>© Hibicu</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#â_â">
+    <foaf:givenName>Â</foaf:givenName>
+    <foaf:familyName>Â</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.allecto.ee/"/>
+    <ner:lemma>â â</ner:lemma>
+    <foaf:name>Â Â</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kristiina_seiton">
+    <foaf:familyName>Seiton</foaf:familyName>
+    <foaf:givenName>Kristiina</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:name>Kristiina Seiton</foaf:name>
+    <ner:lemma>kristiina seiton</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#vãµi_â">
+    <foaf:name>Vãµi Â</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.saueautoklubi.ee/"/>
+    <ner:lemma>vãµi â</ner:lemma>
+    <ner:lemma>vÃµi Â</ner:lemma>
+    <foaf:givenName>Vãµi</foaf:givenName>
+    <foaf:familyName>Â</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#â">
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <foaf:name>Â</foaf:name>
+    <ner:lemma>â</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#köln_mainsini">
+    <foaf:givenName>Köln</foaf:givenName>
+    <foaf:name>Köln Mainsini</foaf:name>
+    <ner:lemma>köln mainsini</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.comtour.ee/"/>
+    <ner:lemma>Kölnist Mainsini</ner:lemma>
+    <foaf:familyName>Mainsini</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#näitus_fespa">
+    <foaf:familyName>Fespa</foaf:familyName>
+    <ner:lemma>näitus Fespa</ner:lemma>
+    <ner:lemma>näitus fespa</ner:lemma>
+    <foaf:givenName>Näitus</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.abcom.ee/"/>
+    <foaf:name>Näitus Fespa</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#rada_haapsalu">
+    <foaf:name>Rada Haapsalu</foaf:name>
+    <ner:lemma>rada Haapsalu</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <ner:lemma>rada haapsalu</ner:lemma>
+    <foaf:givenName>Rada</foaf:givenName>
+    <foaf:familyName>Haapsalu</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#titansilber_m">
+    <foaf:givenName>Titansilber</foaf:givenName>
+    <foaf:familyName>M</foaf:familyName>
+    <foaf:name>Titansilber M</foaf:name>
+    <ner:lemma>titansilber m</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#coretex">
+    <ner:lemma>coretex</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.tuuljakodu.ee/"/>
+    <ner:lemma>CORETEX</ner:lemma>
+    <foaf:name>Coretex</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#reng_ð¾ð±ð½ð¾ð²ð¸ð»ññ">
+    <ner:lemma>reng ð¾ð±ð½ð¾ð²ð¸ð»ññ</ner:lemma>
+    <foaf:givenName>Reng</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.aksiaal.ee/"/>
+    <foaf:familyName>Ð¾Ð±Ð½Ð¾Ð²Ð¸Ð»ÑÑ</foaf:familyName>
+    <foaf:name>Reng Ð¾Ð±Ð½Ð¾Ð²Ð¸Ð»ÑÑ</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#â_suund">
+    <ner:lemma>â suund</ner:lemma>
+    <ner:lemma>â suunaga</ner:lemma>
+    <foaf:givenName>Â</foaf:givenName>
+    <foaf:familyName>Suund</foaf:familyName>
+    <foaf:name>Â Suund</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://eera.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#mã¤rge_âtã¤htajatuâ">
+    <ner:lemma>âtÃ¤htajatuâ</ner:lemma>
+    <foaf:name>Mã¤Rge ÂTã¤Htajatuâ</foaf:name>
+    <ner:lemma>mã¤rge âtã¤htajatuâ</ner:lemma>
+    <foaf:familyName>ÂTã¤Htajatuâ</foaf:familyName>
+    <foaf:givenName>Mã¤Rge</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>mÃ¤rge âtÃ¤htajatuâ</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#andra_talen">
+    <ner:lemma>andra talen</ner:lemma>
+    <foaf:givenName>Andra</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:familyName>Talen</foaf:familyName>
+    <foaf:name>Andra Talen</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#stanislav">
+    <ner:mentionedAtSite rdf:resource="http://statam.ee/"/>
+    <ner:lemma>stanislav</ner:lemma>
+    <foaf:name>Stanislav</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tã¤he">
+    <ner:mentionedAtSite rdf:resource="http://www.entar.ee/"/>
+    <foaf:name>Tã¤He</foaf:name>
+    <ner:lemma>tã¤he</ner:lemma>
+    <ner:lemma>TÃ¤he</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#sã-ã-gitoa_tool">
+    <ner:lemma>SÃÃGITOA TOOLID</ner:lemma>
+    <foaf:name>Sã-Ã-Gitoa Tool</foaf:name>
+    <ner:lemma>sã-ã-gitoa tool</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://aatrium.ee/"/>
+    <ner:lemma>SÃ-Ã-Gitoa tool</ner:lemma>
+    <foaf:familyName>Tool</foaf:familyName>
+    <foaf:givenName>Sã-Ã-Gitoa</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#sten_priinits">
+    <ner:lemma>sten priinits</ner:lemma>
+    <foaf:familyName>Priinits</foaf:familyName>
+    <foaf:name>Sten Priinits</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:givenName>Sten</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#triin_lepp">
+    <foaf:familyName>Lepp</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:givenName>Triin</foaf:givenName>
+    <ner:lemma>triin lepp</ner:lemma>
+    <foaf:name>Triin Lepp</foaf:name>
+    <ner:lemma>Triin lepp</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#erik_simin">
+    <foaf:familyName>Simin</foaf:familyName>
+    <ner:lemma>erik simin</ner:lemma>
+    <foaf:givenName>Erik</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:name>Erik Simin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#reisibüroo">
+    <foaf:name>Reisibüroo</foaf:name>
+    <ner:lemma>reisibüroo</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.comtour.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#andmed_juurdepã¤ã¤su">
+    <foaf:familyName>Juurdepã¤Ã¤Su</foaf:familyName>
+    <foaf:givenName>Andmed</foaf:givenName>
+    <ner:lemma>andmetele juurdepÃ¤Ã¤su</ner:lemma>
+    <ner:lemma>andmed juurdepã¤ã¤su</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <foaf:name>Andmed Juurdepã¤Ã¤Su</foaf:name>
+    <ner:lemma>andmed juurdepÃ¤Ã¤su</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#feature_">
+    <foaf:name>Feature </foaf:name>
+    <ner:lemma>feature </ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.nakmansat.ee/"/>
+    <ner:lemma>features= "</ner:lemma>
+    <foaf:givenName>Feature</foaf:givenName>
+    <ner:lemma>feature</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#modera_consuting">
+    <ner:lemma>modera consuting</ner:lemma>
+    <foaf:name>Modera Consuting</foaf:name>
+    <foaf:familyName>Consuting</foaf:familyName>
+    <foaf:givenName>Modera</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.12tooli.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#free_software">
+    <foaf:givenName>Free</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.tevia.ee/"/>
+    <foaf:familyName>Software</foaf:familyName>
+    <ner:lemma>free software</ner:lemma>
+    <foaf:name>Free Software</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#albert_einstein">
+    <foaf:givenName>Albert</foaf:givenName>
+    <foaf:name>Albert Einstein</foaf:name>
+    <ner:lemma>albert einstein</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.presenter.ee/"/>
+    <foaf:familyName>Einstein</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#andrus_ansip">
+    <foaf:familyName>Ansip</foaf:familyName>
+    <foaf:name>Andrus Ansip</foaf:name>
+    <ner:lemma>andrus ansip</ner:lemma>
+    <foaf:givenName>Andrus</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ã¼hise">
+    <ner:lemma>Ã¼hiselt</ner:lemma>
+    <foaf:name>Ã¼Hise</foaf:name>
+    <ner:lemma>ã¼hise</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tiit_jaak">
+    <foaf:name>Tiit Jaak</foaf:name>
+    <ner:lemma>Tiit jaak</ner:lemma>
+    <foaf:givenName>Tiit</foaf:givenName>
+    <ner:lemma>tiit jaak</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.korstnamees.ee/index.php?id=3"/>
+    <ner:lemma>Tiit Jaagu</ner:lemma>
+    <foaf:familyName>Jaak</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#minna">
+    <ner:lemma>MINNA</ner:lemma>
+    <foaf:name>Minna</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <ner:lemma>minna</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#maroli_teenus">
+    <ner:lemma>maroli teenus</ner:lemma>
+    <ner:lemma>Maroli Teenused</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.javest.ee/"/>
+    <ner:lemma>Maroli teenus</ner:lemma>
+    <foaf:familyName>Teenus</foaf:familyName>
+    <foaf:name>Maroli Teenus</foaf:name>
+    <foaf:givenName>Maroli</foaf:givenName>
+    <ner:lemma>teenus</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tãµlge">
+    <foaf:name>Tãµlge</foaf:name>
+    <ner:lemma>tãµlge</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.tolge24.ee/"/>
+    <ner:lemma>TÃµlge</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#by_admin">
+    <foaf:name>By Admin</foaf:name>
+    <foaf:givenName>By</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.rantell.ee/"/>
+    <ner:lemma>by admin</ner:lemma>
+    <foaf:familyName>Admin</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#jaanus_karilaid">
+    <ner:lemma>jaanus karilaid</ner:lemma>
+    <foaf:familyName>Karilaid</foaf:familyName>
+    <foaf:name>Jaanus Karilaid</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <ner:lemma>Jaanus karilaid</ner:lemma>
+    <foaf:givenName>Jaanus</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#hannes_hanso">
+    <ner:lemma>hannes hanso</ner:lemma>
+    <foaf:givenName>Hannes</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:familyName>Hanso</foaf:familyName>
+    <foaf:name>Hannes Hanso</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#mupo">
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <foaf:name>Mupo</foaf:name>
+    <ner:lemma>mupo</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#simo_sulev">
+    <foaf:name>Simo Sulev</foaf:name>
+    <foaf:familyName>Sulev</foaf:familyName>
+    <ner:lemma>simo sulev</ner:lemma>
+    <foaf:givenName>Simo</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.newton.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ã¼ldjuhu">
+    <foaf:name>Ã¼Ldjuhu</foaf:name>
+    <ner:lemma>ã¼ldjuhu</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>Ã¼ldjuhul</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#_korfu">
+    <foaf:familyName>Korfu</foaf:familyName>
+    <ner:lemma> korfu</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.asaptravel.ee/"/>
+    <foaf:name> Korfu</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#oã_i">
+    <ner:lemma>oã i</ner:lemma>
+    <ner:lemma>OÃ I</ner:lemma>
+    <foaf:givenName>Oã</foaf:givenName>
+    <foaf:name>Oã I</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.rodoor.ee/"/>
+    <foaf:familyName>I</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#figaro_pulm">
+    <foaf:familyName>Pulm</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.comtour.ee/"/>
+    <ner:lemma>figaro pulm</ner:lemma>
+    <foaf:givenName>Figaro</foaf:givenName>
+    <ner:lemma>Figaro pulm</ner:lemma>
+    <foaf:name>Figaro Pulm</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#parfüüm">
+    <ner:lemma>parfüüm</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.novarfm.ee/"/>
+    <ner:lemma>Parfüümid</ner:lemma>
+    <foaf:name>Parfüüm</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tuul">
+    <foaf:name>Tuul</foaf:name>
+    <ner:lemma>TUUL</ner:lemma>
+    <ner:lemma>tuul</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.tuuljakodu.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#2000">
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+    <foaf:name>2000</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#margus_lektå¡ilin">
+    <foaf:familyName>Lektå¡Ilin</foaf:familyName>
+    <ner:lemma>Margus LektÅ¡ilin</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.tennoautokool.ee/"/>
+    <ner:lemma>margus lektå¡ilin</ner:lemma>
+    <foaf:givenName>Margus</foaf:givenName>
+    <foaf:name>Margus Lektå¡Ilin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tallinn-düsseldorg-tallinn_lennupilet">
+    <ner:lemma>Tallinn-Düsseldorg-Tallinn lennupiletid</ner:lemma>
+    <foaf:familyName>Lennupilet</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.comtour.ee/"/>
+    <foaf:name>Tallinn-Düsseldorg-Tallinn Lennupilet</foaf:name>
+    <foaf:givenName>Tallinn-Düsseldorg-Tallinn</foaf:givenName>
+    <ner:lemma>Tallinn-Düsseldorg-Tallinn lennupilet</ner:lemma>
+    <ner:lemma>tallinn-düsseldorg-tallinn lennupilet</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ãµdusai">
+    <ner:mentionedAtSite rdf:resource="http://www.rantell.ee/"/>
+    <foaf:name>Ãµdusai</foaf:name>
+    <ner:lemma>Ãµdusaid</ner:lemma>
+    <ner:lemma>ãµdusai</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tulema_inseneribã¼roo">
+    <foaf:name>Tulema Inseneribã¼Roo</foaf:name>
+    <ner:lemma>tulema InseneribÃ¼roo</ner:lemma>
+    <ner:lemma>tulema inseneribã¼roo</ner:lemma>
+    <foaf:givenName>Tulema</foaf:givenName>
+    <foaf:familyName>Inseneribã¼Roo</foaf:familyName>
+    <ner:lemma>tulemast InseneribÃ¼roo</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.aksiaal.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#pã¤rnumaa">
+    <ner:lemma>PÃ¤rnumaa</ner:lemma>
+    <foaf:name>Pã¤Rnumaa</foaf:name>
+    <ner:lemma>pã¤rnumaa</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.tuuljakodu.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#â_nã¤ite">
+    <ner:lemma>Â NÃ¤iteks</ner:lemma>
+    <foaf:name>Â Nã¤Ite</foaf:name>
+    <foaf:familyName>Nã¤Ite</foaf:familyName>
+    <ner:lemma>â nã¤ite</ner:lemma>
+    <ner:lemma>Â NÃ¤ite</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <foaf:givenName>Â</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#apple_kampaania">
+    <ner:lemma>Apple KAMPAANIA</ner:lemma>
+    <ner:lemma>apple kampaania</ner:lemma>
+    <foaf:givenName>Apple</foaf:givenName>
+    <ner:lemma>Apple kampaania</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.dreamline.ee/"/>
+    <foaf:name>Apple Kampaania</foaf:name>
+    <foaf:familyName>Kampaania</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#pis_funk">
+    <foaf:name>Pis Funk</foaf:name>
+    <foaf:givenName>Pis</foaf:givenName>
+    <ner:lemma>Pisi FUNK</ner:lemma>
+    <ner:lemma>pis funk</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.hobekivi.ee/"/>
+    <ner:lemma>Pis funk</ner:lemma>
+    <ner:lemma>funk</ner:lemma>
+    <foaf:familyName>Funk</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tãµnu_parbu">
+    <foaf:givenName>Tãµnu</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <ner:lemma>TÃµnu Parbus</ner:lemma>
+    <ner:lemma>TÃµnu Parbu</ner:lemma>
+    <foaf:familyName>Parbu</foaf:familyName>
+    <foaf:name>Tãµnu Parbu</foaf:name>
+    <ner:lemma>TÃµnu</ner:lemma>
+    <ner:lemma>tãµnu parbu</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#toivo_tominga">
+    <ner:lemma>Toivo Tomingas</ner:lemma>
+    <ner:lemma>toivo tominga</ner:lemma>
+    <foaf:familyName>Tominga</foaf:familyName>
+    <foaf:name>Toivo Tominga</foaf:name>
+    <foaf:givenName>Toivo</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#bc_ribi">
+    <foaf:givenName>Bc</foaf:givenName>
+    <ner:lemma>BC Ribi</ner:lemma>
+    <foaf:familyName>Ribi</foaf:familyName>
+    <foaf:name>Bc Ribi</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <ner:lemma>BC ribi</ner:lemma>
+    <ner:lemma>bc ribi</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#erika_kirp">
+    <ner:lemma>Erika kirp</ner:lemma>
+    <foaf:familyName>Kirp</foaf:familyName>
+    <ner:lemma>erika kirp</ner:lemma>
+    <foaf:givenName>Erika</foaf:givenName>
+    <foaf:name>Erika Kirp</foaf:name>
+    <ner:lemma>Erika Kirpu</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ð³ð¸ð±ðºð°_ð»ð¸ññð¾ð²ññð·ð°ð³ð¾ñð¾ð²ð¾ðº">
+    <foaf:name>Ð³Ð¸Ð±Ðºð° Ð»Ð¸ÑÑÐ¾Ð²ÑÑð·Ð°Ð³Ð¾ÑÐ¾Ð²Ð¾Ðº</foaf:name>
+    <ner:lemma>Ð³Ð¸Ð±ÐºÐ° Ð»Ð¸ÑÑÐ¾Ð²ÑÑÐ·Ð°Ð³Ð¾ÑÐ¾Ð²Ð¾Ðº</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.kohimo.ee/"/>
+    <ner:lemma>ð³ð¸ð±ðºð° ð»ð¸ññð¾ð²ññð·ð°ð³ð¾ñð¾ð²ð¾ðº</ner:lemma>
+    <foaf:givenName>Ð³Ð¸Ð±Ðºð°</foaf:givenName>
+    <foaf:familyName>Ð»Ð¸ÑÑÐ¾Ð²ÑÑð·Ð°Ð³Ð¾ÑÐ¾Ð²Ð¾Ðº</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#320d_man">
+    <ner:lemma>320d man</ner:lemma>
+    <foaf:familyName>Man</foaf:familyName>
+    <ner:lemma>320d Man</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+    <ner:lemma>320d MAN</ner:lemma>
+    <foaf:name>320D Man</foaf:name>
+    <foaf:givenName>320D</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#of_see">
+    <ner:lemma>of</ner:lemma>
+    <foaf:name>Of See</foaf:name>
+    <ner:lemma>of Seed</ner:lemma>
+    <ner:lemma>of see</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.presenter.ee/"/>
+    <ner:lemma>of See</ner:lemma>
+    <foaf:givenName>Of</foaf:givenName>
+    <foaf:familyName>See</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#nicole_armon">
+    <foaf:givenName>Nicole</foaf:givenName>
+    <foaf:name>Nicole Armon</foaf:name>
+    <foaf:familyName>Armon</foaf:familyName>
+    <ner:lemma>nicole armon</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ãhistranspordiseadus">
+    <ner:lemma>Ãhistranspordiseaduse</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>ãhistranspordiseadus</ner:lemma>
+    <ner:lemma>Ãhistranspordiseadusest</ner:lemma>
+    <foaf:name>ÃHistranspordiseadus</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#hardy_konjakimaja">
+    <foaf:name>Hardy Konjakimaja</foaf:name>
+    <foaf:givenName>Hardy</foaf:givenName>
+    <ner:lemma>Hardy konjakimaja</ner:lemma>
+    <foaf:familyName>Konjakimaja</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://remedia.ee/"/>
+    <ner:lemma>hardy konjakimaja</ner:lemma>
+  </foaf:Person>
+  <owl:Class rdf:about="http://www.estnernet.ee/nerdatanet/organizations#Organization">
+    <rdfs:label>organization class</rdfs:label>
+    <rdfs:comment>Class for organizations extracted from web pages' contents by estNer.</rdfs:comment>
+  </owl:Class>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#zinaida_smãµtskova">
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <ner:lemma>zinaida smãµtskova</ner:lemma>
+    <foaf:familyName>Smãµtskova</foaf:familyName>
+    <foaf:givenName>Zinaida</foaf:givenName>
+    <foaf:name>Zinaida Smãµtskova</foaf:name>
+    <ner:lemma>Zinaida SmÃµtskova</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#zhiguli">
+    <foaf:name>Zhiguli</foaf:name>
+    <ner:lemma>zhiguli</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.entar.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#jã¼r_salm">
+    <ner:lemma>jã¼r salm</ner:lemma>
+    <foaf:givenName>Jã¼R</foaf:givenName>
+    <ner:lemma>salm</ner:lemma>
+    <foaf:familyName>Salm</foaf:familyName>
+    <foaf:name>Jã¼R Salm</foaf:name>
+    <ner:lemma>JÃ¼ri Salm</ner:lemma>
+    <ner:lemma>JÃ¼r salm</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#jupiter_hypno">
+    <foaf:name>Jupiter Hypno</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.pesa24.ee/"/>
+    <foaf:givenName>Jupiter</foaf:givenName>
+    <ner:lemma>jupiter</ner:lemma>
+    <ner:lemma>jupiter hypno</ner:lemma>
+    <foaf:familyName>Hypno</foaf:familyName>
+    <ner:lemma>jupiter Hypno</ner:lemma>
+    <ner:lemma>Jupiter Hypnos</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#liiklusãµpetaja">
+    <ner:lemma>liiklusãµpetaja</ner:lemma>
+    <foaf:name>Liiklusãµpetaja</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.tennoautokool.ee/"/>
+    <ner:lemma>LiiklusÃµpetaja</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#pisi_vannituba">
+    <foaf:givenName>Pisi</foaf:givenName>
+    <ner:lemma>pisi vannituba</ner:lemma>
+    <foaf:name>Pisi Vannituba</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://aatrium.ee/"/>
+    <ner:lemma>PISI VANNITUBA</ner:lemma>
+    <foaf:familyName>Vannituba</foaf:familyName>
+    <ner:lemma>PISI vannituba</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#smith_ilm_wessoni">
+    <foaf:name>Smith Ilm Wessoni</foaf:name>
+    <ner:lemma>Smith ilm</ner:lemma>
+    <foaf:familyName>Wessoni</foaf:familyName>
+    <ner:lemma>Smith ilma Wessoni</ner:lemma>
+    <foaf:givenName>Smith Ilm</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.newton.ee/"/>
+    <ner:lemma>Smith ilm Wessoni</ner:lemma>
+    <ner:lemma>Smith Wessoni</ner:lemma>
+    <ner:lemma>Smith</ner:lemma>
+    <ner:lemma>smith ilm wessoni</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#vãµi_nã¤itu">
+    <ner:lemma>vãµi nã¤itu</ner:lemma>
+    <ner:lemma>vÃµi nÃ¤itu</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <foaf:familyName>Nã¤Itu</foaf:familyName>
+    <ner:lemma>vÃµi</ner:lemma>
+    <foaf:givenName>Vãµi</foaf:givenName>
+    <foaf:name>Vãµi Nã¤Itu</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ð½ð°">
+    <ner:lemma>ð½ð°</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.lastetuba.ee/"/>
+    <foaf:name>Ð½Ð°</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#lightgelb_metallic">
+    <ner:lemma>lightgelb metallic</ner:lemma>
+    <foaf:familyName>Metallic</foaf:familyName>
+    <foaf:givenName>Lightgelb</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+    <foaf:name>Lightgelb Metallic</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ã¼mber">
+    <ner:mentionedAtSite rdf:resource="http://www.phpalmse.ee/"/>
+    <ner:lemma>Ã¼mber</ner:lemma>
+    <ner:lemma>ã¼mber</ner:lemma>
+    <foaf:name>Ã¼Mber</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#aphrodite_hypno">
+    <foaf:givenName>Aphrodite</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.pesa24.ee/"/>
+    <foaf:familyName>Hypno</foaf:familyName>
+    <ner:lemma>APHRODITE Hypnos</ner:lemma>
+    <ner:lemma>aphrodite hypno</ner:lemma>
+    <foaf:name>Aphrodite Hypno</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ja_kov">
+    <foaf:name>Ja Kov</foaf:name>
+    <ner:lemma>ja KOV</ner:lemma>
+    <foaf:givenName>Ja</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <foaf:familyName>Kov</foaf:familyName>
+    <ner:lemma>ja kov</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#andrus_karnau">
+    <foaf:givenName>Andrus</foaf:givenName>
+    <ner:lemma>Andrus karnau</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:familyName>Karnau</foaf:familyName>
+    <foaf:name>Andrus Karnau</foaf:name>
+    <ner:lemma>andrus karnau</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ñð¾ññð’ñ">
+    <foaf:name>ÑÐ¾ÑÑÐ’Ñ</foaf:name>
+    <ner:lemma>ÑÐ¾ÑÑÐ´Ñ</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.kohimo.ee/"/>
+    <ner:lemma>ñð¾ññð’ñ</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#multilingua_wordpress">
+    <foaf:givenName>Multilingua</foaf:givenName>
+    <ner:lemma>multilingua wordpress</ner:lemma>
+    <foaf:familyName>Wordpress</foaf:familyName>
+    <ner:lemma>Multilingual WordPress</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.javest.ee/"/>
+    <foaf:name>Multilingua Wordpress</foaf:name>
+  </foaf:Person>
+  <owl:Class rdf:about="http://www.estnernet.ee/nerdatanet/locations#Location">
+    <rdfs:label>location class</rdfs:label>
+    <rdfs:comment>Class for locations extracted from web pages' contents by estNer.</rdfs:comment>
+  </owl:Class>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#majanduskomisjon_esimees">
+    <foaf:familyName>Esimees</foaf:familyName>
+    <ner:lemma>majanduskomisjon esimees</ner:lemma>
+    <foaf:givenName>Majanduskomisjon</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>Majanduskomisjoni esimees</ner:lemma>
+    <foaf:name>Majanduskomisjon Esimees</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#vã¤ndra_vald">
+    <ner:lemma>VÃ¤ndra vald</ner:lemma>
+    <foaf:name>Vã¤Ndra Vald</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.tuuljakodu.ee/"/>
+    <foaf:familyName>Vald</foaf:familyName>
+    <foaf:givenName>Vã¤Ndra</foaf:givenName>
+    <ner:lemma>vã¤ndra vald</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#omaraamat">
+    <ner:mentionedAtSite rdf:resource="http://www.abcom.ee/"/>
+    <ner:lemma>omaraamat</ner:lemma>
+    <foaf:name>Omaraamat</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kãµige">
+    <ner:lemma>kãµige</ner:lemma>
+    <ner:lemma>KÃµige</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.solaarium.ee/"/>
+    <foaf:name>Kãµige</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#sapphire_met">
+    <ner:lemma>sapphire met</ner:lemma>
+    <foaf:name>Sapphire Met</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+    <foaf:givenName>Sapphire</foaf:givenName>
+    <foaf:familyName>Met</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#heiki_kalberg">
+    <foaf:givenName>Heiki</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.artes.ee/ee/"/>
+    <foaf:name>Heiki Kalberg</foaf:name>
+    <ner:lemma>heiki kalberg</ner:lemma>
+    <foaf:familyName>Kalberg</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#sãµitja_ãµigus">
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>SÃµitjal Ãµigused</ner:lemma>
+    <ner:lemma>sãµitja ãµigus</ner:lemma>
+    <foaf:givenName>Sãµitja</foaf:givenName>
+    <foaf:name>Sãµitja Ãµigus</foaf:name>
+    <foaf:familyName>Ãµigus</foaf:familyName>
+    <ner:lemma>SÃµitja Ãµigus</ner:lemma>
+    <ner:lemma>SÃµitja</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#tulema">
+    <ner:lemma>tulema</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://europe.ee/"/>
+    <foaf:name>Tulema</foaf:name>
+    <ner:lemma>TULEMAST</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kaamos_ehitud">
+    <ner:lemma>kaamos</ner:lemma>
+    <ner:lemma>kaamos ehitud</ner:lemma>
+    <foaf:familyName>Ehitud</foaf:familyName>
+    <ner:mentionedAtSite rdf:resource="http://www.tolge24.ee/"/>
+    <foaf:givenName>Kaamos</foaf:givenName>
+    <foaf:name>Kaamos Ehitud</foaf:name>
+    <ner:lemma>Kaamos Ehitus</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#raad_valdharjumaa">
+    <ner:mentionedAtSite rdf:resource="http://artonis.ee/"/>
+    <foaf:name>Raad Valdharjumaa</foaf:name>
+    <foaf:familyName>Valdharjumaa</foaf:familyName>
+    <ner:lemma>raad</ner:lemma>
+    <foaf:givenName>Raad</foaf:givenName>
+    <ner:lemma>Rae ValdHarjumaa</ner:lemma>
+    <ner:lemma>raad valdharjumaa</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#virelton">
+    <foaf:name>Virelton</foaf:name>
+    <ner:lemma>virelton</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://new2.virelton.ee/index.php?lang=ru"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ja_sãµitja">
+    <foaf:givenName>Ja</foaf:givenName>
+    <foaf:name>Ja Sãµitja</foaf:name>
+    <ner:lemma>ja sÃµitja</ner:lemma>
+    <ner:lemma>ja sãµitja</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <foaf:familyName>Sãµitja</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#toimunud">
+    <ner:lemma>TOIMUNUD</ner:lemma>
+    <foaf:name>Toimunud</foaf:name>
+    <ner:lemma>toimunud</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.entar.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#omniva">
+    <ner:lemma>omniva</ner:lemma>
+    <foaf:name>Omniva</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ã¼ldse">
+    <ner:lemma>Ã¼ldse</ner:lemma>
+    <foaf:name>Ã¼Ldse</foaf:name>
+    <ner:lemma>ã¼ldse</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#gnu/gpl">
+    <ner:lemma>gnu/gpl</ner:lemma>
+    <foaf:name>Gnu/Gpl</foaf:name>
+    <ner:lemma>GNU/GPL</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.tevia.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#statam">
+    <foaf:name>Statam</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://statam.ee/"/>
+    <ner:lemma>statam</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ãµigu_kovâkehtestada">
+    <ner:lemma>ãµigu kovâkehtestada</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+    <ner:lemma>KOVÂkehtestada</ner:lemma>
+    <ner:lemma>Ãµigu KOVÂkehtestada</ner:lemma>
+    <foaf:familyName>Kovâkehtestada</foaf:familyName>
+    <ner:lemma>Ãµigus KOVÂkehtestada</ner:lemma>
+    <foaf:name>Ãµigu Kovâkehtestada</foaf:name>
+    <foaf:givenName>Ãµigu</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#reng">
+    <foaf:name>Reng</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.aksiaal.ee/"/>
+    <ner:lemma>reng</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#with">
+    <ner:mentionedAtSite rdf:resource="http://eesti.jux.ee/"/>
+    <foaf:name>With</foaf:name>
+    <ner:lemma>with</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#stanislav_cherepanov">
+    <ner:mentionedAtSite rdf:resource="http://statam.ee/"/>
+    <ner:lemma>stanislav cherepanov</ner:lemma>
+    <foaf:familyName>Cherepanov</foaf:familyName>
+    <foaf:name>Stanislav Cherepanov</foaf:name>
+    <foaf:givenName>Stanislav</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#schiefergruen_metallic">
+    <foaf:familyName>Metallic</foaf:familyName>
+    <foaf:givenName>Schiefergruen</foaf:givenName>
+    <ner:lemma>schiefergruen metallic</ner:lemma>
+    <foaf:name>Schiefergruen Metallic</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#valgusfoorivã¤rve">
+    <foaf:name>Valgusfoorivã¤Rve</foaf:name>
+    <ner:lemma>valgusfoorivÃ¤rve</ner:lemma>
+    <ner:lemma>valgusfoorivã¤rve</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kã¼ttesã¼steem">
+    <ner:lemma>KÃ¼ttesÃ¼steemi</ner:lemma>
+    <foaf:name>Kã¼Ttesã¼Steem</foaf:name>
+    <ner:lemma>kã¼ttesã¼steem</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.potipoiss.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kattemadrats_luna">
+    <foaf:name>Kattemadrats Luna</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.pesa24.ee/"/>
+    <ner:lemma>kattemadrats luna</ner:lemma>
+    <foaf:givenName>Kattemadrats</foaf:givenName>
+    <foaf:familyName>Luna</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#green_teadma">
+    <ner:lemma>Green teadma</ner:lemma>
+    <ner:lemma>green teadma</ner:lemma>
+    <ner:lemma>Green Tea</ner:lemma>
+    <foaf:givenName>Green</foaf:givenName>
+    <foaf:name>Green Teadma</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.kaunis.ee/"/>
+    <foaf:familyName>Teadma</foaf:familyName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#black_sapphire_met">
+    <ner:mentionedAtSite rdf:resource="http://www.bmwlammutus.ee/"/>
+    <foaf:givenName>Black Sapphire</foaf:givenName>
+    <foaf:familyName>Met</foaf:familyName>
+    <ner:lemma>black sapphire met</ner:lemma>
+    <foaf:name>Black Sapphire Met</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#andå¾ej_gedzo">
+    <foaf:name>Andå¾Ej Gedzo</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.vehklemine.ee/"/>
+    <foaf:familyName>Gedzo</foaf:familyName>
+    <ner:lemma>andå¾ej gedzo</ner:lemma>
+    <ner:lemma>AndÅ¾ej Gedzo</ner:lemma>
+    <foaf:givenName>Andå¾Ej</foaf:givenName>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#liiv">
+    <foaf:name>Liiv</foaf:name>
+    <ner:lemma>Liivad</ner:lemma>
+    <ner:lemma>liiv</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://www.asaptravel.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#business">
+    <foaf:name>Business</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.timesystem.ee/"/>
+    <ner:lemma>business</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#sherlock">
+    <foaf:name>Sherlock</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://www.newton.ee/"/>
+    <ner:lemma>sherlock</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#lossiplats">
+    <ner:lemma>Lossiplatsile</ner:lemma>
+    <ner:lemma>lossiplats</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:name>Lossiplats</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#â_âvedaja">
+    <ner:lemma>Â ÂVedajate</ner:lemma>
+    <foaf:familyName>Âvedaja</foaf:familyName>
+    <ner:lemma>â âvedaja</ner:lemma>
+    <foaf:name>Â Âvedaja</foaf:name>
+    <foaf:givenName>Â</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.taksoliit.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ben">
+    <ner:lemma>BEN</ner:lemma>
+    <foaf:name>Ben</foaf:name>
+    <ner:lemma>ben</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://aatrium.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#vã¤lja_tã¶ã¶protsess">
+    <foaf:givenName>Vã¤Lja</foaf:givenName>
+    <ner:mentionedAtSite rdf:resource="http://www.tolge24.ee/"/>
+    <ner:lemma>vÃ¤lja tÃ¶Ã¶protsess</ner:lemma>
+    <foaf:familyName>Tã¶Ã¶Protsess</foaf:familyName>
+    <foaf:name>Vã¤Lja Tã¶Ã¶Protsess</foaf:name>
+    <ner:lemma>vã¤lja tã¶ã¶protsess</ner:lemma>
+  </foaf:Person>
+  <owl:DatatypeProperty rdf:about="http://www.estnernet.ee/nerdatanet#mentionedAtSite"/>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ñð¿ð°ð»ñð½ð¸">
+    <foaf:name>ÑÐ¿Ð°Ð»ÑÐ½Ð¸</foaf:name>
+    <ner:lemma>ñð¿ð°ð»ñð½ð¸</ner:lemma>
+    <ner:mentionedAtSite rdf:resource="http://new2.virelton.ee/index.php?lang=ru"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#the">
+    <foaf:name>The</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://statam.ee/"/>
+    <ner:lemma>the</ner:lemma>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#kelam">
+    <ner:lemma>kelam</ner:lemma>
+    <foaf:name>Kelam</foaf:name>
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://www.estnernet.ee/nerdatanet/people#ilves">
+    <ner:mentionedAtSite rdf:resource="http://online.le.ee/"/>
+    <foaf:name>Ilves</foaf:name>
+    <ner:lemma>ilves</ner:lemma>
+  </foaf:Person>
+  <owl:DatatypeProperty rdf:about="http://www.estnernet.ee/nerdatanet#locationName"/>
+  <owl:DatatypeProperty rdf:about="http://www.estnernet.ee/nerdatanet#lemma"/>
+  <owl:DatatypeProperty rdf:about="http://www.estnernet.ee/nerdatanet#orgName"/>
+</rdf:RDF>
