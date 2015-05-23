@@ -56,29 +56,41 @@ def dowloadFromJsons():
     for filePath in listdir(jsons):
             if(filePath != "errors.txt"):
                 #open json file
-                jsonToDict = json.load(open(jsons+filePath));
+                try:
+                    jsonToDict = json.load(open(jsons+filePath));
+                except:
+                    continue
+                    
                 base_url = jsonToDict['base_url']#becomes folderName
                 for fname_key in jsonToDict.keys():
                     if (fname_key != 'base_url'):#fname_key(sha of file url) becomes local filename
                         for csha in jsonToDict[fname_key].keys():
                             #excel type is already downloaded
-                            if("excel" not in jsonToDict[fname_key][csha]['Content-Type']):
-                                file_url = jsonToDict[fname_key][csha]['file_url']
-                                timeDir = jsonToDict[fname_key][csha]['timeDir']
-                                dirPath = comm.downloadsDir + base_url + "/"
-                                try:
-                                    #create dir if does not exist
-                                    if not os.path.isdir(dirPath):
-                                        os.makedirs(dirPath)
+                            contentKeyExists=False
+                            try:
+                               if ('Content-Type' in jsonToDict[fname_key][csha]):
+                                   contentKeyExists=True
+                            except:
+                                contentKeyExists=False
+                            if(contentKeyExists):
+                                if("excel" not in jsonToDict[fname_key][csha]['Content-Type']):
+                                    file_url = jsonToDict[fname_key][csha]['file_url']
+                                    timeDir = jsonToDict[fname_key][csha]['timeDir']
+                                    dirPath = comm.downloadsDir + base_url + "/"
                                     try:
-                                        urr(file_url, dirPath + fname_key)
-                                        #print(timeDir, base_url, , file_url)
+                                    #create dir if does not exist
+                                        if not os.path.isdir(dirPath):
+                                            os.makedirs(dirPath)
+                                        try:
+                                            urr(file_url, dirPath + fname_key)
+                                            #print(timeDir, base_url, , file_url)
+                                        except:
+                                            comm.printException(comm.pathToSaveDownloadErrors, filePath)
+                                            pass
                                     except:
                                         comm.printException(comm.pathToSaveDownloadErrors, filePath)
                                         pass
-                                except:
-                                    comm.printException(comm.pathToSaveDownloadErrors, filePath)
-                                    pass
+
 '''
 http://crawler.archive.org/articles/user_manual/glossary.html#discoverypath
 logfile row structure description:
@@ -218,7 +230,6 @@ span = end-start
 jf = open(processed_logfiles_path, 'a', encoding='utf-8')
 jf.write(currTime + "::DOWNLOADS " + logfileName.replace(" ", "").replace("..", "") + " " + str(nrOfJobs) + " " + str(span) + " " + str(comm.chunksize) + "\n")
 jf.close()
-
 
 
 
