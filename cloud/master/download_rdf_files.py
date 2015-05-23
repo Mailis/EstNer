@@ -47,16 +47,8 @@ def mergeRDFfiles():
             rdf_file_dir = dirToSaveRDFfiles + dname #/var/www/html/master/rdf_files/ORG
             
             g_new = Graph()
-            jf = open(dirToSaveStatistics+timeDir+".txt", 'a')
-            jf.write("\n\n----------------\n")
-            jf.write("rdf_file_dir " + rdf_file_dir + "\n")
-            jf.write("path exist: " + dname + " " + str(os.path.exists(g_old_path)) + "\n")
-            jf.write("g_old_path: " + g_old_path + "\n")
             for rdf_file in listdir(rdf_file_dir):
                 tmp_path = rdf_file_dir + "/" + rdf_file #/var/www/html/master/rdf_files/ORG/<worker-1>.rdf
-                jf = open(dirToSaveStatistics+timeDir+".txt", 'a')
-                jf.write("FOR visited tmp_path " + tmp_path + "\n")
-                jf.close() 
                 try:
                     g_new.parse(tmp_path)
                 except:
@@ -71,13 +63,7 @@ def mergeRDFfiles():
                     pass   
                 #delete used files
                 os.system("sudo rm -r " + rdf_file_dir+"/*")
-                jf = open(dirToSaveStatistics+timeDir+".txt", 'a')
-                jf.write("IF visited g_old_path " + g_old_path + "\n")
-                jf.close() 
             else:
-                jf = open(dirToSaveStatistics+timeDir+".txt", 'a')
-                jf.write("else visited g_old_path " + g_old_path + "\n")
-                jf.close() 
                 try:
                     g_new.serialize(g_old_path, format='pretty-xml', encoding='utf-8') 
                 except:
