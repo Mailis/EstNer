@@ -87,7 +87,7 @@ if __name__ == "__main__":
         pool = Pool(processes=os.cpu_count())
         pool.map(addChangedContent, jobs)
     except Exception as e:
-        comm.printException(comm.pathToUpdateErrorsDir, errString="update")
+        comm.printException(comm.updateErrorsFilePath, errString="update")
     
     
 
@@ -101,7 +101,7 @@ span = end-start
 #print("SPAN: ", span)  
 #print("totalseconds: ", span.total_seconds())  
 jf = open(monthly_updates_path, 'a', encoding='utf-8')
-jf.write(time.strftime("%d/%m/%Y") + " " + nrOfJobs + " " + str(span) + str(comm.chunksize) + "\n")
+jf.write(time.strftime("%d/%m/%Y") + " " + nrOfJobs + " " + str(span) + " " + str(comm.chunksize) + "\n")
 jf.close()
 
 
