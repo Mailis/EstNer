@@ -52,10 +52,10 @@ def addChangedContent(jsonFilePath):
                     #>sha224(localFilename) is key
                     newDataDict = dffl.insertNewContentToDict(key, fileUrl, pageInfo, fileContentSha224, statusCode)
                     if(newDataDict):
-                        existingFileDict[key].update(newDataDict)
-                        baseUrl = existingFileDict["base_url"]
-                        succ = dffl.downLoadFile(pageread, key, baseUrl)
+                        succ = dffl.dowloadFromJsons()
                         if(succ):#... save metadata for downloaded file
+                            existingFileDict[key].update(newDataDict)
+                            baseUrl = existingFileDict["base_url"]
                             pathToSaveMetadata = comm.jsonsDir + baseUrl + ".json"
                             dffl.saveJsonToFile(pathToSaveMetadata, existingFileDict)
                             #after downloading send the file to estner: 
@@ -103,7 +103,6 @@ span = end-start
 jf = open(monthly_updates_path, 'a', encoding='utf-8')
 jf.write(time.strftime("%d/%m/%Y") + " " + nrOfJobs + " " + str(span) + " " + str(comm.chunksize) + "\n")
 jf.close()
-
 
 
 
