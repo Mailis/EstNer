@@ -45,10 +45,10 @@ table, th, td{
   color:red;
   text-indent:25px;
 }  
-.remote_file, .remote_file_type{
+.remote_file, .remote_file_type, .remote_file_type_species{
   text-indent:15px;
 }
-.remote_file_type{
+.remote_file_type, .remote_file_type_species, .remote_file_type_species_active{
   background-color: #669999;
   border: 1px solid #778D8D;
   border-radius: 5px;
@@ -57,6 +57,14 @@ table, th, td{
   font-weight: bold;
   width: 50px;
   padding: 0 3px 0 3px;
+}
+.remote_file_type_species, .remote_file_type_species_active{
+  cursor: pointer;
+  margin-left: 10px;
+}
+.remote_file_type_species_active{
+  border: 3px solid orange;
+  cursor: auto;
 }
 .fname{
   font-weight: bold;
@@ -191,8 +199,37 @@ hr.item_horiz_end{
 }
 
 
+#notifycation_alert, #notifycation_alert_simulate{
+   position: fixed;
+   color: red;
+   font-size: 1.2em;
+   font-family: "Arial";
+   margin-top: 200px;
+   margin-left: 200px;
+   background-color: white;
+   border: 2px dashed red;
+   padding: 20px;
+   padding-left: 140px;
+   opacity: 0.9;
+   display:none;
+   height: 132px;
+   background-image: url("ajax_loader_blue_128.gif");
+   background-position: left top;
+   background-repeat: no-repeat;
+   line-height: 2em;
+}
+#notifycation_alert_simulate{
+   margin-top: 5px;
+   margin-left: 250px;
+}
 
-
+.tanap{
+   color: gray;
+}
+.notifylogfilename{
+   font-weight: bold;
+   color: #CC66FF;
+}
 
 
 
@@ -226,4 +263,33 @@ hr.item_horiz_end{
 .nav ul li a:hover{
   color: #fff;
   background-color: #036;
+}
+
+
+.guide{
+ display: inline;
+   font-weight: bold;
+}
+.pagenmbrs, .pagenmbrs_active{
+   margin-left: 10px;
+   font-weight: bold;
+   color: #CC66FF;
+   text-decoration: underline;
+   cursor: pointer;
+}
+.pagenmbrs_active{
+   color: orange;
+   text-decoration: none;
+   cursor: auto;
+}
+
+
+.update_table{
+  border = 1px black;
+  margin-bottom:100px;
+}
+
+
+#host_search_input{
+  width: 300px;
 }
