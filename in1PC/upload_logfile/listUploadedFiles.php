@@ -4,15 +4,20 @@ if ($handle = opendir($logFilesDir)) {
   
   $files=array();
     /* This is the correct way to loop over the directory. */
+    $fcounter = 0;
     while (false !== ($entry = readdir($handle))) {
       $logFileType = pathinfo($entry,PATHINFO_EXTENSION);
+      //print_r($logFileType); echo "<br>";
       if($logFileType == "txt" || $logFileType == "log") {
         $fPath = $logFilesDir . $entry;
         $created = filectime ($fPath);
         $fSize = human_filesize(filesize ($fPath));
         //$files[]=array($created, $entry);
-        $files[$created]["name"] = $entry;
-        $files[$created]["size"] = $fSize;
+        $files[$fcounter]["name"] = $entry;
+        $files[$fcounter]["size"] = $fSize;
+        $files[$fcounter]["time"] = $created;
+        $files[$fcounter]["path"] = $fPath;
+        $fcounter++;
       }
     }
 
@@ -39,18 +44,19 @@ if ($handle = opendir($logFilesDir)) {
 	//print_r($files);
 	echo "<table border='1' style='min-width:400px; text-align:center'>";
 	echo "<tr><th> filename </th><th> created </th><th> size </th><th> extract entities?</th><th> delete file?</th></tr>";
-	foreach($sortedfiles as $timestamp => $filedata){
+        
+	foreach($sortedfiles as $counterr => $filedata){
 	   $logfilename = $filedata["name"];
-	   $urlFileName = getRespectiveURLfile($logfilename);
-	   $urlFilePath = $parsedUrlsDir . $urlFileName;
+           $timestamp = $filedata["time"];
+           $fPathh = $filedata["path"];
 	   echo "<tr>";
-	      echo "<td  style='color:#6699FF'>" . $logfilename;
+	      echo "<td  style='color:#6699FF'><a href='$fPathh'>" . $logfilename . "</a";
 	      echo "</td>";
 	      echo "<td>" . date('m/d/Y H:i:s', $timestamp);
 	      echo "</td>";
 	      echo "<td>" . $filedata["size"] . "</td>";
 	      echo "<td>";
-		echo "<form action='RDFgenerator/' method='post'><input type='hidden'  name='logfile' value='" . $logFilesDir . $logfilename . "' />";
+		echo "<form class='extr_form' action='../RDFgenerator/' method='post'><input type='hidden'  name='logfile' value='" . $logFilesDir . $logfilename . "' />";
                if(count($kiiis)>0){
                   if(in_array($logfilename, $kiiis)){
                        echo "<span class='done'>DONE</span>";
@@ -65,9 +71,11 @@ if ($handle = opendir($logFilesDir)) {
                 }
 	      echo "</td>";
 	      echo "<td>";
-		echo "<form action='deleteUploadedURLfile.php' method='post'><input type='hidden'  name='logfile' value='$logfilename' />";
-		echo "<input type='submit'  value='delete' name='delete_download'/>";
-		echo "</form>";
+                if($logfilename != "crawl.log"){
+		   echo "<form action='deleteUploadedURLfile.php' method='post'><input type='hidden'  name='logfile' value='$logfilename' />";
+		   echo "<input type='submit'  value='delete' name='delete_download'/>";
+		   echo "</form>";
+		}
 	      echo "</td>";
 	   echo "</tr>";      
 	}//foreach

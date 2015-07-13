@@ -8,7 +8,7 @@
 ?>
 <?php
 
-$upperFolder = "../upload_logfile/generated_files/";
+$upperFolder = "../generated_files/";
 
 function dirToArray($dir) {
   
@@ -79,28 +79,17 @@ function echoErrors($dirname){
 	    <?php require_once("../nav.php"); ?>
 	</div>
         <div class="pody">
+	   
+            
 	    <div class="item_horizontal_min_error">
-		<legend>opening URL errors:</legend>
-		    <a href = "../datadownload/jsons/errors.txt">read URL errors</a>
+		<legend>json (opening URL) errors:</legend>
+                    <?php $dirname = $upperFolder.'json_errors/'; ?>
+		    <a class="cap" href = "<?= $dirname; ?>">json errors folder</a>
 		    <br />
-		    <?php
-                        $dirname = '../datasets/jsons/';
-                        if(file_exists ($dirname)){
-				if ($handle = opendir($dirname)) {
-				    while (false !== ($entry = readdir($handle))) {
-					if ($entry != "." && $entry != "..") {
-		                            $linkToFile = $entry. "/errors.txt";
-		                            if(file_exists ($linkToFile)){
-						echo "<div style='color:#6699FF'><a href='$linkToFile'>" . $linkToFile . "</a></div>";
-		                            }
-					}
-				    }
-				    closedir($handle);
-				}
-			}
-		    ?>
+		    <?php echoErrors($dirname) ?>
 	        <hr><hr>
 	    </div>
+
 	    <div class="item_horizontal_min_error">
 		<legend>download errors:</legend>
                     <?php $dirname = $upperFolder.'download_errors/'; ?>

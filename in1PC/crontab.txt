@@ -1,7 +1,3 @@
-#crontab -e
-# m h  dom mon dow   command
+0 1 1 * * /usr/bin/python3 /var/www/html/RDFgenerator/monthlyUpdate.py > /var/www/html/cronOut.log 2>&1
 
-0 1 1 * * python3 /var/www/html/upload_logfile/RDFgenerator/monthlyUpdate.py
-
-#0 1 1 * * /usr/bin/python2 http://<master_IP_address>/monthlyUpdate_auth.py
 

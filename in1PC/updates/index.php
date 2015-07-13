@@ -4,13 +4,15 @@
    //ini_set('upload-max-filesize', '100M');
    //ini_set('post_max_size', '100M');
    //echo exec('whoami');
- 
+   session_start();
 ?>
 <?php
 
 $upperFolder = "../statistics/";
+//data in all lines of all files
+$lineArray = array();
 
-function dirToArray($dir) {
+function dirToFileArray($dir) {
   
    $result = array();
 
@@ -21,7 +23,7 @@ function dirToArray($dir) {
       {
          if (is_dir($dir . DIRECTORY_SEPARATOR . $value))
          {
-            $result[$value] = dirToArray($dir . DIRECTORY_SEPARATOR . $value);
+            $result[$value] = dirToFileArray($dir . DIRECTORY_SEPARATOR . $value);
          }
          else
          {
@@ -34,51 +36,63 @@ function dirToArray($dir) {
 }
 
 
-function echoErrors($dirname){
-        $dirarr=dirToArray($dirname);
-	if(count($dirarr) > 0){
-	    echo"<ul>";
-	    foreach($dirarr as $key => $filename){
-		$l = $dirname . $filename;
-	    	//echo "<li><div class='error_item'><a href='$l'>" . $value . "</a></div></li>";
-                echoUPDstatistics($l);
-	    }
-	    echo"</ul>";
-	}
-	else{ echo "nothing to show";}
-
+function echoUpdateStats($dirname){
+    global $lineArray;
+    $filesarr=dirToFileArray($dirname);
+    if(count($filesarr) > 0)
+    foreach($filesarr as $key => $filename){
+        readUPDfile($dirname . $filename);
+    }
+    //print_r($lineArray);
+    $lineArrLen = count($lineArray);
+    if($lineArrLen > 0){
+        $tableHeaders = array_keys($lineArray[($lineArrLen-1)]);
+        echo "<table class = 'update_table' border=1 ><tr>";
+        foreach($tableHeaders as $key => $colhead){
+            echo "<th>" . $colhead . "</th>";
+        }
+        echo "</tr>";
+        foreach($lineArray as $key => $row){
+            echo "<tr bgcolor='#CFF'align='center'>";
+            foreach($row as $k => $cell){
+                if($k == "date")
+                    echo "<td>" . implode(" ", explode("_", $cell)) . "</td>";
+                else
+                    echo "<td>" . $cell . "</td>";
+            }
+            echo "</tr>";
+        }
+        echo "</table>";
+    }
+    else{ echo "nothing to show";}
 }
 
 function readUPDfile($filename){
+    global $lineArray;
+    $handle = fopen($filename, "r");
+    if ($handle) {
+        //data in one line
         $linedata = array();
-	$handle = fopen($filename, "r");
-	if ($handle) {
-	    while (($line = fgets($handle)) !== false) {
+	while (($line = fgets($handle)) !== false) {
 		$lineSplitted = explode(" ", $line);
                 $linedata["date"] = $lineSplitted[0];
                 $linedata["number of jobs"] = $lineSplitted[1];
                 $linedata["time spent(h:m:s.mm)"] = $lineSplitted[2];
                 if(isset($lineSplitted[3]))
                     $linedata["chunksize"] = $lineSplitted[3];
-	    }
-
-	    fclose($handle);
-	} 
-	return $linedata;
+                if(isset($lineSplitted[4]))
+                    $linedata["nr of changes"] = $lineSplitted[4];
+                if(isset($lineSplitted[5]))
+                    $linedata["download start"] = $lineSplitted[5];
+                if(isset($lineSplitted[6]))
+                    $linedata["time spent on downloading"] = $lineSplitted[6];
+                $lineArray[] = $linedata;
+        }
+        fclose($handle);
+    } 
+    return $lineArray;
 }
 
-
-function echoUPDstatistics($filename){
-        $linedata = readUPDfile($filename);
-        echo "<table border=1>";
-        echo "<tr><th>date</th><th>number of jobs</th><th>time spent (h:m:s.mm)</th><th>chunksize</th></tr>";
-	echo"<tr bgcolor='#CFF'align='center'>";
-	foreach($linedata as $key => $value){
-            echo "<td>$value</td>";
-	}
-	echo"</tr>";
-        echo "</table>";
-}
 ?> 
 <!DOCTYPE HTML>
 
@@ -98,12 +112,11 @@ function echoUPDstatistics($filename){
 	<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script> 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
-	<link rel="stylesheet" href="../upload.css">
-
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/demo.css">
 	<link  rel="stylesheet"href="../css/style.css">
 	<script src="../js/jq.js" type="text/javascript"></script> 
+	<script src="../js/notifyUser.js" type="text/javascript"></script>
     </head>
     <body>
 	<div class="nav">
@@ -111,10 +124,16 @@ function echoUPDstatistics($filename){
 	</div>
         <div class="pody">
 	    <div class="item_horizontal">
+		<legend>Simulate monthly updates
+                <form action="simulate_update.php" method='post' id="simulate_update">
+                    <input type="submit" value="simulate" name="simulate_update"/>
+                </form>
+                </legend>
+                <div id="notifycation_alert_simulate"></div>
 		<legend>Monthly updates statistics</legend>
                     <?php $dirname = $upperFolder.'monthly_updates/'; ?>
 	    
-	            <?php echoErrors($dirname) ?>
+	            <?php echoUpdateStats($dirname) ?>
 	    </div>
 
         </div>
