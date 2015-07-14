@@ -1,0 +1,518 @@
+http://www.duokirjastus.eu/cloud/rdf/data.rdf HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.duokirjastus.eu/cloud/rdf/jsonexample.json HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.duokirjastus.eu/cloud/rdf/tekstifail.txt HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.pyramiidbaar.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.taksoliit.ee/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.solaarium.ee/ URLError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:600) 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:600)>_
+http://www.kantberg.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.abviimistluskaubad.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.abviimistluskaubad.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.autolaige.ee/ URLError [Errno 111] Connection refused 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno 111] Connection refused>_
+http://www.ilusaadik.ee/ HTTPError 503 Service unavailable 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 503: Service unavailable_
+http://www.ilusaadik.ee/ HTTPError 503 Service unavailable 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 503: Service unavailable_
+http://www.pyramiidbaar.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.hansauuringud.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.pyramiidbaar.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.kantberg.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.solaarium.ee/ URLError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:600) 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:600)>_
+http://www.abviimistluskaubad.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.taksoliit.ee/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.hansauuringud.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.termoekspress.ee/ HTTPError 302 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found_
+http://www.solaarium.ee/ URLError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:600) 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:600)>_
+http://www.termoekspress.ee/ HTTPError 302 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found_
+http://www.lukk.ee/ URLError [Errno 110] Connection timed out 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno 110] Connection timed out>_
+http://www.taksoliit.ee/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.kantberg.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.coffeein.ee/coffeein.eu HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.merirahu.ee/est.html HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.hansauuringud.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.phpalmse.ee/?feed=rss2 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.perfetto.ee/Site/Welcome.html HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.tuuljakodu.ee/Z-files/sitemap.html HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.coffeein.ee/menuu/espresso/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.taksoliit.ee/xmlrpc.php HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.kantberg.ee/index.php?format=feed&type=rss&lang=et URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.taksoliit.ee/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.termoekspress.ee/index.php HTTPError 302 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found_
+http://www.termoekspress.ee/chlang.php?chlang=eng HTTPError 302 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found_
+http://www.potipoiss.ee/xmlrpc.php HTTPError 405 Method Not Allowed 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 405: Method Not Allowed_
+http://www.rewalski.ee/?feed=rss2 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.taksoliit.ee/xmlrpc.php?rsd HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.verska.ee/html/portal/css.jsp?browserId=other&themeId=kov_WAR_kovtheme&colorSchemeId=01&minifierType=css&languageId=et_EE&t=1278401148000 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.holor.ee/ HTTPError 403 Forbidden 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 403: Forbidden_
+http://www.merirahu.ee/sound.html HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.holor.ee/ HTTPError 403 Forbidden 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 403: Forbidden_
+http://www.phpalmse.ee/?feed=comments-rss2 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.rewalski.ee/?feed=comments-rss2 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.toonkile.ee/www.ee HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.shemalan.ee/ShockwaveFlash.ShockwaveFlash.7 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.hobekivi.ee/xmlrpc.php HTTPError 405 Method Not Allowed 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 405: Method Not Allowed_
+http://www.tolge24.ee/tolkeburoo-tooprotsess HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.coffeein.ee/menuu/cafe-creme/coffeein.eu HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vahekohus.ee/feed HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://vitaservis.ee/rss.xml HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.perfetto.ee/Site/Scripts/Widgets/Navbar HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.merirahu.ee/est_asukoht.html HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.newton.ee/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vitale.ee/comments/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.javest.ee/xmlrpc.php HTTPError 405 Method Not Allowed 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 405: Method Not Allowed_
+http://www.shemalan.ee/ShockwaveFlash.ShockwaveFlash.3 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.shemalan.ee/ShockwaveFlash.ShockwaveFlash.6 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://eesti.jux.ee/?format=feed&type=rss HTTPError 404 Vaadet ei leitud [nimi, tÃ¼Ã¼p, eesliide]: article, feed, contentView 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Vaadet ei leitud [nimi, tÃ¼Ã¼p, eesliide]: article, feed, contentView_
+http://www.tolge24.ee/estonian-translation-opening-page HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.virutrans.ee/virutrans.ee HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.tolge24.ee/tolkeburoo-kontakt HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vitaservis.ee/ShockwaveFlash.ShockwaveFlash.6 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.taksoliit.ee/?lang=en_us HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://dmgauto.ee/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.coffeein.ee/menuu/cappuccino/coffeein.eu HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.solaarium.ee/www.ee URLError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:600) 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:600)>_
+http://www.kantberg.ee/index.php?format=feed&type=atom&lang=et URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.holor.ee/ HTTPError 403 Forbidden 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 403: Forbidden_
+http://eesti.jux.ee/?format=feed&type=atom HTTPError 404 Vaadet ei leitud [nimi, tÃ¼Ã¼p, eesliide]: article, feed, contentView 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Vaadet ei leitud [nimi, tÃ¼Ã¼p, eesliide]: article, feed, contentView_
+http://www.vitaservis.ee/ShockwaveFlash.ShockwaveFlash.7 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.taksoliit.ee/?lang=ru_ru HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vahekohus.ee/wp-includes/wlwmanifest.xml HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.audiofookus.ee/comments/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.perfetto.ee/Site/Scripts/Widgets/Navbar/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.termoekspress.ee/ HTTPError 302 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found_
+http://www.verska.ee/html/portlet/journal_content/css/main.jsp?browserId=other&themeId=kov_WAR_kovtheme&colorSchemeId=01&minifierType=css&languageId=et_EE&t=1399450273000 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.onetor.ee/pngfix/iepngfix.htc HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.audiofookus.ee/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.ilusaadik.ee/ HTTPError 503 Service Unavailable 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 503: Service Unavailable_
+http://www.newton.ee/comments/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://eera.ee/wp/xmlrpc.php HTTPError 405 Method Not Allowed 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 405: Method Not Allowed_
+http://www.taksoliit.ee/wp-includes/wlwmanifest.xml HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.kantberg.ee/1.12 URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.vahekohus.ee/xmlrpc.php?rsd HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.shemalan.ee/ShockwaveFlash.ShockwaveFlash HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.12tooli.ee/12Tooli%20M%C3%B6%C3%B6blisalong_files/12Tooli%20M%C3%B6%C3%B6blisalong.htm HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vitaservis.ee/ShockwaveFlash.ShockwaveFlash.3 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vahekohus.ee/vahekohtunike-nimekiri-2 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.coffeein.ee/menuu/caffe-latte/coffeein.eu HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://jats.ee/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.12tooli.ee/uudised.html HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.rantell.ee/comments/feed/ HTTPError 403 Forbidden 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 403: Forbidden_
+http://www.vahekohus.ee/xmlrpc.php HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vitaservis.ee/webtv/2.6 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.taksoliit.ee/page/2/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://dmgauto.ee/comments/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.kaunis.ee/1.5 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.perfetto.ee/Site/Scripts/Widgets/SharedResources HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.saueautoklubi.ee/a.modal-button HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.rodoor.ee/comments/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.kantberg.ee/Microsoft.XMLHTTP URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.kantberg.ee/img.caption URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://estanc.ee/comments/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.shemalan.ee/webtv/2.6 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.treamplast.ee/www.ee HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://jats.ee/comments/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.12tooli.ee/tooted.html HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vahekohus.ee/vahekohtunike-nimekiri-2/feed HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vitaservis.ee/ShockwaveFlash.ShockwaveFlash HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.tolge24.ee/kaannostoimisto-viro-etusivu HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.taksoliit.ee/wp-admin/admin-ajax.php?action=wordfence_logHuman&hid=0B9DDF3F149A956F8CF9DA3F88A2622F HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+https://www.leola.ee/ ValueError_Could_not_convert_data_to_an_integer.
+ <class 'ssl.CertificateError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_hostname 'www.leola.ee' doesn't match either of '*.wavecom.ee', 'wavecom.ee'_
+http://www.perfetto.ee/Site/Scripts/Widgets/SharedResources/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.kantberg.ee/text/css URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.shemalan.ee/webtv/2.5 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.duokirjastus.eu/cloud/rdf/data.rdf HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.duokirjastus.eu/cloud/rdf/jsonexample.json HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.duokirjastus.eu/cloud/rdf/tekstifail.txt HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.pyramiidbaar.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.taksoliit.ee/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.solaarium.ee/ URLError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:600) 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:600)>_
+http://www.abviimistluskaubad.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.kantberg.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.ilusaadik.ee/ HTTPError 503 Service unavailable 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 503: Service unavailable_
+http://www.abviimistluskaubad.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.pyramiidbaar.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.hansauuringud.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.ilusaadik.ee/ HTTPError 503 Service unavailable 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 503: Service unavailable_
+http://www.pyramiidbaar.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.kantberg.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.solaarium.ee/ URLError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:600) 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:600)>_
+http://www.abviimistluskaubad.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.taksoliit.ee/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.hansauuringud.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.termoekspress.ee/ HTTPError 302 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found_
+http://www.lukk.ee/ URLError [Errno 110] Connection timed out 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno 110] Connection timed out>_
+http://www.taksoliit.ee/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.solaarium.ee/ URLError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:600) 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:600)>_
+http://www.kantberg.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.termoekspress.ee/ HTTPError 302 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found_
+http://www.phpalmse.ee/?feed=rss2 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.merirahu.ee/est.html HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.tuuljakodu.ee/Z-files/sitemap.html HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.coffeein.ee/menuu/espresso/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.taksoliit.ee/xmlrpc.php HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.hansauuringud.ee/ URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.taksoliit.ee/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.termoekspress.ee/index.php HTTPError 302 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found_
+http://www.coffeein.ee/coffeein.eu HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.verska.ee/html/portal/css.jsp?browserId=other&themeId=kov_WAR_kovtheme&colorSchemeId=01&minifierType=css&languageId=et_EE&t=1278401148000 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.termoekspress.ee/chlang.php?chlang=eng HTTPError 302 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found_
+http://www.potipoiss.ee/xmlrpc.php HTTPError 405 Method Not Allowed 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 405: Method Not Allowed_
+http://www.holor.ee/ HTTPError 403 Forbidden 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 403: Forbidden_
+http://www.merirahu.ee/sound.html HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.perfetto.ee/Site/Welcome.html HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.rewalski.ee/?feed=rss2 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.rewalski.ee/?feed=comments-rss2 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.kantberg.ee/index.php?format=feed&type=rss&lang=et URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.holor.ee/ HTTPError 403 Forbidden 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 403: Forbidden_
+http://www.solaarium.ee/www.ee URLError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:600) 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:600)>_
+http://www.kantberg.ee/index.php?format=feed&type=atom&lang=et URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.taksoliit.ee/xmlrpc.php?rsd HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vahekohus.ee/feed HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.holor.ee/ HTTPError 403 Forbidden 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 403: Forbidden_
+http://vitaservis.ee/rss.xml HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.phpalmse.ee/?feed=comments-rss2 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.perfetto.ee/Site/Scripts/Widgets/Navbar HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.termoekspress.ee/ HTTPError 302 The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Found_
+http://www.merirahu.ee/est_asukoht.html HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.newton.ee/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vitale.ee/comments/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.javest.ee/xmlrpc.php HTTPError 405 Method Not Allowed 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 405: Method Not Allowed_
+http://www.kauksipuhkemaja.ee/styles.php HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vitaservis.ee/ShockwaveFlash.ShockwaveFlash.3 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.shemalan.ee/ShockwaveFlash.ShockwaveFlash.3 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.tolge24.ee/estonian-translation-opening-page HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.virutrans.ee/virutrans.ee HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.taksoliit.ee/page/2/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://dmgauto.ee/comments/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.kaunis.ee/1.5 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.toonkile.ee/www.ee HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.shemalan.ee/ShockwaveFlash.ShockwaveFlash.7 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.perfetto.ee/Site/Scripts/Widgets/SharedResources HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.hobekivi.ee/xmlrpc.php HTTPError 405 Method Not Allowed 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 405: Method Not Allowed_
+http://www.rodoor.ee/comments/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.kantberg.ee/Microsoft.XMLHTTP URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.vitaservis.ee/ShockwaveFlash.ShockwaveFlash.6 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://estanc.ee/comments/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.shemalan.ee/webtv/2.6 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.taksoliit.ee/?lang=en_us HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://dmgauto.ee/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.tolge24.ee/tolkeburoo-tooprotsess HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.coffeein.ee/menuu/cappuccino/coffeein.eu HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.shemalan.ee/ShockwaveFlash.ShockwaveFlash.6 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://eesti.jux.ee/?format=feed&type=rss HTTPError 404 Vaadet ei leitud [nimi, tÃ¼Ã¼p, eesliide]: article, feed, contentView 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Vaadet ei leitud [nimi, tÃ¼Ã¼p, eesliide]: article, feed, contentView_
+http://www.vitaservis.ee/ShockwaveFlash.ShockwaveFlash HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.tolge24.ee/kaannostoimisto-viro-etusivu HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.coffeein.ee/menuu/cafe-creme/coffeein.eu HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.tolge24.ee/tolkeburoo-kontakt HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.ilusaadik.ee/ HTTPError 503 Service unavailable 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 503: Service unavailable_
+http://www.taksoliit.ee/wp-includes/wlwmanifest.xml HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.taksoliit.ee/wp-admin/admin-ajax.php?action=wordfence_logHuman&hid=0B9DDF3F149A956F8CF9DA3F88A2622F HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+https://www.leola.ee/ ValueError_Could_not_convert_data_to_an_integer.
+ <class 'ssl.CertificateError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_hostname 'www.leola.ee' doesn't match either of '*.wavecom.ee', 'wavecom.ee'_
+http://www.perfetto.ee/Site/Scripts/Widgets/SharedResources/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.kantberg.ee/text/css URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.shemalan.ee/webtv/2.5 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vahekohus.ee/vahekohtunike-nimekiri-2 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://eesti.jux.ee/?format=feed&type=atom HTTPError 404 Vaadet ei leitud [nimi, tÃ¼Ã¼p, eesliide]: article, feed, contentView 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Vaadet ei leitud [nimi, tÃ¼Ã¼p, eesliide]: article, feed, contentView_
+http://www.rantell.ee/comments/feed/ HTTPError 403 Forbidden 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 403: Forbidden_
+http://www.vahekohus.ee/xmlrpc.php HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vahekohus.ee/wp-includes/wlwmanifest.xml HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.coffeein.ee/menuu/caffe-latte/coffeein.eu HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://jats.ee/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.audiofookus.ee/comments/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.perfetto.ee/Site/Scripts/Widgets/Navbar/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.12tooli.ee/uudised.html HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vitaservis.ee/ShockwaveFlash.ShockwaveFlash.7 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.taksoliit.ee/?lang=ru_ru HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.verska.ee/html/portlet/journal_content/css/main.jsp?browserId=other&themeId=kov_WAR_kovtheme&colorSchemeId=01&minifierType=css&languageId=et_EE&t=1399450273000 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vitaservis.ee/webtv/2.6 HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.kauksipuhkemaja.ee/avalehekulg/?op=rss HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.newton.ee/comments/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://eera.ee/wp/xmlrpc.php HTTPError 405 Method Not Allowed 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 405: Method Not Allowed_
+http://www.onetor.ee/pngfix/iepngfix.htc HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.kantberg.ee/1.12 URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.audiofookus.ee/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.shemalan.ee/ShockwaveFlash.ShockwaveFlash HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.12tooli.ee/12Tooli%20M%C3%B6%C3%B6blisalong_files/12Tooli%20M%C3%B6%C3%B6blisalong.htm HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vahekohus.ee/xmlrpc.php?rsd HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.saueautoklubi.ee/a.modal-button HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.kantberg.ee/img.caption URLError [Errno -2] Name or service not known 
+ <class 'urllib.error.URLError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_<urlopen error [Errno -2] Name or service not known>_
+http://www.treamplast.ee/www.ee HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://jats.ee/comments/feed/ HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.12tooli.ee/tooted.html HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_
+http://www.vahekohus.ee/vahekohtunike-nimekiri-2/feed HTTPError 404 Not Found 
+ <class 'urllib.error.HTTPError'>_EXCEPTION_IN_(/var/www/html/RDFgenerator/downloadFilesFromLog.py,_LINE_100_"page = ur.urlopen(url)"):_HTTP Error 404: Not Found_

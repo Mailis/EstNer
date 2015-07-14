@@ -1,0 +1,5 @@
+11/03/2015 /logfiles/crawl.log 478 0:03:15.688379 70
+10/03/2015 /logfiles/crawl_detail3.log 978 0:13:35.506477 1
+11/03/2015 /logfiles/crawl_detail3.log 978 0:04:32.576949 100
+11/03/2015 /logfiles/crawl_detail3.log 7 0:00:09.529165 70
+14/07/2015_09:59:42 /logfiles/crawl_detail3.log 978 0:06:30.397110 100 2193 10:06:13 531 0:04:50.082290 
