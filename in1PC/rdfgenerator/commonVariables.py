@@ -4,14 +4,14 @@ import hashlib
 import linecache
 import sys, stat
 import codecs
-
+'''
 if sys.stdout.encoding is None or sys.stdout.encoding == 'ANSI_X3.4-1968':
     utf8_writer = codecs.getwriter('UTF-8')
     if sys.version_info.major < 3:
         sys.stdout = utf8_writer(sys.stdout, errors='replace')
     else:
         sys.stdout = utf8_writer(sys.stdout.buffer, errors='replace')
-
+'''
 
 chunksize=100
 
@@ -145,7 +145,7 @@ def printException(pathToErrorFile, errString=""):
     filename = f.f_code.co_filename
     linecache.checkcache(filename)
     line = linecache.getline(filename, lineno, f.f_globals)
-    err= (errString + ' {}_EXCEPTION_IN_({},_LINE_{}_"{}"):_{}_'.format(exc_type, filename, lineno, line.strip(), exc_obj) + "\n")  
+    err= (errString + ' {}_EXCEPTION_IN_({},_LINE_{}_"{}"):_{}_'.format(exc_type, filename, lineno, line.strip(), exc_obj) + "\n\n")  
     jf = open(pathToErrorFile, 'a', encoding='utf-8')
     jf.write(err)#
     jf.close()    
@@ -164,7 +164,7 @@ def replaceToPunkts(s6ne):
     multiSpaces="\s{2,}"
     prune2 = re.sub(multiSpaces, ' ', prune1)
     prune3 = prune2.replace(';', '.').replace(':', '.').replace('(', '.').replace(')', '.').replace('?', '.').replace('!', '.').replace(',', '.').replace(' | ', '.').replace('|', '.').replace('/', '.').replace('\\', '.').replace('{', '.').replace('}', '.').replace('[', '.').replace(']', '.').replace('¬', '.').replace('_', '.').replace('~', '.').replace('#', '.').replace('%', '.').replace('`', '.').replace('"', '.').replace('<', '.').replace('>', '.').replace('=', '.').replace('+', '.').replace("Ãµ","õ")
-    prune4 = prune3.replace("Ãµ","õ").replace("Ã¼","ü").replace("Ã¤","ä").replace("Ã¶","ö").replace("Ã","Õ").replace("Ã•","Õ").replace("Ã", "Ü").replace("Ãœ", "Ü").replace("Ã„", "Ä").replace("Ã", "Ä").replace("Ã–", "Ö")
+    prune4 = prune3.replace("Ãµ","õ").replace("Ã•","Õ").replace("Ã","Õ").replace("Ã¼","ü").replace("Ã", "Ü").replace("Ãœ", "Ü").replace("Ã¤","ä").replace("Ã„", "Ä").replace("Ã", "Ä").replace("Ã–", "Ö").replace("Ã¶","ö").replace("", "™")
     laused = prune4.split(".")
     for s6n in laused:
         #s6ne = s6n.encode("utf-8")

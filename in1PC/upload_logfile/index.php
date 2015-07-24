@@ -62,6 +62,10 @@
 	    </div>
             <div style="clear:both"></div>
 
+            <form action='deleteUploadedURLfile.php' method='post' style='margin-top:-22px;margin-bottom:10px'><input type='hidden'  name='logfile' value='$logfilename' />
+	        <button style='width:300px' name='delete_gen_files'>delete all generated files <br />(RDFs, datasets, json-meta-models and errors) <br />in order to start testing this system from scratch </button>
+	    </form>
+
 	    <div class="item_horizontal_min">
 		<legend>List of Uploaded Log Files:</legend>
 		<?php 

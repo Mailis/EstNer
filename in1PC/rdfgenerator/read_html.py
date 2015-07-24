@@ -17,7 +17,7 @@ from lxml.html import parse
 
 
 
-def readHtmlPage(htmlurl, readedPage, ontologyData, _encoding):
+def readHtmlPage(htmlurl, readedPage, ontologyData):
     try:
         sentences = set()
         root = parse(htmlurl).getroot()
@@ -53,7 +53,7 @@ def readHtmlPage(htmlurl, readedPage, ontologyData, _encoding):
                         for s6ne in laused:
                             getEntities.getEntities(htmlurl, s6ne.strip(), ontologyData)
     except:
-        comm.printException(comm.pathToSaveParsingErrors, "read_html.py " + _encoding + " " + htmlurl)
+        comm.printException(comm.pathToSaveParsingErrors, "read_html.py " + htmlurl)
         pass
     
 

@@ -18,7 +18,7 @@
 	// Decode the result
 	//$resultData = json_decode($result, true);
 	//print_r($resultData);
-////
+
 	header("Location: ../");
         die();
   }

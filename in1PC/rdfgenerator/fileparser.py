@@ -8,14 +8,26 @@ import time
 import read_eksel, read_json, read_html, read_xml, read_pdf, read_plaintext
 import commonVariables as comm
 
-'''
+
+def detectEncoding(_encoding, httpResponse):
+    doctext = httpResponse
+    
+    try:
+        doctext = httpResponse.encode(_encoding).decode(sys.stdout.encoding)
+    except:
+        pass
+   
+    return doctext   
+
+    '''
     compulsory inputs are web source url(html or xls or...) and file type
     this function uses different parsers for every file type
-'''
+    '''
 
 def spreadURLsByContentType(url, httpResponse, tyyp, od, _encoding, filePath = None):
     #od = initRdf.OntologyData('/var/www/html/mag/rdf_files/')
     #initRdf.RdfFilesCreator(od)
+    doctext = httpResponse#detectEncoding(_encoding, httpResponse)
     '''#parse excel file'''
     if("excel" in tyyp.lower()):
         '''#parse web page excel'''
@@ -23,19 +35,23 @@ def spreadURLsByContentType(url, httpResponse, tyyp, od, _encoding, filePath = N
     elif("xml" in tyyp.lower()):
         #print(tyyp)
         '''#parse web page xml'''
-        read_xml.readXml(url, httpResponse, od)
+        doctext = detectEncoding(_encoding, httpResponse)
+        read_xml.readXml(url, doctext, od)
     elif("html" in tyyp.lower()) :
         '''#parse web page html/txt'''
-        read_html.readHtmlPage(url, httpResponse, od, _encoding)
+        doctext = detectEncoding(_encoding, httpResponse)
+        read_html.readHtmlPage(url, doctext, od)
     elif("json" in tyyp.lower()):
         '''#parse json app/json'''
-        read_json.readJson(url, httpResponse, od, _encoding)
+        doctext = detectEncoding(_encoding, httpResponse)
+        read_json.readJson(url, doctext, od)
     elif("pdf" in tyyp.lower()):
         '''#parse pdf'''
-        read_pdf.readPdf(url, httpResponse, od)
+        read_pdf.readPdf(url, doctext, od)
     elif("plain" in tyyp.lower()) or ("text" in tyyp.lower()):
+        doctext = detectEncoding(_encoding, httpResponse)
         '''#assumes incoming is plain text try to parse text lines'''
-        read_plaintext.readPlainText(url, httpResponse, od, _encoding)
+        read_plaintext.readPlainText(url, doctext, od)
     else:
         jf = open(comm.pathToSaveParsingErrors, 'a',  encoding='utf-8')
         jf.write(time.strftime("%d/%m/%Y_%H:%M:%S") + " " + url + " " + "The_parser_for_the_type_" + tyyp + "_is_not_implemented\n")

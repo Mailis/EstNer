@@ -43,20 +43,23 @@ if ($handle = opendir($logFilesDir)) {
 	echo "<div style='margin-bottom:10px; margin-top:-20px;'>(most recent are displayed first)</div>";
 	//print_r($files);
 	echo "<table border='1' style='min-width:400px; text-align:center'>";
-	echo "<tr><th> filename </th><th> created </th><th> size </th><th> extract entities?</th><th> delete file?</th></tr>";
+	echo "<tr><th> filename </th><th> created </th><th> size </th><th> nr of lines </th><th> extract entities?</th><th> delete file?</th></tr>";
         
 	foreach($sortedfiles as $counterr => $filedata){
 	   $logfilename = $filedata["name"];
            $timestamp = $filedata["time"];
            $fPathh = $filedata["path"];
+           
 	   echo "<tr>";
 	      echo "<td  style='color:#6699FF'><a href='$fPathh'>" . $logfilename . "</a";
 	      echo "</td>";
 	      echo "<td>" . date('m/d/Y H:i:s', $timestamp);
 	      echo "</td>";
-	      echo "<td>" . $filedata["size"] . "</td>";
+	      echo "<td style='text-align:right'>" . $filedata["size"] . "</td>";
+	      echo "<td style='text-align:right'>" . getNrOfLines($fPathh) . "</td>";
 	      echo "<td>";
-		echo "<form class='extr_form' action='../RDFgenerator/' method='post'><input type='hidden'  name='logfile' value='" . $logFilesDir . $logfilename . "' />";
+
+		echo "<form class='extr_form' action='../rdfgenerator/' method='post'><input type='hidden'  name='logfile' value='" . $logFilesDir . $logfilename . "' />";
                if(count($kiiis)>0){
                   if(in_array($logfilename, $kiiis)){
                        echo "<span class='done'>DONE</span>";
@@ -98,5 +101,20 @@ function human_filesize($bytes, $decimals = 2) {
 
 function getRespectiveURLfile($logfilename){
    return getfileNameWithoutExtension($logfilename) . ".txt";
+}
+
+
+function getNrOfLines($file)
+{
+    $f = fopen($file, 'rb');
+    $lines = 0;
+
+    while (!feof($f)) {
+        $lines += substr_count(fread($f, 8192), "\n");
+    }
+
+    fclose($f);
+
+    return $lines;
 }
 ?>

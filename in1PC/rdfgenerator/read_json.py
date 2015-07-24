@@ -11,35 +11,18 @@ import json, sys
 import getEntities
 import commonVariables as comm
 
-def readJson(jsonurl, readedPage, od, _encoding):
+def readJson(jsonurl, readedPage, od):
     '''#if httpResponse is filepath
     jsonfile = (httpResponse.read()).decode('utf-8')
     '''
     #if httpResponse is saved nto string already
     try:
-        if(_encoding != None):
-            if("utf" in _encoding.lower()):
-                _encoding = _encoding.upper()
-            try:
-                jsonfile = (readedPage.decode(_encoding)).strip()
-            except:
-                try:
-                    jsonfile = (readedPage.decode(sys.stdout.encoding)).strip()
-                except:
-                    jsonfile = (readedPage.decode('latin-1')).strip() 
-                    pass
-        else:
-            try:
-                jsonfile = (readedPage.decode(sys.stdout.encoding)).strip()
-            except:
-                jsonfile = (readedPage.decode('latin-1')).strip()
-                pass
-        
+        jsonfile = (readedPage).strip()
         dictnry = json.loads(jsonfile)
         readDictValues(jsonurl, dictnry, set(), od)
 
     except:
-        comm.printException(comm.pathToSaveParsingErrors, "read_json.py " + _encoding + " " + jsonurl)
+        comm.printException(comm.pathToSaveParsingErrors, "read_json.py " + jsonurl)
         pass
 
 def startToGetEntities(jsonurl, lause, ontologyData):

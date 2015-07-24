@@ -19,12 +19,12 @@ def getEntities(url, text, ontologyData, orgWords=['kogu', 'selts', 'ansambel', 
     try:
         ner_tagged = tagger(analyzer(tokenizer(text)))
     except:
-        comm.printException(comm.pathToSaveParsingErrors, "getEntities.py-def_getEntities_:_ner_tagged " + text)
+        comm.printException(comm.pathToSaveParsingErrors, "getEntities.py-def_getEntities_:_ner_tagged " + text[0:100] + " URL_" + url)
         pass
     try:
         ntwl = ner_tagged.named_entities
     except:
-        comm.printException(comm.pathToSaveParsingErrors, "getEntities.py-def_getEntities_:_ntwl" + str(len(ntwl)) + " " + text)
+        comm.printException(comm.pathToSaveParsingErrors, "getEntities.py-def_getEntities_:_ntwl" + str(len(ntwl)) + " " + text[0:100] + " URL_" + url)
         pass
     try:
         if(len(ntwl) > 0):
