@@ -38,20 +38,25 @@ sudo apt-get install g++ swig python3-setuptools libfreetype6-dev python3-pip li
 sudo python3 -m pip install estnltk==1.1
 python3 -m nltk.downloader punkt
 ```
-    //find /path/to/nltk_data:
+
+//find /path/to/nltk_data:
     ```
     find / -xdev 2>/dev/null -name "nltk_data"
     ```
-        //copy this folder to /var/www:
+    
+//copy this folder to /var/www:
         ```
         cp -a /path/to/nltk_data /var/www 
         ```
-                  // e.g. cp -a /home/username/nltk_data /var/www 
-        //remove it from old location:
+        // e.g. ```cp -a /home/username/nltk_data /var/www```
+
+
+//remove it from old location:
         ```
 	rm -rf /path/to/nltk_data 
 	```
-                  // e.g. rm -rf /home/username/nltk_data
+        // e.g. ```rm -rf /home/username/nltk_data```
+        
 
 //install additionally necessary libs:
 ```
