@@ -1,6 +1,6 @@
 This is a web app that works in one server. 
 
-INSTALLATION
+*INSTALLATION*
 
 //This installation is tested on Ubuntu 14.10 and Ubuntu 15.04
 ```
