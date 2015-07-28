@@ -329,4 +329,3 @@ class RdfFilesCreator(OntologyData):
             self.locationGraph.serialize(od.perRdf, format='pretty-xml', encoding='utf-8')
         
       
-
