@@ -57,14 +57,14 @@ def dowloadFromJsons(ajadir):
                             except:
                                 contentKeyExists=False
                                 pass
-                                                   #dowmload only today's changes!
-                            if(contentKeyExists) & (ajadir == jsonToDict[fname_key][csha]['timeDir']):
+                            """Get the time the json-file was made"""
+                            timeDir = jsonToDict[fname_key][csha]['timeDir']
+                                                   #download only today's changes!
+                            if(contentKeyExists) & (ajadir == timeDir):
                                 #excel type is already downloaded
                                 if("excel" not in jsonToDict[fname_key][csha]['Content-Type']):
                                     """Full URL of a file"""
                                     file_url = jsonToDict[fname_key][csha]['file_url']
-                                    """Get the time the json-file was made"""
-                                    timeDir = jsonToDict[fname_key][csha]['timeDir']
                                     """'dirPath' is the path of a folder of a file currently wants to be downloaded"""
                                     dirPath = comm.downloadsDir + base_url + "/"
                                     try:
