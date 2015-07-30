@@ -294,38 +294,66 @@ The chunksize is hard-written by developer and is between 50-100.
 ##Graphical User Interfaces
 
 ###MASTER instance
-User can use web app for starting RDFizing process, browsing in datasets, making SARQL queries, download RDF-files, read catched errors.
+
+User can use web app for starting RDFizing process, browsing in datasets, making SARQL queries, download
+RDF-files, read catched errors.
 User can also delete all generated file for starting to test this system from scratch.
 
+
 <i class="icon-file"></i> datasets/index.php
+
 <i class="icon-file"></i> jq/datasets.jq
+
 	>- for smooth browsing/searcing in datasets
+	
 	>- uses json-files for filtering options
+	
 <i class="icon-file"></i> rdf_files
+
 	>- raw output of the three types of generated RDF files
+	
+
 
 <i class="icon-file"></i> SPARQLendpoint/css/*
+
 <i class="icon-file"></i> SPARQLendpoint/js/*
+
 <i class="icon-file"></i> SPARQLendpoint/index.php
+
 <i class="icon-file"></i> SPARQLendpoint/owlyQuery2.py
+
 	>- 4 different options for quering rdf-files.
+	
 	>- user can specify entity with/without web page for quering
+	
 	>- user can specify URL with/without entity  for quering
+	
 	>- user can write own query sentence
+	
 	>- user can test and see result of webservices
+	
 
 <i class="icon-file"></i> SPARQLendpoint/structures/json
+
 <i class="icon-file"></i> SPARQLendpoint/structures/xml
+
 	>- web services for machines that take in POST-request and answer either in a format of json or RDF/XML
+	
 
 <i class="icon-file"></i> errors/index.php
+
 <i class="icon-file"></i> css/
+
 <i class="icon-file"></i> js/
+
 	>- meant for develoers, who want to see catched errors
+	
 
 
 <i class="icon-file"></i> updates/index.php
+
 	>- user can push button and simulate monthly update
+	
 
 
 
