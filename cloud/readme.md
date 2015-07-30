@@ -242,12 +242,15 @@ __read_plaintext__
 	
 	>- excel files can be parsed only after downloading, other types of docs are downloaded after RDFizing
 	process (using json-files)
-	>- these readers trys to find accurate encoding for every document
+	
+	>- these readers try to find accurate encoding for every document
 	
 	>- replaces multiple spaces, new-lines and characters that cannot exist in names of locatios,
 	organizations and people
-	>- tries to split content into short sentences in order to fasten Estnltk's work (it extracts entities
+	
+	>- tries to split content into shorter sentences in order to fasten Estnltk's work (it extracts entities
 	faster when shorter texts are fed)
+	
 	>- after parsing content, list of sentences are sent to 
 	
 	__getEntities.py__
