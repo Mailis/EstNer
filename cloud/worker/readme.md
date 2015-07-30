@@ -65,17 +65,19 @@ python3 -m nltk.downloader punkt
 
 `
 
-    ####//find /path/to/nltk_data
+####find /path/to/nltk_data####
 
      `find / -xdev 2>/dev/null -name "nltk_data"`
 
-        ####//copy this folder to /var/www
+####copy this folder to /var/www####
 
-        `cp -a /path/to/nltk_data /var/www` e.g. `cp -a /home/marfa_majakas/nltk_data /var/www` 
+        `cp -a /path/to/nltk_data /var/www` 
+        *e.g. `cp -a /home/marfa_majakas/nltk_data /var/www` 
 
-        ####//remove it from old location
+####remove it from old location####
 
-	`rm -rf /path/to/nltk_data` e.g. `rm -rf /home/marfa_majakas/nltk_data`
+	`rm -rf /path/to/nltk_data` 
+	*e.g. `rm -rf /home/marfa_majakas/nltk_data`
 
 `
 
@@ -103,7 +105,7 @@ sudo pip install --upgrade google-api-python-client
 
 
 
-####--- download worker files into folder /var/www/html ---####
+##### download worker files into folder /var/www/html #####
 
 
 
