@@ -18,15 +18,26 @@ __upadets/index.php__ (currently for demonstrating monthly updaes, user can push
 The order of called files are as follows:
 
 
+<<<<<<< HEAD
 ###MASTER instance
 __commonVariables.py__
 	>- stores variables of commonly used in many files: folder names, Google Compute Engine (gce) variable names for authentication and some frequently used methods
+=======
+###MASTER instance###
+__commonVariables.py__
+
+	 > stores variables of commonly used in many files: folder names, Google Compute Engine (gce) variable names for authentication and some frequently used methods
+>>>>>>> c06ba012dc1b8bcab0517d0e76fdd49a6ef37c5c
 	
 __upload_logfile/__
 
 __index.php__
 
+<<<<<<< HEAD
+	>user interface for uploading log files (up to 10MB),
+=======
 	>- user interface for uploading log files (up to 10MB),
+>>>>>>> c06ba012dc1b8bcab0517d0e76fdd49a6ef37c5c
 	
 	>- start RDFizing process when user pushes button next to logfile in table (1) by calling 
 	
@@ -61,6 +72,10 @@ __auth.py__
            
 	>- saves statistics of the time span of RDFizing in workers, number and type of workers, number of parsed
 	log file rows and processed log file rows
+<<<<<<< HEAD
+=======
+	
+>>>>>>> c06ba012dc1b8bcab0517d0e76fdd49a6ef37c5c
 	>- downloads open data documents, based on metadata that is saved in gce bucket, into 
 	
            __datadownload/downloaded_files__
@@ -90,6 +105,7 @@ __auth.py__
 	>- saves catched errors into gce bucket of generated errors by using gpac
 	
         >- sends deletion task for deleting RDF-files in worker instances by POSTing to each worker instance's
+<<<<<<< HEAD
         
            #delete_rdf_files.php 
            
@@ -98,11 +114,24 @@ __auth.py__
 __------------------------------------------------------------__
 
 
+=======
+        __delete_rdf_files.php__
+           
+
+
+__-----__
+
+
+>>>>>>> c06ba012dc1b8bcab0517d0e76fdd49a6ef37c5c
 __updates/index.php__
 
 	>- receives post request and calls
 	
+<<<<<<< HEAD
 	__upload_logfile/sendMonthlyUpdateTasks.py
+=======
+	__upload_logfile/sendMonthlyUpdateTasks.py__
+>>>>>>> c06ba012dc1b8bcab0517d0e76fdd49a6ef37c5c
 	
 __sendMonthlyUpdateTasks.py__
 
@@ -116,6 +145,10 @@ __sendMonthlyUpdateTasks.py__
 	
 	>- compares two hashes, if these are different, puts the file URL into the list of URL that will be sent
 	to worker
+<<<<<<< HEAD
+=======
+	
+>>>>>>> c06ba012dc1b8bcab0517d0e76fdd49a6ef37c5c
         >- gets/uses list of worker instace using same python files as #auth.py
         
         >- sends certain size list of URLs to workres  using same python files as #auth.py
@@ -125,6 +158,7 @@ __sendMonthlyUpdateTasks.py__
         >- saves number of changes, dataset downloads, saves time spent on processes of RDFizing, downloading
         datasets, json-objects and error-objects from gce buckets, downloading RDF files and excels from workers
 
+<<<<<<< HEAD
 
 ###WORKER instance
 
@@ -136,6 +170,19 @@ __commonvariables.py__
 
 __index.php__
 
+=======
+
+###WORKER instance###
+
+__commonvariables.py__
+
+	>- stores variables of commonly used in many files: folder names, Google Compute Engine (gce) variable
+	names for authentication and some frequently used methods
+
+
+__index.php__
+
+>>>>>>> c06ba012dc1b8bcab0517d0e76fdd49a6ef37c5c
 	>- receives post request with list of URLs
 	
 	>- calls connector.py, passes list there
@@ -172,6 +219,10 @@ __download_files_from_log.py__
         
         >- in every case when new data is captured, the respective part of json-object/file is updated and stored
         in gce storage bucket
+<<<<<<< HEAD
+=======
+        
+>>>>>>> c06ba012dc1b8bcab0517d0e76fdd49a6ef37c5c
 	>- creates the mteta data structure for accessed document
 	
 	>- it writes metadata into directory type 
@@ -228,12 +279,23 @@ __read_plaintext__
 	
 	>- excel files can be parsed only after downloading, other types of docs are downloaded after RDFizing
 	process (using json-files)
+<<<<<<< HEAD
+=======
+	
+>>>>>>> c06ba012dc1b8bcab0517d0e76fdd49a6ef37c5c
 	>- these readers trys to find accurate encoding for every document
 	
 	>- replaces multiple spaces, new-lines and characters that cannot exist in names of locatios,
 	organizations and people
+<<<<<<< HEAD
 	>- tries to split content into short sentences in order to fasten Estnltk's work (it extracts entities
 	faster when shorter texts are fed)
+=======
+	
+	>- tries to split content into short sentences in order to fasten Estnltk's work (it extracts entities
+	faster when shorter texts are fed)
+	
+>>>>>>> c06ba012dc1b8bcab0517d0e76fdd49a6ef37c5c
 	>- after parsing content, list of sentences are sent to 
 	
 	__getEntities.py__
@@ -244,8 +306,15 @@ __getEntities.py__
 	
 	>- tries to improve labelling entities, by defining them if entity contains certain words like "maa"
 	(refers to location) or "OÜ"(ref to company)
+<<<<<<< HEAD
         >- also saves possible lemmas for including in triples, because a formed entity in estonian may have
         several lemmas hat denote differet things.
+=======
+	
+        >- also saves possible lemmas for including in triples, because a formed entity in estonian may have
+        several lemmas hat denote differet things.
+        
+>>>>>>> c06ba012dc1b8bcab0517d0e76fdd49a6ef37c5c
 	>- collects extracted entities into lists (each for entity type, total of 3 lists). Lists are global
 	variables for all processes in a worker. Lists have predefined size, defined in the variable #chunksize. Purpose of the lists are to find balance in memory usage (lists are saved into memory) and the number of how many
 	times RDF-graphs are loaded from and written into __rdf_files/__.
@@ -257,10 +326,18 @@ __init_rdf.py__
 
 	>- uses python RDFlib which is developed for creaing and querying RDF graps. Among others, it has methods
 	for defining URIs, namespaces, Literals, merging graphs, adding triples etc.
+<<<<<<< HEAD
+=======
+	
+>>>>>>> c06ba012dc1b8bcab0517d0e76fdd49a6ef37c5c
         >- includes classe for defining ontology data and adding triples.
         
 	>- when __connector.py__is called, it first creates ontology, using class
 	Ontologydata from this file.
+<<<<<<< HEAD
+=======
+	
+>>>>>>> c06ba012dc1b8bcab0517d0e76fdd49a6ef37c5c
 	>- Manager classes are for adding triples into rdf-files named as ORG.rdf, LOC.rdf and PER.rdf.
 	
 	>- uses three types of entities-org, loc and per. 
@@ -281,17 +358,29 @@ __init_rdf.py__
         
 	__rdf_files/__
 	
+<<<<<<< HEAD
 
 __storage/__
 	>- in this folder are the python2 scripts, that enable to comminucate to gce data storage
 
 __delete_rdf_files.php__
+=======
+
+__storage/__
+
+	>- in this folder are the python2 scripts, that enable to comminucate to gce data storage
+
+__delete_rdf_files.php__
+
+>>>>>>> c06ba012dc1b8bcab0517d0e76fdd49a6ef37c5c
 	>- after RDFizing process is finished, master instance sends post to ths file in every worker. Before that posting master instance had downloaded all RDF-files and downloaded excel-files from all worker instances.
+	
 	>- it empties the rdf_files folder as these files are no longer needed
 
 
-##Graphical User Interfaces
+##Graphical User Interfaces##
 
+<<<<<<< HEAD
 ###MASTER instance
 
 User can use web app for starting RDFizing process, browsing in datasets, making SARQL queries, download
@@ -347,30 +436,77 @@ __js/__
 
 	>- meant for develoers, who want to see catched errors
 	
+=======
+###MASTER instance###
+
+User can use web app for starting RDFizing process, browsing in datasets, making SARQL queries, download
+RDF-files, read catched errors.
+User can also delete all generated file for starting to test this system from scratch.
+
+
+__datasets/index.php__
+>>>>>>> c06ba012dc1b8bcab0517d0e76fdd49a6ef37c5c
+
+__jq/datasets.jq__
+
+<<<<<<< HEAD
+__updates/index.php__
+
+	>- user can push button and simulate monthly update
+	
+
+=======
+	>- for smooth browsing/searcing in datasets
+	
+	>- uses json-files for filtering options
+	
+__rdf_files/__
+>>>>>>> c06ba012dc1b8bcab0517d0e76fdd49a6ef37c5c
+
+	>- raw output of the three types of generated RDF files
+	
+
+
+__SPARQLendpoint/css/*__
+
+__SPARQLendpoint/js/*__
+
+__SPARQLendpoint/index.php
+
+__SPARQLendpoint/owlyQuery2.py__
+
+	>- 4 different options for quering rdf-files.
+	
+	>- user can specify entity with/without web page for quering
+	
+	>- user can specify URL with/without entity  for quering
+	
+	>- user can write own query sentence
+	
+	>- user can test and see result of webservices
+	
+
+__SPARQLendpoint/structures/json__
+
+__SPARQLendpoint/structures/xml__
+
+	>- web services for machines that take in POST-request and answer either in a format of json or RDF/XML
+	
+
+__errors/index.php__
+
+__css/__
+
+__js/__
+
+	>- meant for develoers, who want to see catched errors
+	
 
 
 __updates/index.php__
 
 	>- user can push button and simulate monthly update
 	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
