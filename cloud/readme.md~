@@ -142,6 +142,10 @@ __index.php__
 	
 __connector.py__
 
+	>- initiates ontologydata-class by using
+
+	__init_rdf.py__
+
 	>- receives list of URLs from index.php
 	
 	>- creates pool of processes which size is equal to number of CPUs in its worker instance
@@ -254,23 +258,28 @@ __getEntities.py__
 	
 	>- tries to improve labelling entities, by defining them if entity contains certain words like "maa"
 	(refers to location) or "OÜ"(ref to company)
+
         >- also saves possible lemmas for including in triples, because a formed entity in estonian may have
         several lemmas hat denote differet things.
+
 	>- collects extracted entities into lists (each for entity type, total of 3 lists). Lists are global
 	variables for all processes in a worker. Lists have predefined size, defined in the variable #chunksize. Purpose of the lists are to find balance in memory usage (lists are saved into memory) and the number of how many
 	times RDF-graphs are loaded from and written into __rdf_files/__.
 The chunksize is hard-written by developer and is between 50-100.
 
 	>- send lists to init_rdf.py
+
 	
 __init_rdf.py__
 
 	>- uses python RDFlib which is developed for creaing and querying RDF graps. Among others, it has methods
 	for defining URIs, namespaces, Literals, merging graphs, adding triples etc.
-        >- includes classe for defining ontology data and adding triples.
+
+        >- includes classes for defining ontology data and adding triples.
         
 	>- when __connector.py__is called, it first creates ontology, using class
 	Ontologydata from this file.
+
 	>- Manager classes are for adding triples into rdf-files named as ORG.rdf, LOC.rdf and PER.rdf.
 	
 	>- uses three types of entities-org, loc and per. 
@@ -293,10 +302,14 @@ __init_rdf.py__
 	
 
 __storage/__
+
 	>- in this folder are the python2 scripts, that enable to comminucate to gce data storage
 
+
 __delete_rdf_files.php__
+
 	>- after RDFizing process is finished, master instance sends post to ths file in every worker. Before that posting master instance had downloaded all RDF-files and downloaded excel-files from all worker instances.
+
 	>- it empties the rdf_files folder as these files are no longer needed
 
 

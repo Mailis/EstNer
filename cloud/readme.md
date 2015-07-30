@@ -1,7 +1,7 @@
 INSTALLATION
 ===================
-Installation for master instance is describein master folder. 
-Installation for worker instance is describein worker folder.
+Installation for master instance is described in master folder. 
+Installation for worker instance is described in worker folder.
 
 DOCUMENTATION
 ===================
@@ -181,7 +181,7 @@ __download_files_from_log.py__
 
 	>- generally speaking, 
 
-		*creates the meta data structure for accessed documen and 
+		*creates the meta data structure for accessed document and 
 
 		*writes metadata into directory type, then 
 
