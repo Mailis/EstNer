@@ -15,7 +15,7 @@ sudo pip3 install rdflib
 sudo apt-get install python-pip
 sudo pip install --upgrade google-api-python-client
 `
-####---download master files into folder /var/www/html
+####--- download master files into folder /var/www/html ---####
 
 ####-----------------------####
 `
