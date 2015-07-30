@@ -20,7 +20,7 @@ The order of called files are as follows:
 
 ###MASTER instance
 __commonVariables.py__
-	>* stores variables of commonly used in many files: folder names, Google Compute Engine (gce) variable names for authentication and some frequently used methods
+	 > stores variables of commonly used in many files: folder names, Google Compute Engine (gce) variable names for authentication and some frequently used methods
 	
 __upload_logfile/__
 
