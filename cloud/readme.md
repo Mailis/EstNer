@@ -22,7 +22,8 @@ The order of called files are as follows:
 __commonVariables.py__
 	>- stores variables of commonly used in many files: folder names, Google Compute Engine (gce) variable names for authentication and some frequently used methods
 	
-__upload_logfile/__
+
+__-----__starting from __upload_logfile/__ __-------------------------------------------__
 
 __index.php__
 
@@ -95,7 +96,7 @@ __auth.py__
            
 
 
-__------------------------------------------------------------__
+__-----__starting from __updates/_ __-------------------------------------------__
 
 
 __updates/index.php__
