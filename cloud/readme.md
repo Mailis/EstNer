@@ -116,9 +116,9 @@ __sendMonthlyUpdateTasks.py__
 	
 	>- compares two hashes, if these are different, puts the file URL into the list of URL that will be sent
 	to worker
-        >- gets/uses list of worker instace using same python files as #auth.py
+        >- gets/uses list of worker instace using same python files as __auth.py__
         
-        >- sends certain size list of URLs to workres  using same python files as #auth.py
+        >- sends certain size list of URLs to workres  using same python files as __auth.py__
         
         >- sends POST request to workers' index.php
         
@@ -138,9 +138,13 @@ __index.php__
 
 	>- receives post request with list of URLs
 	
-	>- calls connector.py, passes list there
+	>- calls __connector.py__, passes list there
 	
 __connector.py__
+
+	>- initiates ontologydata-class by using
+
+	__init_rdf.py__
 
 	>- receives list of URLs from index.php
 	
@@ -158,57 +162,67 @@ __download_files_from_log.py__
 	
 	>- searches among existing json-files its URL's host name
 	
-        >- if it does not find, saves new json-object into gce storage bucket named as '<hostname>.json'
+        >- if host name  not found, saves new metadata into json-object/file,  named as '<hostname>.json', into gce storage bucket
         
-        >- if it finds, searches for the same document URL in found json-file
+        >- if host name is found, searches for the same document URL in found json-file
         
-        >- if the file url is not found, saves new metadata of this new document into this existing json-file
+        >- if host name is found, but if the file URL is not found, saves new metadata of this new document into this existing json-file
         
-	>- if the URL is found, it compares stored hash of content to the document's content just read in memory
+	>- if the file URL is found, it compares stored hash of content to the document's content that just had read in memory
 	
-        >- if the content hashes are different, it adds new content under doc's URL in json-object
+        >- if the content hashes of docs are different, it adds new content under doc's URL (file URL) in json-object
         
-        >- if the content hashes are the same, it continues to the nxt URL
+        >- if the content hashes are the same, it continues to the next URL
         
         >- in every case when new data is captured, the respective part of json-object/file is updated and stored
         in gce storage bucket
-	>- creates the mteta data structure for accessed document
+
+       
+
+	>- generally speaking, 
+
+		*creates the meta data structure for accessed documen and 
+
+		*writes metadata into directory type, then 
+
+		*serializes into json 
 	
-	>- it writes metadata into directory type 
+	>- the document's URL and access-date is used in 
+
+		* downloading processes 
 	
-	>-  the document's URL and access-date is used in downloading processes 
+		* and while monthly updating with documet's content-hash and filename-hash
 	
-	>-  and while monthly updating with documet's content-hash and filename-hash
+		* doc's metadata is used in sorting/filtering through datasets: 
 	
-	>-  doc's metadata is used in sorting/filtering through datasets: 
+		* datasets can be filtered e.g by 
 	
-	>-  datasets can be filtered e.g by 
+			*(part of) hostname
 	
-	>-  (part of) hostname
+			*content type
 	
-	>-  content type
+			*accessed date, etc.
 	
-	>-  accessed date, etc.
-	
-        >- after json-object is created/updated, it sends the content, encoding type and URL of the document to
-        the 
+	>- after json-object is created/updated, it sends the content, encoding type and URL of the document to the 
 	__fileparser.py__
+
+
 	
 __fileparser.py__
 
 	>- forks document contents by their types, whish van be either
 	
-	>--- html
+	*html
 	
-	>--- xml
+	*xml
 	
-	>--- pdf
+	*pdf
 	
-	>--- excel
+	*excel
 	
-	>--- json
+	*json
 	
-	>--- plain text
+	*plain text
 	
 
 
@@ -218,7 +232,7 @@ __read_xml__
 
 __read_pdf__
 
-__rea__eksel__
+__read_eksel__
 
 __read_json__
 
@@ -244,23 +258,28 @@ __getEntities.py__
 	
 	>- tries to improve labelling entities, by defining them if entity contains certain words like "maa"
 	(refers to location) or "OÜ"(ref to company)
+
         >- also saves possible lemmas for including in triples, because a formed entity in estonian may have
         several lemmas hat denote differet things.
+
 	>- collects extracted entities into lists (each for entity type, total of 3 lists). Lists are global
 	variables for all processes in a worker. Lists have predefined size, defined in the variable #chunksize. Purpose of the lists are to find balance in memory usage (lists are saved into memory) and the number of how many
 	times RDF-graphs are loaded from and written into __rdf_files/__.
 The chunksize is hard-written by developer and is between 50-100.
 
 	>- send lists to init_rdf.py
+
 	
 __init_rdf.py__
 
 	>- uses python RDFlib which is developed for creaing and querying RDF graps. Among others, it has methods
 	for defining URIs, namespaces, Literals, merging graphs, adding triples etc.
-        >- includes classe for defining ontology data and adding triples.
+
+        >- includes classes for defining ontology data and adding triples.
         
 	>- when __connector.py__is called, it first creates ontology, using class
 	Ontologydata from this file.
+
 	>- Manager classes are for adding triples into rdf-files named as ORG.rdf, LOC.rdf and PER.rdf.
 	
 	>- uses three types of entities-org, loc and per. 
@@ -283,10 +302,14 @@ __init_rdf.py__
 	
 
 __storage/__
+
 	>- in this folder are the python2 scripts, that enable to comminucate to gce data storage
 
+
 __delete_rdf_files.php__
+
 	>- after RDFizing process is finished, master instance sends post to ths file in every worker. Before that posting master instance had downloaded all RDF-files and downloaded excel-files from all worker instances.
+
 	>- it empties the rdf_files folder as these files are no longer needed
 
 
