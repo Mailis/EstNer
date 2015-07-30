@@ -285,11 +285,11 @@ __init_rdf.py__
 
 	>- Manager classes are for adding triples into rdf-files named as ORG.rdf, LOC.rdf and PER.rdf.
 	
-	>- uses three types of entities-org, loc and per. 
+	>- uses three types of entities: org, loc and per. 
 	
-	>- uses existing namespaces OWL, FOAF, RDF, DC, NERD and defines new namespace NER
+	>- uses existing ontologies OWL, FOAF, RDF, DC, NERD and defines new namespace NER
 	
-	>- makes triple sfor classes nerd:Organization, nerd:Location, nerd:Person
+	>- makes triples for classes nerd:Organization, nerd:Location, nerd:Person
 	
 	>- defines ontology datatype properties for ner namespace
 	
@@ -322,7 +322,7 @@ __delete_rdf_files.php__
 
 User can use web app for starting RDFizing process, browsing in datasets, making SARQL queries, download
 RDF-files, read catched errors.
-User can also delete all generated file for starting to test this system from scratch.
+User can also delete all generated files for starting to test this system from scratch.
 
 
 __datasets/index.php__
@@ -362,7 +362,7 @@ __SPARQLendpoint/structures/json__
 
 __SPARQLendpoint/structures/xml__
 
-	>- web services for machines that take in POST-request and answer either in a format of json or RDF/XML
+	>- web services for machines that take in POST-request and respond answer either in a format of json or RDF/XML
 	
 
 __errors/index.php__
@@ -371,7 +371,7 @@ __css/__
 
 __js/__
 
-	>- meant for develoers, who want to see catched errors
+	>- meant for developers, who want to see catched errors
 	
 
 
