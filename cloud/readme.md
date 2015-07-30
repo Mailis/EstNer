@@ -37,7 +37,7 @@ __index.php__
 	>- read statistics of processed logfiles
 	
     
-__sendToAuth.py__
+__sendToAuth.php__
 
 	>- reads POST request from index.php and sends logfile name to auth.py
 	

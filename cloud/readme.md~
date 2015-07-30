@@ -317,7 +317,7 @@ __SPARQLendpoint/css/*__
 
 __SPARQLendpoint/js/*__
 
-__SPARQLendpoint/index.php
+__SPARQLendpoint/index.php__
 
 __SPARQLendpoint/owlyQuery2.py__
 
