@@ -13,7 +13,7 @@ cgitb.enable()
 
 import xlrd
 import getEntities
-import commonvariables as comm
+from storage import commonvariables as comm
 from urllib.request import urlretrieve as urr
         
 def readExcel(filePath, url, ontologyData):
@@ -40,8 +40,7 @@ def readExcel(filePath, url, ontologyData):
                         if (cell_type == 1):
                             sentences = comm.replaceToPunkts(cell_value)
                             for sentence in sentences:
-                                if(len(sentence) > 2) & (not comm.is_number(sentence)):
-                                    getEntities.getEntities(url, sentence, ontologyData)
+                                getEntities.getEntities(url, sentence, ontologyData)
         
         except:
             comm.printException(comm.pathToSaveParsingErrors, "read_excel.py " + url)

@@ -15,7 +15,7 @@ cgitb.enable()
 import getEntities
 from PyPDF2 import PdfFileReader
 from io import BytesIO
-import commonvariables as comm
+from storage import commonvariables as comm
 
 #readdedpdf = (ur.urlopen(url).read())
 def readPdf(url, readdedpdf, od):
@@ -32,8 +32,7 @@ def readPdf(url, readdedpdf, od):
             text = (pageObject.extractText())
             sentences = comm.replaceToPunkts(text)
             for sentence in sentences:
-                if(len(sentence) > 2) & (not comm.is_number(sentence)):
-                    getEntities.getEntities(url, sentence, od)
+                getEntities.getEntities(url, sentence, od)
     except:
         comm.printException(comm.pathToSaveParsingErrors, "read_pdf.py " + url)
         pass

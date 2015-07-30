@@ -18,6 +18,8 @@ from apiclient.http import MediaIoBaseDownload
 from googleapiclient.errors import HttpError
 import codecs
 
+import commonvariables as comm
+
 import insertObj
 import deleteObj
  
@@ -45,8 +47,7 @@ def insertNewContentToDict(localFilename, page_redirected, page_info, page_sha25
         newDict[page_sha254]["timeDir"] = commTimeDir
         return newDict
     except:
-        #TODO! save error somewhere
-        #comm.printException(comm.pathToSaveJsonErrors)
+        comm.printException(comm.pathToSaveJsonErrors)
         pass
 
 def insertNewSubFileToDict(localFilename, page_redirected, page_info, page_sha254, page_status, commTimeDir):
@@ -61,8 +62,7 @@ def insertNewSubFileToDict(localFilename, page_redirected, page_info, page_sha25
         newDict[localFilename][page_sha254]["timeDir"] = commTimeDir
         return newDict
     except:
-        #TODO! save error somewhere
-        #comm.printException(comm.pathToSaveJsonErrors)
+        comm.printException(comm.pathToSaveJsonErrors)
         pass
 
 
@@ -71,27 +71,33 @@ def updateExistingObj(existingFileDict, client, _BUCKET_NAME, _FILE1_NAME):
     jsondata = json.dumps(existingFileDict, indent=4)
     insertObj.insertNewObject(client, _BUCKET_NAME, _FILE1_NAME, jsondata)
 
-
+'''
+Check, if the json-object of a document exists.
+If exists, check whether its content had changed meanwhile or not.
+If some changes occured or new doc accessed, update its meta data or save new object
+return boolean value to indicate changes/no changes
+'''
 def main(argv):
+    #load json-formatted meta data into dictionary
     aadress = json.loads(argv["address"])
     _BUCKET_NAME = aadress["bucket"].encode()
     _FILE1_NAME = aadress["object"].encode()
     jsondata = argv["jsondata"].encode()
-    url = argv["url"].encode() #url that came in from BQ table
     localFilename = argv["localFilename"].encode() #SHA of url for local storage
     commTimeDir = argv["timeDir"].encode() #current time when the file was accessed
     redirectedTo=argv["redirectedTo"].encode()
+    url = redirectedTo
     pageInfo = argv["pageInfo"] #dict object
     sha224_ = argv["sha224_"].encode()
     statusCode = argv["statusCode"] #int object
     
-    
+    #google-python-api code, get access to storage bucket
     http = httplib2.Http()
     token_uri = '%s/%s/token' % (METADATA_SERVER, SERVICE_ACCOUNT)
     resp, content = http.request(token_uri, method='GET',
                                  body=None,
                                  headers={'Metadata-Flavor': 'Google'})
-    
+    #google-python-api code, authenticate credentials
     if resp.status == 200:
         d = json.loads(content)
         access_token = d['access_token']  # Save the access token
@@ -100,32 +106,43 @@ def main(argv):
 
         #save info about whether to extract new entities or not
         someNewData = False
+        #try to open existing object
         try:
-            # Get Metadata
+            #google-python-api code,  Get Metadata of bucket object
             req = client.objects().get(
                     bucket=_BUCKET_NAME,
                     object=_FILE1_NAME) # optional
             try:
                 resp = req.execute()
+            #if it was impossible to open this object, it means
+            #this object does not exist yes, therefore this doc is 'new data'
             except HttpError:
-            	someNewData = True
+                someNewData = True
             except:
-            	someNewData = True
+                someNewData = True
             
+            #in the case, when object exists,
+            #it should be checked whether its content had changed or not
             if (someNewData is False):#there is a file with this name in this bucket already
-                # Get Payload Data
+                #google-python-api code, Get Payload Data: get object in bucket
                 req = client.objects().get_media(
                     bucket=_BUCKET_NAME,
                     object=_FILE1_NAME)    # optional
                 # The BytesIO object may be replaced with any io.Base instance.
                 fh = io.BytesIO()
+                #google-python-api code
                 downloader = MediaIoBaseDownload(fh, req, chunksize=1024*1024)
                 done = False
+                #download object
                 while not done:
                     status, done = downloader.next_chunk()
+                #status: an object is downloaded
+                
+                #load json-object into dict
                 existingFileDict = json.loads(fh.getvalue())#return dict()-type value
-                #print ("RETURNED VALUE: " + existingFileDict)
                 '''
+                #Debugging
+                #print ("RETURNED VALUE: " + existingFileDict)
                 print ("STR ")
                 print (type(existingFileDict) is str)--false
                 print ("DICT ")
@@ -133,35 +150,49 @@ def main(argv):
                 print ("LIST ")
                 print (type(existingFileDict) is list)--false
                 '''
-                if(existingFileDict['base_url'] in url):#same file resource was requested
+                #'existingFileDict' is a dict of downloaded object
+                #'base_url' is a host name of current web document
+                #if url (file name of current web document) contains 'base_url',
+                #it means that this doc may already processed
+                if(existingFileDict['base_url'] in url):#same host name was requested
                     #dict has two 1-level keys: 'base_url' and sha244 of a file name
+                    #check if this doc is also processed earlier:
+                    #get list of hashes of filenames in this (downloaded/already existing) json-object
                     fNameKey = [k for k in existingFileDict.keys() if k != 'base_url']
                     #this list may contain 'localFilename'
+                    #'localFilename' is a hash of fileUrl of a current document
+                    #true if current fileName in the list of existing filenames of a host
                     if (localFilename in fNameKey):
-                        #if earlier saved file's sha does not equal to current sha, 
+                        #if earlier saved file's content sha does not equal to current doc content sha, 
                         #the contents of file has changed.
-                        #Saved file's sha is saved into key, find it or not:
+                        #Saved (downloaded/already existing) file's sha is saved into key, find it or not:
                         shaKeys = existingFileDict[localFilename].keys()
+                        #true if current doc's content hash is not found
                         if(sha224_ not in shaKeys):#file has changed
                             #search for date, if it same, update existing sha key
+                            #this for avoiding redundant info
                             replaceSha = ""
                             #if there is same timedDir under some sha key, get this sha and replace
+                            #loop over all content hashes (these are keys in json-file)
                             for sk in shaKeys:
                                 savedDate = existingFileDict[localFilename][sk]["timeDir"]
-                                if(savedDate == commTimeDir):
+                                #compare saved date to current date
+                                if(savedDate == commTimeDir):#same date has found
                                     replaceSha = sk
-                                    break
+                                    break # no need to search further
+                            #true if the same date was found
                             if(replaceSha != ""):#delete sha, because of same day date
                                 del existingFileDict[localFilename][replaceSha]
                             #add new value with new content_sha-key under filename_sha-key
                             #filename-url is same, but content is changed
-                            #so add new content-sha
+                            #so add/update new content-sha
                             newDataDict = insertNewContentToDict(localFilename, redirectedTo, pageInfo, sha224_, statusCode, commTimeDir)
                             if(newDataDict):
                                 existingFileDict[localFilename].update(newDataDict)
                                 updateExistingObj(existingFileDict, client, _BUCKET_NAME, _FILE1_NAME)
                                 someNewData = True
                             
+                    #current fileName was NOT in the list of existing filenames of a host
                     else:#new file (resource) from same domain (or 'base_url') requested
                         #add new value with new filename_sha-key for that base-resource
                         newDataDict = insertNewSubFileToDict(localFilename, redirectedTo, pageInfo, sha224_, statusCode, commTimeDir)
@@ -169,29 +200,24 @@ def main(argv):
                             existingFileDict.update(newDataDict)
                             updateExistingObj(existingFileDict, client, _BUCKET_NAME, _FILE1_NAME)
                             someNewData = True
-
+            #current host was NOT accessed/processed so far
             else:#inserts new file into bucket
                 insertObj.insertNewObject(client, _BUCKET_NAME, _FILE1_NAME, jsondata)
 
-            #return info about whether to extract new entities or not
+            #return info about whether to send doc to parser and extract new entities or not
             print (someNewData)
         except oauth2_client.AccessTokenRefreshError:
-            #TODO! save error somewhere
-            #print ("False credentials")
+            errstr = ("oauth2_client.AccessTokenRefreshError_False_credentials")
+            comm.printException(comm.pathToSaveJsonErrors, errstr)
             pass
     else:
-        #TODO! save error somewhere
-        #print (str(False) + str(resp.status))
+        errstr = "Cannot_access_google_storage_" + (str(False) + str(resp.status))
+        comm.printException(comm.pathToSaveJsonErrors, errstr)
         pass
 
 
 if __name__ == '__main__':
-    #data = (sys.argv[1]).decode('utf-8')
-    #print("data isDict",type(data) is dict)
-    #print("data isStr",type(data) is str)
-    #print(sys.argv[1])
+    #receive json-object of doc's meta data
     d = json.loads(sys.argv[1])
-    #print("d isDict",type(d) is dict)
-    #print("d isStr",type(d) is str)
     main(d)
 # [END all]

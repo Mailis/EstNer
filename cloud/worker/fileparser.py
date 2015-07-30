@@ -8,9 +8,20 @@ cgitb.enable()
 Created on Feb 22, 2015
 http://lxml.de/lxmlhtml.html
 '''
-import time
+import sys
 import read_eksel, read_json, read_html, read_xml, read_pdf, read_plaintext
-import commonvariables as comm
+from storage import commonvariables as comm
+
+
+def detectEncoding(_encoding, httpResponse):
+    doctext = httpResponse
+    
+    try:
+        doctext = httpResponse.encode(_encoding).decode(sys.stdout.encoding)
+    except:
+        pass
+   
+    return doctext
 
 '''
     compulsory inputs are web source url(html or xls or...) and file type
@@ -18,32 +29,57 @@ import commonvariables as comm
 '''
 
 def spreadURLsByContentType(url, httpResponse, tyyp, od, _encoding, filePath = None):
-    #print("FILEPARSER ", url)
-    #od = initRdf.OntologyData('/var/www/html/mag/rdf_files/')
-    #initRdf.RdfFilesCreator(od)
+    doctext = httpResponse
     '''#parse excel file'''
     if("excel" in tyyp.lower()):
-        '''#parse web page excel'''
-        read_eksel.readExcel(filePath, url, od)
+        try:
+            '''#parse web page excel'''
+            read_eksel.readExcel(filePath, url, od)
+        except:
+            comm.printException(comm.pathToSaveParsingErrors, "fileparser_excel")
+            pass
+            
     elif("xml" in tyyp.lower()):
-        #print(tyyp)
-        '''#parse web page xml'''
-        read_xml.readXml(url, httpResponse, od)
+        try:
+            '''#parse web page xml'''
+            doctext = detectEncoding(_encoding, httpResponse)
+            read_xml.readXml(url, doctext, od)
+        except:
+            comm.printException(comm.pathToSaveParsingErrors, "fileparser_xml")
+            pass
     elif("html" in tyyp.lower()) :
-        '''#parse web page html/txt'''
-        read_html.readHtmlPage(url, httpResponse, od, _encoding)
+        try:
+            '''#parse web page html/txt'''
+            doctext = detectEncoding(_encoding, httpResponse)
+            read_html.readHtmlPage(url, doctext, od, _encoding)
+        except:
+            comm.printException(comm.pathToSaveParsingErrors, "fileparser_html")
+            pass
     elif("json" in tyyp.lower()):
-        '''#parse json app/json'''
-        read_json.readJson(url, httpResponse, od, _encoding)
+        try:
+            '''#parse json app/json'''
+            doctext = detectEncoding(_encoding, httpResponse)
+            read_json.readJson(url, doctext, od, _encoding)
+        except:
+            comm.printException(comm.pathToSaveParsingErrors, "fileparser_json")
+            pass
     elif("pdf" in tyyp.lower()):
-        '''#parse pdf'''
-        read_pdf.readPdf(url, httpResponse, od)
+        try:
+            '''#parse pdf'''
+            read_pdf.readPdf(url, doctext, od)
+        except:
+            comm.printException(comm.pathToSaveParsingErrors, "fileparser_pdf")
+            pass
     elif("plain" in tyyp.lower()) or ("text" in tyyp.lower()):
-        '''#assumes incoming is plain text try to parse text lines'''
-        read_plaintext.readPlainText(url, httpResponse, od, _encoding)
+        try:
+            doctext = detectEncoding(_encoding, httpResponse)
+            '''#assumes incoming is plain text try to parse text lines'''
+            read_plaintext.readPlainText(url, doctext, od, _encoding)
+        except:
+            comm.printException(comm.pathToSaveParsingErrors, "fileparser_plainText")
+            pass
     else:
-        jf = open(comm.pathToSaveParsingErrors, 'a',  encoding='utf-8')
-        jf.write(time.strftime("%d/%m/%Y_%H:%M:%S") + " " + url + " " + "The_parser_for_the_type_" + tyyp + "_is_not_implemented\n")
-        jf.close()
+        comm.printException(comm.pathToSaveParsingErrors, "The_parser_for_the_type_" + tyyp + "_is_not_implemented\n")
+
 
 

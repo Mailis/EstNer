@@ -7,7 +7,7 @@ http://tpetmanson.github.io/estnltk/tutorials/ner.html
 from estnltk import tokenize, morf, ner
 import itertools
 import init_rdf
-import commonvariables as comm
+from storage import commonvariables as comm
 import time
 
 tokenizer = tokenize.Tokenizer()
@@ -23,7 +23,7 @@ def printIncomingText(text):
 
 def getEntities(url, text, ontologyData, orgWords=['kogu', 'selts', 'ansambel', 'keskus', 'ühendus', 'ühing', 'mtü', 'oü', 'as', 'klubi', 'asutus', 'keskus', 'fond', 'cup'], locWords=['vabarii', 'maakond']):
     #print("GETENTITIES ", url)
-    printIncomingText(text)
+    #printIncomingText(text)
     ntwl = list()
     try:
         ner_tagged = tagger(analyzer(tokenizer(text)))

@@ -16,7 +16,9 @@ service receives POST
    $arr = array();
 
    if(count($_POST) == 0){
-       $_POST["url"]="http://www.duokirjastus.eu/avaleht";
+       $_POST["url"]="http://www.itcollege.ee/it-kolledz/oppejoud/";
+       $_POST["url"]="http://www.delfi.ee/";
+       $_POST["url"]="http://www.sm.ee/sites/default/files/content-editors/ESF/finantsanaluusi_vormid.xls";
        $arr["data"][0] = $_POST;
        $_POST = json_encode($arr);
    }

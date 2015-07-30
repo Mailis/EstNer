@@ -10,7 +10,7 @@ cgitb.enable()
 
 import xml.etree.ElementTree as ET
 import getEntities
-import commonvariables as comm
+from storage import commonvariables as comm
 
 
 def readXml(xmlurl, pathToFile, ontologyData):
@@ -33,8 +33,7 @@ def readXml(xmlurl, pathToFile, ontologyData):
                 if(stripped is not None) & (len(stripped)>2):
                     sentences = comm.replaceToPunkts(stripped)
                     for sentence in sentences:
-                        if(len(sentence) > 2) & (not comm.is_number(sentence)):
-                            getEntities.getEntities(xmlurl, sentence, ontologyData)
+                        getEntities.getEntities(xmlurl, sentence, ontologyData)
     except:
         comm.printException(comm.pathToSaveParsingErrors, "read_xml.py " + xmlurl)
         pass

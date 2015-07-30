@@ -8,29 +8,33 @@ import cgitb
 cgitb.enable()
 
 import getEntities, sys
-import commonvariables as comm
+from storage import commonvariables as comm
 
 def readPlainText(htmlurl, plaintext, ontologyData, _encoding):
     try:
-        if(_encoding != None):
-            if("utf" in _encoding.lower()):
-                _encoding = _encoding.upper()
-            try:
-                punc = (plaintext.decode(_encoding)).strip()
-            except:
-                try:
-                    punc = (plaintext.decode(sys.stdout.encoding)).strip()
-                except:
-                    punc = (plaintext.decode('latin-1')).strip() 
-        else:
+        try:
+            punc = (plaintext.decode(_encoding)).strip()
+        except:
             try:
                 punc = (plaintext.decode(sys.stdout.encoding)).strip()
             except:
-                punc = (plaintext.decode('latin-1')).strip()    
-                
+                try:
+                    punc = (plaintext.decode('UTF-8')).strip()
+                except:
+                    try:
+                        punc = (plaintext.decode('latin-1')).strip() 
+                    except:
+                        try:
+                            punc = (plaintext.decode('ISO-8859-1')).strip()  
+                        except:
+                            try:
+                                punc = (plaintext.decode()).strip()  
+                            except:
+                                punc = plaintext
+                                pass 
+                        
         sentences = comm.replaceToPunkts(punc)
         for sentence in sentences:
-            if(len(sentence) > 2) & (not comm.is_number(sentence)):
                 getEntities.getEntities(htmlurl, sentence, ontologyData)
     except:
         comm.printException(comm.pathToSaveParsingErrors, "read_plaintext.py " + _encoding + " " + htmlurl)

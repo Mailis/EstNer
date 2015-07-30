@@ -12,7 +12,7 @@ cgitb.enable()
 
 
 import getEntities
-import commonvariables as comm
+from storage import commonvariables as comm
 from lxml.html import parse
 
 

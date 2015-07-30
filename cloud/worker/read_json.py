@@ -9,7 +9,7 @@ cgitb.enable()
 
 import json, sys
 import getEntities
-import commonvariables as comm
+from storage import commonvariables as comm
 
 def readJson(jsonurl, readedPage, od, _encoding):
     '''#if httpResponse is filepath
@@ -45,8 +45,7 @@ def readJson(jsonurl, readedPage, od, _encoding):
 def startToGetEntities(jsonurl, lause, ontologyData):
     sentences = comm.replaceToPunkts(lause)
     for sentence in sentences:
-        if(len(sentence) > 2) & (not comm.is_number(sentence)):
-            getEntities.getEntities(jsonurl, sentence, ontologyData)
+        getEntities.getEntities(jsonurl, sentence, ontologyData)
 
 
 def readDictValues(jsonurl, dictnry, tmpSet, ontologyData):
