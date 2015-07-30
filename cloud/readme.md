@@ -262,13 +262,13 @@ __getEntities.py__
 	>- tries to improve labelling entities, by defining them if entity contains certain words like "maa"
 	(refers to location) or "OÜ"(ref to company)
 
-        >- also saves possible lemmas for including in triples, because a formed entity in estonian may have
+        >- also saves possible alternative lemmas for including in triples, because a formed term of entity in Estonian may have
         several lemmas hat denote differet things.
 
 	>- collects extracted entities into lists (each for entity type, total of 3 lists). Lists are global
 	variables for all processes in a worker. Lists have predefined size, defined in the variable #chunksize. Purpose of the lists are to find balance in memory usage (lists are saved into memory) and the number of how many
 	times RDF-graphs are loaded from and written into __rdf_files/__.
-The chunksize is hard-written by developer and is between 50-100.
+The chunksize size is hard-written by developer and is between 50-100.
 
 	>- send lists to init_rdf.py
 
