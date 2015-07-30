@@ -91,7 +91,7 @@ __auth.py__
 	
         >- sends deletion task for deleting RDF-files in worker instances by POSTing to each worker instance's
         
-           #delete_rdf_files.php 
+           __delete_rdf_files.php__
            
 
 
