@@ -1,0 +1,41 @@
+###########################
+2015-07-29 22:21:54.687392
+creating RDFs: 
+time spent (h:m:s.mm): 0:20:26.717179 
+
+2015-07-29 22:21:54.712969
+number of log rows: 1000
+number of processed rows: 287
+length of POST list: 4
+number of worker instaces: 4
+
+workername: worker1
+machineType: https://www.googleapis.com/compute/v1/projects/estn-1006/zones/europe-west1-b/machineTypes/n1-highcpu-2
+
+workername: worker2
+machineType: https://www.googleapis.com/compute/v1/projects/estn-1006/zones/europe-west1-b/machineTypes/n1-highcpu-2
+
+workername: worker3
+machineType: https://www.googleapis.com/compute/v1/projects/estn-1006/zones/europe-west1-b/machineTypes/n1-highcpu-2
+
+workername: worker4
+machineType: https://www.googleapis.com/compute/v1/projects/estn-1006/zones/europe-west1-b/machineTypes/n1-standard-1
+
+
+2015-07-29 22:21:54.713173
+importing-aggregating RDF files: 
+time spent (h:m:s.mm): 0:00:00.025677 
+
+2015-07-29 22:24:47.485839
+downloading files: 
+time spent (h:m:s.mm): 0:02:52.772489 
+Number of downloads: 251
+2015-07-29 22:24:47.489804
+
+2015-07-29 22:24:50.285384
+ORG nr of triples: 10011
+2015-07-29 22:24:51.884631
+PER nr of triples: 6653
+2015-07-29 22:24:52.385381
+LOC nr of triples: 2022
+---------------------------
