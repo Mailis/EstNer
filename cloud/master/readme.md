@@ -15,7 +15,7 @@ sudo pip install --upgrade google-api-python-client
 sudo apt-get install python3-pip
 
 sudo pip3 install rdflib
-`
+
 ####----------------------####
 
 
@@ -57,5 +57,4 @@ sudo mkdir statistics/processed_logfiles
 sudo mkdir statistics/monthly_updates
 
 
-`
 
