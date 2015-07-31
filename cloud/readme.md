@@ -22,7 +22,8 @@ The order of called files are as follows:
 __commonVariables.py__
 	>- stores variables of commonly used in many files: folder names, Google Compute Engine (gce) variable names for authentication and some frequently used methods
 	
-__upload_logfile/__
+
+__-----__starting from __upload_logfile/__ __-------------------------------------------__
 
 __index.php__
 
@@ -95,7 +96,7 @@ __auth.py__
            
 
 
-__------------------------------------------------------------__
+__-----__starting from __updates/_ __-------------------------------------------__
 
 
 __updates/index.php__
@@ -242,12 +243,15 @@ __read_plaintext__
 	
 	>- excel files can be parsed only after downloading, other types of docs are downloaded after RDFizing
 	process (using json-files)
-	>- these readers trys to find accurate encoding for every document
+	
+	>- these readers try to find accurate encoding for every document
 	
 	>- replaces multiple spaces, new-lines and characters that cannot exist in names of locatios,
 	organizations and people
-	>- tries to split content into short sentences in order to fasten Estnltk's work (it extracts entities
+	
+	>- tries to split content into shorter sentences in order to fasten Estnltk's work (it extracts entities
 	faster when shorter texts are fed)
+	
 	>- after parsing content, list of sentences are sent to 
 	
 	__getEntities.py__
@@ -259,13 +263,13 @@ __getEntities.py__
 	>- tries to improve labelling entities, by defining them if entity contains certain words like "maa"
 	(refers to location) or "OÜ"(ref to company)
 
-        >- also saves possible lemmas for including in triples, because a formed entity in estonian may have
+        >- also saves possible alternative lemmas for including in triples, because a formed term of entity in Estonian may have
         several lemmas hat denote differet things.
 
 	>- collects extracted entities into lists (each for entity type, total of 3 lists). Lists are global
 	variables for all processes in a worker. Lists have predefined size, defined in the variable #chunksize. Purpose of the lists are to find balance in memory usage (lists are saved into memory) and the number of how many
 	times RDF-graphs are loaded from and written into __rdf_files/__.
-The chunksize is hard-written by developer and is between 50-100.
+The chunksize size is hard-written by developer and is between 50-100.
 
 	>- send lists to init_rdf.py
 
@@ -282,11 +286,11 @@ __init_rdf.py__
 
 	>- Manager classes are for adding triples into rdf-files named as ORG.rdf, LOC.rdf and PER.rdf.
 	
-	>- uses three types of entities-org, loc and per. 
+	>- uses three types of entities: org, loc and per. 
 	
-	>- uses existing namespaces OWL, FOAF, RDF, DC, NERD and defines new namespace NER
+	>- uses existing ontologies OWL, FOAF, RDF, DC, NERD and defines new namespace NER
 	
-	>- makes triple sfor classes nerd:Organization, nerd:Location, nerd:Person
+	>- makes triples for classes nerd:Organization, nerd:Location, nerd:Person
 	
 	>- defines ontology datatype properties for ner namespace
 	
@@ -319,7 +323,7 @@ __delete_rdf_files.php__
 
 User can use web app for starting RDFizing process, browsing in datasets, making SARQL queries, download
 RDF-files, read catched errors.
-User can also delete all generated file for starting to test this system from scratch.
+User can also delete all generated files for starting to test this system from scratch.
 
 
 __datasets/index.php__
@@ -359,7 +363,7 @@ __SPARQLendpoint/structures/json__
 
 __SPARQLendpoint/structures/xml__
 
-	>- web services for machines that take in POST-request and answer either in a format of json or RDF/XML
+	>- web services for machines that take in POST-request and respond answer either in a format of json or RDF/XML
 	
 
 __errors/index.php__
@@ -368,7 +372,7 @@ __css/__
 
 __js/__
 
-	>- meant for develoers, who want to see catched errors
+	>- meant for developers, who want to see catched errors
 	
 
 
