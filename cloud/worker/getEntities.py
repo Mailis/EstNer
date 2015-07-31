@@ -25,16 +25,18 @@ def getEntities(url, text, ontologyData, orgWords=['kogu', 'selts', 'ansambel', 
     #print("GETENTITIES ", url)
     #printIncomingText(text)
     ntwl = list()
+    ner_tagged = None
     try:
         ner_tagged = tagger(analyzer(tokenizer(text)))
     except:
         comm.printException(comm.initRdfErrorsFilePath, "getEntities.py-def_getEntities_:_ner_tagged " + str(text))
         pass
-    try:
-        ntwl = ner_tagged.named_entities
-    except:
-        comm.printException(comm.initRdfErrorsFilePath, "getEntities.py-def_getEntities_:_ntwl" + str(len(ntwl)) + " " + str(text))
-        pass
+    if (ner_tagged is not None):
+        try:
+            ntwl = ner_tagged.named_entities
+        except:
+            comm.printException(comm.initRdfErrorsFilePath, "getEntities.py-def_getEntities_:_ntwl" + str(len(ntwl)) + " " + str(text))
+            pass
     try:
         if(len(ntwl) > 0):
             

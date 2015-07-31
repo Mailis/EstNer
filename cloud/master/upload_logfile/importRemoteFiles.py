@@ -16,7 +16,7 @@ def importExcelFiles(WORKER_INSTANCES):
                 dest = comm.downloadsDir_for_excels
                 os.system('wget  -r --no-parent -nH --cut-dirs=1 --reject "index.html*" ' + excels_url + " -P " + dest)
             except:
-                comm.printException(comm.pathToSaveDownloadErrors, errString="collecting excels")
+                comm.printException(comm.pathToSaveDownloadErrors, errString="collecting_Excels_and_PDFs")
                 pass
             
             

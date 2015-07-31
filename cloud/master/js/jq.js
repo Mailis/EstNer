@@ -32,7 +32,7 @@ $(document).ready(function() {
 
 
     //processed log files' stat
-     $.get( "displayStatistics.php")
+     $.get("displayStatistics.php")
 	     .done(function( data ) {
               $("div.stat_waiter").html(data);
         });

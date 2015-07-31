@@ -8,7 +8,7 @@ if(file_exists($processed_logfilesDir)){
                 if( $entry == ".." || $entry == ".") continue;
 		$fPath = $processed_logfilesDir . $entry;
 		//print filename
-                echo "<div class='fname'><a href='$fPath'>" . $entry . "</a></div>";
+                echo "<div class='fname'><hr><a href='$fPath'>" . $entry . "</a></div>";
 		//read file line by line
                 $filehandle = fopen($fPath, "r");
 		if ($filehandle) {
@@ -32,7 +32,7 @@ if(file_exists($processed_logfilesDir)){
                             echo "<div class='fname_data_finer_data'>" . $line . "</div>";
                         }
                         else if(strpos($line, "###") !== false){
-                            echo "<div class='fname_data_finer_data'><hr>" . $line . "</div>";
+                            echo "<div class='fname_data_finer_data'>" . $line . "</div>";
                         }
                         else 
                             echo "<div class='fname_data_finer_key'>" . $line . "</div>";

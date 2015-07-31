@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
-import os.path, os
-import time, collections
+import os
+import time
 import hashlib
 import linecache
-import sys, stat, re
+import sys, re
 import codecs
 import json
 import chardet
@@ -29,7 +29,7 @@ chunksize=60
 '''
 desiredFileTypes = ['excel', 'json', 'html', 'xml', 'pdf', 'plain', 'text']#
 undesiredFileTypes = ['image', 'no-type', 'javascript', 'flash', 'dns', 'ttf']
-undesiredFileExtensions = ['jpg', 'jpeg', 'gif', 'png', 'bmp', 'ico', 'swf', 'js', 'css', 'js', 'php', 'ShockwaveFlash', 'dns', 'ttf']
+undesiredFileExtensions = ['jpg', 'jpeg', 'gif', 'png', 'bmp', 'ico', 'swf', 'js', 'css', 'php', 'ShockwaveFlash', 'dns', 'ttf']
 undesiredFileName = ['robots.txt', '/robots.txt']
 
 '''
@@ -183,19 +183,22 @@ def is_number(s):
 
 
 def replaceToPunkts(s6ne):
+    #set avoids double items
     sentences = set()
     prune0 = s6ne.strip().replace('\n', ' ').replace('\t', ' ').replace('&nbsp;', ' ')
     multiSpaces="\s{2,}"
     prune1 = re.sub(multiSpaces, ' ', prune0)
     multiSpaces="-{2,}"
     prune2 = re.sub(multiSpaces, '-', prune1)
-    prune3 = prune2.replace(';', '.').replace(':', '.').replace('(', '.').replace(')', '.').replace('?', '.').replace('!', '.').replace(',', '.').replace(' | ', '.').replace('|', '.').replace('/', '.').replace('\\', '.').replace('{', '.').replace('}', '.').replace('[', '.').replace(']', '.').replace('¬', '.').replace('_', '.').replace('~', '.').replace('#', '.').replace('%', '.').replace('`', '.').replace('"', '.').replace('<', '.').replace('>', '.').replace('=', '.').replace('+', '.').replace("Ãµ","õ")
+    prune3 = prune2.replace(';', '.').replace(':', '.').replace('(', '.').replace(')', '.').replace('?', '.').replace('!', '.').replace(',', '.').replace(' | ', '.').replace('&', '.').replace('@', '.').replace('˝', '.').replace('˙', '.').replace('˚', '.').replace('ˇ', '.').replace('ˆ', '.').replace('/', '.').replace('\\', '.').replace('{', '.').replace('}', '.').replace('[', '.').replace(']', '.').replace('¬', '.').replace('_', '.').replace('~', '.').replace('#', '.').replace('%', '.').replace('`', '.').replace('"', '.').replace('<', '.').replace('>', '.').replace('=', '.').replace('+', '.')
     prune4 = prune3.replace("Ãµ","õ").replace("Ã•","Õ").replace("Ã","Õ").replace("Ã¼","ü").replace("Ã", "Ü").replace("Ãœ", "Ü").replace("Ã¤","ä").replace("Ã„", "Ä").replace("Ã", "Ä").replace("Ã–", "Ö").replace("Ã¶","ö").replace("", "™")
     laused = prune4.split(".")
     for s6n in laused:
         #s6ne = s6n.encode("utf-8")
         s6ne = str(s6n)#.encode('utf-8')
         #s6ne = unicodedata.normalize('NFD', s6n)
-        if(len(s6ne) > 2) & (not is_number(s6ne)):
-            sentences.add(s6ne)
+        if(re.search('[a-zA-Z]', s6ne) is not None):
+            if(len(s6ne) > 2): 
+                if(not is_number(s6ne)):
+                    sentences.add(s6ne)
     return list(sentences)  

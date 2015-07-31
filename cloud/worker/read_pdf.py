@@ -14,22 +14,18 @@ cgitb.enable()
 
 import getEntities
 from PyPDF2 import PdfFileReader
-from io import BytesIO
+from urllib.request import urlretrieve as urldownl
 from storage import commonvariables as comm
 
 #readdedpdf = (ur.urlopen(url).read())
-def readPdf(url, readdedpdf, od):
-    b = BytesIO(readdedpdf)
-    pdfFile = PdfFileReader(b, "rb")
-    pdfFile.strict = False
-    #pdfFile = PdfFileReader("pdf-sample.pdf", "rb")
-    
-    #print(pdfFile)
+def readPdf(filePath, url, od):
+    urldownl(url, filePath)
+    pdf = PdfFileReader(open(filePath, "rb"))
+    pdf.strict = True
+ 
     try:
-        for i in range(pdfFile.numPages):
-            #print(i)
-            pageObject = pdfFile.getPage(i)#ContentStream(pdfFile.getPage(i)["/Contents"])
-            text = (pageObject.extractText())
+        for page in pdf.pages:
+            text = (page.extractText())
             sentences = comm.replaceToPunkts(text)
             for sentence in sentences:
                 getEntities.getEntities(url, sentence, od)

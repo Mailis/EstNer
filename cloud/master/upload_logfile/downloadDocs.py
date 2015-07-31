@@ -63,17 +63,19 @@ def dowloadFromJsons(ajadir):
                     #here, csha is the sha(filecontent)
                     for csha in jsonToDict[fname_key].keys():
                         contentKeyExists=False
+                        contentType=""
                         """check if metadata contains key 'Content-Type'"""
                         try:
                             if ('Content-Type' in jsonToDict[fname_key][csha]):
                                 contentKeyExists=True
+                                contentType = jsonToDict[fname_key][csha]['Content-Type']
                         except:
                             contentKeyExists=False
                             pass
                         #download only today's changes!
                         if(contentKeyExists) & (ajadir == jsonToDict[fname_key][csha]['timeDir']):
-                            #excel type is already downloaded
-                            if("excel" not in jsonToDict[fname_key][csha]['Content-Type']):
+                            #excel and pdf types are already downloaded
+                            if(("excel" not in contentType) & ("pdf" not in contentType)):
                                 """Full URL of a file"""
                                 file_url = jsonToDict[fname_key][csha]['file_url']
                                 """Get the time the json-file was made"""

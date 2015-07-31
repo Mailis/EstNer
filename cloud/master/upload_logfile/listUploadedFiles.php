@@ -75,8 +75,8 @@ if(file_exists($logFilesDir)){
 		      echo "<td>";
 
 			echo "<form class='extr_form' action='sendToAuth.php' method='post'><input type='hidden'  name='logfile' value='" . $logFilesDir . $logfilename . "' />";
-		          if(fileisProc($logfilename)){
-		               echo "<span class='done'>DONE</span>";
+		          if(fileisProc($logfilename) == 1){
+		               echo "<span class='done'>DONE </span>";
 		               echo "<input type='submit'  value='Yes, do again.' name='start_get_entities'/></form>";
 		          }
 		          else{
@@ -121,15 +121,12 @@ function getRespectiveURLfile($logfilename){
 function fileisProc($logFname){
     //$logFname may be e.g crawl_detail4.log
     global $arrayOfProcessedLogfileNames; //e.g [crawl_detail4log]  (from crawl_detail4log.txt)
-    $logfWithoutExt = getfileNameWithoutExtension($logFname);//e.g crawl_detail4 (from crawl_detail4.log)
-    foreach($arrayOfProcessedLogfileNames as $k => $processedName){//crawl_detail4log
-        $lenth = strlen($processedName)-3;//e.g (strlen(crawl_detail4log)-7)
-        if ( (strpos($processedName, $logfWithoutExt) !== FALSE) && (strlen($logfWithoutExt) == $lenth) )
-             return 1;
-        else
-             return 0;
-    }
-
+    $logfimpl = implode('',explode('.',$logFname));//e.g crawl_detail4 (crawl_detail4log from crawl_detail4.log)
+               //($needle, array $haystack)
+    if(in_array($logfimpl, $arrayOfProcessedLogfileNames))
+             return(1);
+    else
+             return(0);
 }
 
 function getNrOfLines($file)

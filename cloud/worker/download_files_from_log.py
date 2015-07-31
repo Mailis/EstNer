@@ -25,7 +25,7 @@ comm.timeDir = time.strftime("%d_%m_%Y")
 
 #method 'insertValuesToDict'
 #creates the mteta data structure for accessed document
-#it writes metadat ito directory type 
+#it writes metadata into directory type 
 #which is later serialized as json-string
 #and saved into file '<hostname>.json'.
 #this structure holds the system together:
@@ -207,8 +207,9 @@ send read doc content for parsing,
 where every content type uses different parser
 '''
 def sendFileToParser(contentType, baseUrl, redirectedTo, od, _encoding, localFilename, pageread):
-    #it is possible to read excel-type only after downloading this excel-doc
-    if("excel" in contentType):
+    contentType = contentType.lower()
+    #it is possible to read excel-type and pdf only after downloading this excel-doc
+    if(("excel" in contentType) or ("pdf" in contentType)):
         try:
             dirToSaveDownloads = comm.downloadsDir + baseUrl
             if not os.path.isdir(dirToSaveDownloads):
@@ -223,3 +224,6 @@ def sendFileToParser(contentType, baseUrl, redirectedTo, od, _encoding, localFil
         except:
             comm.printException(comm.pathToSaveProgrammingErrors, "send_file_to_parser")
             pass
+        
+        
+        

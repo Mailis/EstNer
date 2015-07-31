@@ -5,8 +5,8 @@
 print_r($_POST);
   if(isset($_POST["simulate_update"])){
         system('python3 ../upload_logfile/sendMonthlyUpdateTasks.py');
-	//header("Location: ../updates");
-        //die();
+	header("Location: ../updates");
+        die();
   }
 ?>
 

@@ -31,15 +31,23 @@ def detectEncoding(_encoding, httpResponse):
 def spreadURLsByContentType(url, httpResponse, tyyp, od, _encoding, filePath = None):
     doctext = httpResponse
     '''#parse excel file'''
-    if("excel" in tyyp.lower()):
+    if("excel" in tyyp):
         try:
             '''#parse web page excel'''
             read_eksel.readExcel(filePath, url, od)
         except:
             comm.printException(comm.pathToSaveParsingErrors, "fileparser_excel")
             pass
+    
+    elif("pdf" in tyyp):
+        try:
+            '''#parse pdf'''
+            read_pdf.readPdf(filePath, url, od)
+        except:
+            comm.printException(comm.pathToSaveParsingErrors, "fileparser_pdf")
+            pass
             
-    elif("xml" in tyyp.lower()):
+    elif("xml" in tyyp):
         try:
             '''#parse web page xml'''
             doctext = detectEncoding(_encoding, httpResponse)
@@ -47,7 +55,7 @@ def spreadURLsByContentType(url, httpResponse, tyyp, od, _encoding, filePath = N
         except:
             comm.printException(comm.pathToSaveParsingErrors, "fileparser_xml")
             pass
-    elif("html" in tyyp.lower()) :
+    elif("html" in tyyp) :
         try:
             '''#parse web page html/txt'''
             doctext = detectEncoding(_encoding, httpResponse)
@@ -55,7 +63,7 @@ def spreadURLsByContentType(url, httpResponse, tyyp, od, _encoding, filePath = N
         except:
             comm.printException(comm.pathToSaveParsingErrors, "fileparser_html")
             pass
-    elif("json" in tyyp.lower()):
+    elif("json" in tyyp):
         try:
             '''#parse json app/json'''
             doctext = detectEncoding(_encoding, httpResponse)
@@ -63,14 +71,7 @@ def spreadURLsByContentType(url, httpResponse, tyyp, od, _encoding, filePath = N
         except:
             comm.printException(comm.pathToSaveParsingErrors, "fileparser_json")
             pass
-    elif("pdf" in tyyp.lower()):
-        try:
-            '''#parse pdf'''
-            read_pdf.readPdf(url, doctext, od)
-        except:
-            comm.printException(comm.pathToSaveParsingErrors, "fileparser_pdf")
-            pass
-    elif("plain" in tyyp.lower()) or ("text" in tyyp.lower()):
+    elif("plain" in tyyp) or ("text" in tyyp):
         try:
             doctext = detectEncoding(_encoding, httpResponse)
             '''#assumes incoming is plain text try to parse text lines'''
