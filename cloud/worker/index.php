@@ -6,23 +6,24 @@
 </head>
 
 <body>
-service receives POST
+
 <?php
-   error_reporting(E_ALL);
-   ini_set('display_errors', 1);
-
-   echo "service receives POST-> ";
-
-   $arr = array();
-
-   if(count($_POST) == 0){
-       $_POST["url"]="http://www.itcollege.ee/it-kolledz/oppejoud/";
-       $arr["data"][0] = $_POST;
-       $_POST = json_encode($arr);
+/*DEBUGGING
+      if(count($_POST) == 0){
+          $_POST["url"]="http://www.sm.ee/sites/default/files/content-editors/ESF/finantsanaluusi_vormid.xls";
+          $arr["data"][0] = $_POST;
+          $_POST = json_encode($arr);
+          system('python3 connector.py ' . escapeshellarg(json_encode($_POST)));
+      }
+*/
+   if(isset($_POST)){
+       system('python3 connector.py ' . escapeshellarg(json_encode($_POST)));
    }
-
-   system('python3 connector.py ' . escapeshellarg(json_encode($_POST)));
-
+   else{
+      header('Location: rdf_files');
+   }
+/*
+*/
 ?>
 </body>
 

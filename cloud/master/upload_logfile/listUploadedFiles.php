@@ -50,8 +50,8 @@ if(file_exists($logFilesDir)){
 		}
 
 
-	    ksort($files);
-	    $sortedfiles = array_reverse($files, true); #sorts by file creation time
+	    asort($files);
+	    $sortedfiles = $files;//array_reverse($files, true); #sorts by file creation time
 	 
 	    if(count($sortedfiles) > 0){
 		echo "<div style='margin-bottom:10px; margin-top:-20px;'>(most recent are displayed first)</div>";

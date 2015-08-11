@@ -5,6 +5,17 @@ import cgitb
 cgitb.enable()
 import commonVariables as comm
 
+    
+def isValideType(tyyp):
+    typeIsDesired = True
+    #disable unwanted content types
+    for typ in comm.undesiredFileTypes:
+        tyyyp = typ.lower()
+        if (tyyyp  in tyyp) or (tyyp in tyyyp ):
+            typeIsDesired = False
+    return typeIsDesired
+
+
 def isNeededUrl(url):
     neededUrl = True
     fileName =  (url.lower().split("/"))[-1]
@@ -14,9 +25,11 @@ def isNeededUrl(url):
         extSplit = (fileName.split("."))
         lastIndex = len(extSplit)-1
         if(lastIndex > 0):
-            extension = (extSplit[lastIndex])
-            if(extension in comm.undesiredFileExtensions):
-                neededUrl = False
+            extension = (extSplit[lastIndex]).lower()
+            for ext in comm.undesiredFileExtensions:
+                ext = ext.lower()
+                if(extension in ext) or (ext in extension):
+                    neededUrl = False
     if(neededUrl):
         for udft in comm.undesiredFileTypes:
             if(udft in url):

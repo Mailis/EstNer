@@ -8,7 +8,8 @@ if(file_exists($processed_logfilesDir)){
                 if( $entry == ".." || $entry == ".") continue;
 		$fPath = $processed_logfilesDir . $entry;
 		//print filename
-                echo "<div class='fname'><hr><a href='$fPath'>" . $entry . "</a></div>";
+                echo "<div class='fname' id = '".$entry."' onclick='tog(this.id)'><hr><a href='$fPath'>" . $entry . "</a></div>";
+                echo "<div class='filetoggle'>";
 		//read file line by line
                 $filehandle = fopen($fPath, "r");
 		if ($filehandle) {
@@ -42,6 +43,7 @@ if(file_exists($processed_logfilesDir)){
 
 		    fclose($filehandle);
 		}//if filehandle
+                echo "</div>";// class='filetoggle'
 	    }//while
             closedir($handle);
 	}//if opendir

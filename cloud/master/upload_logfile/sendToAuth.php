@@ -6,8 +6,8 @@
       $data = array("logfilename"=>$_POST["logfile"]);
       system('/usr/bin/python auth.py ' . escapeshellarg(json_encode($data)));//, $output
       //print_r( $output);
-      header("Location: ../upload_logfile");
-      die();
+      //header("Location: ../upload_logfile");
+      //die();
   }
   else{
     echo "no logfile to process";

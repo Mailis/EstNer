@@ -72,8 +72,10 @@ def dowloadFromJsons(ajadir):
                         except:
                             contentKeyExists=False
                             pass
-                        #download only today's changes!
-                        if(contentKeyExists) & (ajadir == jsonToDict[fname_key][csha]['timeDir']):
+                        #download only fresh changes!
+                        process_start_date = comm.makeDateObj(ajadir)
+                        json_model_date = comm.makeDateObj(jsonToDict[fname_key][csha]['timeDir'])
+                        if(contentKeyExists) & (json_model_date >= process_start_date):
                             #excel and pdf types are already downloaded
                             if(("excel" not in contentType) & ("pdf" not in contentType)):
                                 """Full URL of a file"""

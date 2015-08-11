@@ -27,13 +27,14 @@ def readXml(xmlurl, pathToFile, ontologyData):
     try:
         root = ET.fromstring(pathToFile)
         ''''''
-        for data in root.iter():
-            if(data.text is not None):
-                stripped = data.text.strip()
-                if(stripped is not None) & (len(stripped)>2):
-                    sentences = comm.replaceToPunkts(stripped)
-                    for sentence in sentences:
-                        getEntities.getEntities(xmlurl, sentence, ontologyData)
+        if(root is not None):
+            for data in root.iter():
+                if(data.text is not None):
+                    stripped = data.text.strip()
+                    if(stripped is not None) & (len(stripped)>2):
+                        sentences = comm.replaceToPunkts(stripped)
+                        for sentence in sentences:
+                            getEntities.getEntities(xmlurl, sentence, ontologyData)
     except:
         comm.printException(comm.pathToSaveParsingErrors, "read_xml.py " + xmlurl)
         pass

@@ -5,7 +5,6 @@
 import cgitb
 cgitb.enable()
 
-
 #print("Content-Type: text/plain;charset=utf-8")
 
 '''
@@ -26,7 +25,8 @@ def sendUrl(url):
     download_files_from_log.saveMetadata(url, od)
 
 
-       
+
+      
 nrOfJobs=""
 
 od = init_rdf.OntologyData(comm.pathToRDFdir)
@@ -35,9 +35,17 @@ init_rdf.RdfFilesCreator(od)
 start = datetime.datetime.now()
 timeDir = time.strftime("%d_%m_%Y")+ "/"
 
+
 if __name__ == "__main__":
+    
     '''
+    #
     #DEBUGGING
+    #jf = open("/var/www/html/ch.txt", 'a')
+    #jf.write(str(datetime.datetime.now()) + "\nCOUNTER: " +  str(counter) + "\n\n")
+    #jf.write(str(datetime.datetime.now()) + "\nDATA: " +  str(data) + "\n\n")
+    #jf.close()
+    
     dat = json.loads(sys.argv[1])
     data = (json.loads(json.loads(sys.argv[1])))["data"]
     item = []
@@ -47,15 +55,39 @@ if __name__ == "__main__":
     #data = json.loads((json.loads(sys.argv[1]))["data"])
     #jobs = list(data.values())
     jobs = item
-    #endof debugging
-    '''
-    data = json.loads((json.loads(sys.argv[1]))["data"])
-    jobs = list(data.values())
     nrOfJobs=len(jobs)
     pool = Pool(processes=os.cpu_count())
     pool.map(sendUrl, jobs)
     pool.close()
     pool.join()
+    #endof debugging
+    '''
+    data0 = None
+    data = None
+    #
+    try:
+        data =  json.loads((  json.loads(sys.argv[1])  )["data"])
+        data0 =  json.loads(sys.argv[1]) 
+        #data =  json.loads((data0)["data"]) 
+        comm.chunksize =  int(json.loads((data0)["chunksize"])) 
+        
+        #jf = open("/var/www/html/ch.txt", 'a')
+        #jf.write(str(datetime.datetime.now()) + "\nCHUNKSIZE: " +  str(comm.chunksize) + "\n\n")
+        #jf.close()
+        
+    except:
+        comm.printException(comm.pathToSaveProgrammingErrors, "load_DATA_in_connector")
+        pass
+
+    if(data is not None):
+        jobs = list(data.values())
+        nrOfJobs=len(jobs)
+        pool = Pool(processes=os.cpu_count())
+        pool.map(sendUrl, jobs)
+        pool.close()
+        pool.join()
+    
+    
 
 #FINALLY add triples from lists, that left over. 
 #In the file 'getEntities',
@@ -90,7 +122,6 @@ if(od.sharedList_loc._callmethod('__len__') > 0):
     except:
         comm.printException(comm.initRdfErrorsFilePath, "get_LOC_entities_leftover")
         pass
-
 
 
 

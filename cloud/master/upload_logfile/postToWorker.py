@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# enable debugging
 import requests
 import commonVariables as comm
 import json
@@ -19,7 +22,7 @@ def postListToWorker(wip, urlsList):
     dik = dict(zip(range(pikkus),urlsList))
     address = "http://"+wip
     try:
-        requests.post(address, data={'data':json.dumps(dik)})
+        requests.post(address, data={'data':json.dumps(dik), 'chunksize':json.dumps(comm.chunksize)})
         return 1
     except:
         comm.printException(comm.pathToConnectionErrors, errString='ConnectionError_to_worker_' + wip)
@@ -35,7 +38,16 @@ def deleteRDFsInWorkers(ipList):
             requests.post(worker_address)
         except:
             comm.printException(comm.pathToConnectionErrors, errString='ConnectionError_to_worker_' + workerip)
-            continue
+            continue 
+        
+def deleteRDFsInWorker(workerip):
+    #delete RDF-files and download excel-files in a worker
+    worker_address = "http://" + workerip + "/delete_rdf_files.php"
+    try:
+        requests.post(worker_address)
+    except:
+        comm.printException(comm.pathToConnectionErrors, errString='ConnectionError_to_worker_' + workerip)
+        
         
     
 def detectConnection(ipList, worker_counter, urlsList):

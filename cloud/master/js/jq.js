@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+    
     //var sparql_ = encodeURI($( "textarea.sprql_textarea" ).html());
     //if(sparql_ != "")
         fillStructuresDiv();
@@ -178,4 +179,10 @@ function fillStructuresDiv(sparql){
 				});
 		$( "div#format_n3" ).html(newLink);
 */
+}
+
+function tog(thisid){
+   var elem = document.getElementById(thisid);
+   nextSibling = elem.nextSibling;
+   nextSibling.style.display = (nextSibling.style.display == 'block' ? 'none' : 'block' );  
 }

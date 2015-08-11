@@ -14,7 +14,7 @@ import sys
 import datetime
 import subprocess
 import json
-import requests
+import time
 import postToWorker
 from urllib import urlretrieve as urr
 from oauth2client import client as oauth2_client
@@ -65,7 +65,6 @@ WORKER_INSTANCES = []
 
 timeDir = comm.timeDir
 
-    
 #get the IP addresses of workers, google compute virtual machines
 def getListOfWorkerIPs():    
     global WORKER_INSTANCES
@@ -91,8 +90,6 @@ def getListOfWorkerIPs():
                 ipList.append(ip)
                 ipList_tuple.append((ip, cpuAmount))
     return (ipList, ipList_tuple)
-    
-
 
 
 #process each line in log-file
@@ -102,9 +99,10 @@ def getListOfWorkerIPs():
 #otherwise file-URL from column 3
 def processline(line): 
     splitted = line.split()
-    tyyp = splitted[6]#content type
-    #disable unwanted content types
-    if( tyyp not in comm.undesiredFileTypes):
+    tyyp = (splitted[6]).lower()#content type
+    
+    
+    if(valide.isValideType(tyyp)):
         action = splitted[4] 
         '''
         R - Redirect
@@ -152,8 +150,9 @@ def importRDFfiles():
             www_data["ip"] = wwwip
             www_data["name"] = wwwname
             www_data["statfile"] = mylargefile
-            subprocess.Popen(["python3", "download_rdf_files.py", json.dumps(www_data)])
-        
+            p = subprocess.Popen(["python3", "download_rdf_files.py", json.dumps(www_data)])
+            #Wait for process to terminate.
+            out, err = p.communicate()
         #add info about instances
         comm.saveStatistics(mylargefile, inst_str + "\n\n")
     else:
@@ -191,8 +190,14 @@ def doDownloadJob(jsonToDict, itemname):
                         pass
                     #Get the time the json-file was made
                     timeDir = jsonToDict[fname_key][csha]['timeDir']
-                    #download only today's changes!
-                    if(contentKeyExists) & (ajadir == timeDir):
+                    #download only changes that are no  older than 
+                    #the date of start of current process!
+                    process_start_date = comm.makeDateObj(ajadir)
+                    json_model_date = comm.makeDateObj(timeDir)
+                    #continueonly if 
+                    #date in model is younger or equal to a 
+                    #date of a process start
+                    if(contentKeyExists) & (json_model_date >= process_start_date):
                         #excel type is already downloaded
                         if("excel" not in jsonToDict[fname_key][csha]['Content-Type']):
                             #full URL of a file
@@ -309,24 +314,30 @@ if __name__ == '__main__':
             for line in f:
                 nr_of_log_rows += 1 #for statistics
                 plineUrl = processline(line)
-                if(plineUrl != "")&(plineUrl not in distinct_urls):
-                    distinct_urls.add(plineUrl)
-                    #delete_counter += 1
-                    line_counter += 1
-                    urlsList.append(plineUrl)
-                    postListSize = postToWorker.defPostListSize(worker_counter, ipList_tuple)
-                    #send certain amount of URLs to each worker, then empty the list of URLS
-                    if(len(urlsList) == postListSize):
-                        #post the list until connected to worker is successful
-                        worker_counter = postToWorker.detectConnection(ipList, worker_counter, urlsList)
-                        
-                        
-                        del urlsList[:] #empty list of urls
-                        #prepare next worker
-                        worker_counter += 1
-                        if (worker_counter > (len(ipList)-1)):
-                            #start over from first worker in list
-                            worker_counter = 0
+                if(plineUrl is not None)&(plineUrl != ""):
+                    if(plineUrl not in distinct_urls)&('icomoon' not in plineUrl.lower())&('hobekivi' not in plineUrl.lower()):
+                        distinct_urls.add(plineUrl)
+                        #delete_counter += 1
+                        line_counter += 1
+                        urlsList.append(plineUrl)
+                        postListSize = postToWorker.defPostListSize(worker_counter, ipList_tuple)
+                        #send certain amount of URLs to each worker, then empty the list of URLS
+                        if(len(urlsList) == postListSize):
+                            #post the list until connected to worker is successful
+                            worker_counter = postToWorker.detectConnection(ipList, worker_counter, urlsList)
+                            
+                            #postreq_dir
+                            jf = open(comm.postreq_path, 'a')
+                            jf.write(time.strftime("%d/%m/%Y_%H:%M:%S") + " just posted to: " + str(ipList[worker_counter]) + "\n")
+                            jf.close()
+                            
+                            
+                            del urlsList[:] #empty list of urls
+                            #prepare next worker
+                            worker_counter += 1
+                            if (worker_counter > (len(ipList)-1)):
+                                #start over from first worker in list
+                                worker_counter = 0
                 #dont let memory to grow too buzy
                 if (len(distinct_urls) > 1000):
                     distinct_urls = set()  
@@ -336,7 +347,7 @@ if __name__ == '__main__':
             worker_counter = postToWorker.detectConnection(ipList, worker_counter, urlsList)
         
         #start of statistics!
-        comm.saveStatistics(mylargefile, "###########################\n")
+        comm.saveStatistics(mylargefile, "###########################\n chunksize: "+ str(comm.chunksize)+"\n")
         
         #the time spent
         end = datetime.datetime.now()
@@ -390,17 +401,31 @@ if __name__ == '__main__':
         
         #end of statistics!
         comm.saveStatistics(mylargefile, "\n--------------------------- ")
+        
+        
+        #delete RDF-files and download excel-files in each worker
+        postToWorker.deleteRDFsInWorkers(ipList)
         ###
-        ### Download json-objects from cloud storage
-        downloadJsons.getJsonObjects(client)
         ###
-        ### Download generated error-objects from cloud storage
-        downloadErrors.getErrorObjects(client)
+        try:
+            # Download json-objects from cloud storage
+            downloadJsons.getJsonObjects(client)
+        except:
+            comm.printException(comm.pathToSaveDownloadErrors, errString="downloadJsons")
+            pass
         
         ###
         ###
-        #delete RDF-files and download excel-files in each worker
-        postToWorker.deleteRDFsInWorkers(ipList)
+        try:
+            ###
+            ### Download generated error-objects from cloud storage
+            downloadErrors.getErrorObjects(client)
+        except:
+            comm.printException(comm.pathToSaveDownloadErrors, errString="downloadErrors")
+            pass
+        
         
     else:
         print("no worker instances")
+
+

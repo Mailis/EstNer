@@ -69,6 +69,7 @@ table, th, td{
 .fname{
   font-weight: bold;
   color: #0099FF;
+  cursor: pointer;
 }
 .fname_data{
   font-weight: bold:
@@ -297,3 +298,30 @@ hr.item_horiz_end{
 .updateTable{
     background-color: pink;
 }
+
+
+
+.filetoggle{
+  display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -170,7 +170,7 @@ def getListOfWorkerIPs(worker_instances):
             ip = accessConfigs["natIP"]
             ipList.append(ip)
             ipList_tuple.append(ip, cpuAmount)
-    return (ipList, ipList_tuple)
+    return ((ipList, ipList_tuple))
     
     
     

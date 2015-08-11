@@ -27,7 +27,7 @@ SERVICE_ACCOUNT = 'default'
 
 rdfFnames = ["ORG", "PER", "LOC"]
 
-chunksize=100
+chunksize=500
 
 #directory where the system software is located in server
 parentDir = "/var/www/html/"
@@ -36,8 +36,8 @@ parentDir = "/var/www/html/"
     Lists file types, where one cannot find entities
 '''
 desiredFileTypes = ['excel', 'json', 'html', 'xml', 'pdf', 'plain', 'text']#
-undesiredFileTypes = ['image', 'no-type', 'javascript', 'flash', 'dns']
-undesiredFileExtensions = ['jpg', 'jpeg', 'gif', 'png', 'bmp', 'ico', 'swf', 'js', 'css', 'js', 'php', 'ShockwaveFlash', 'dns']
+undesiredFileTypes = ['image', 'no-type', 'javascript', 'flash', 'dns', 'ttf', 'js', 'css', 'video']
+undesiredFileExtensions = ['jpg', 'jpeg', 'gif', 'png', 'bmp', 'ico', 'swf', 'js', 'css', 'js', 'php', 'ShockwaveFlash', 'dns', 'ttf']
 undesiredFileName = ['robots.txt', '/robots.txt']
 
 '''
@@ -63,6 +63,12 @@ monthly_updates_dir = parentDir + "statistics/monthly_updates"
 if not os.path.isdir(monthly_updates_dir):
     os.makedirs(monthly_updates_dir)
 monthly_updates_path = monthly_updates_dir + "/" + time.strftime("%d_%m_%Y") + ".txt"    
+
+#path for saving times when some post request was made
+postreq_dir = parentDir + "statistics/postrequests"
+if not os.path.isdir(postreq_dir):
+    os.makedirs(postreq_dir)
+postreq_path = postreq_dir + "/" + time.strftime("%d_%m_%Y") + ".txt"    
     
     
 
@@ -77,6 +83,13 @@ pathToRDFdir = parentDir + "rdf_files/"
 #create folder for rdf-files
 if not os.path.isdir(pathToRDFdir):
     os.makedirs(pathToRDFdir)   
+    
+#backups
+rdf_copypath = parentDir + "rdf_copy/"
+#create folder for rdf-files
+if not os.path.isdir(rdf_copypath):
+    os.makedirs(rdf_copypath) 
+
 
 #paths for errors (saved in GCE bucket 'generated_files')
 errorsBucket = "generated_files"
@@ -122,7 +135,16 @@ if not os.path.isdir(pathToUpdateErrorsDir):
 if not os.path.exists(parsing_errorsDir):
     os.makedirs(parsing_errorsDir)
   
-    
+#create date object of dirname
+#incomming string 'ajas6ne'
+#has format "Y_m_d"
+#e.g. "2013_ 7_20"
+def makeDateObj(ajas6ne):
+    numbrid = ajas6ne.split("_")
+    return datetime.datetime(int(numbrid[0]), int(numbrid[1]), int(numbrid[2]))
+
+
+
 def printException(pathToErrorFile, errString=""):
     exc_type, exc_obj, tb = sys.exc_info()
     f = tb.tb_frame

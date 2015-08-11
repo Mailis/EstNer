@@ -21,36 +21,36 @@ def readHtmlPage(htmlurl, readedPage, ontologyData, _encoding):
     try:
         sentences = set()
         root = parse(htmlurl).getroot()
-
-        for element in root.iter("head"):
-            element.drop_tree()
-        for element in root.iter("script"):
-            element.drop_tree()
-        for element in root.iter("style"):
-            element.drop_tree()
-        for element in root.iter("noscript"):
-            element.drop_tree()
-        for element in root.iter("input"):
-            element.drop_tree()
-        for element in root.iter("form"):
-            element.drop_tree()
-        for element in root.iter("title"):
-            element.drop_tree()
-        for element in root.iter("img"):
-            element.drop_tree()
-            
-        for element in root.iter("body"):
-            try:
-                sentences.add(element.text_content())
-            except:
-                pass
-        if(len(sentences) > 0): 
-            lsent = list(sentences)
-            for lau in lsent:
-                if(lau != ""):
-                    laused = comm.replaceToPunkts(lau)
-                    for s6ne in laused:
-                        getEntities.getEntities(htmlurl, s6ne.strip(), ontologyData)
+        if (root is not None):
+            for element in root.iter("head"):
+                element.drop_tree()
+            for element in root.iter("script"):
+                element.drop_tree()
+            for element in root.iter("style"):
+                element.drop_tree()
+            for element in root.iter("noscript"):
+                element.drop_tree()
+            for element in root.iter("input"):
+                element.drop_tree()
+            for element in root.iter("form"):
+                element.drop_tree()
+            for element in root.iter("title"):
+                element.drop_tree()
+            for element in root.iter("img"):
+                element.drop_tree()
+                
+            for element in root.iter("body"):
+                try:
+                    sentences.add(element.text_content())
+                except:
+                    pass
+            if(len(sentences) > 0): 
+                lsent = list(sentences)
+                for lau in lsent:
+                    if(lau != ""):
+                        laused = comm.replaceToPunkts(lau)
+                        for s6ne in laused:
+                            getEntities.getEntities(htmlurl, s6ne.strip(), ontologyData)
     except:
         comm.printException(comm.pathToSaveParsingErrors, "read_html.py " + _encoding + " " + htmlurl)
         pass

@@ -311,21 +311,38 @@ class RdfFilesCreator(OntologyData):
             #describe ner as ontology
             g.add( (URIRef(OntologyData.ner), RDF.type, OntologyData.owlOntology) )
             g.add( (URIRef(OntologyData.ner), DC["title"], Literal("estNERD Ontology")) )
-            g.add( (URIRef(OntologyData.ner), DC["description"], Literal("Locations, organizations and persons extracted from Estonian open data, using 'Estnltk — Open source tools for Estonian natural language processing' [http://tpetmanson.github.io/estnltk/].")) )
-            #define owl#DatatypeProperty
-            g.add( (OntologyData.lemma, RDF.type, OntologyData.datatypeProperty) )
+            g.add( (URIRef(OntologyData.ner), DC["description"], Literal("Locations, organizations and persons extracted from Estonian open data, using Estnltk — Open source tools for Estonian natural language processing [http://tpetmanson.github.io/estnltk/].")) )
+            #define owl#DatatypeProperties
+            #for lemma
+            g.add( (OntologyData.lemma, RDF.type, OntologyData.datatypeProperty) )            
+            g.add( (OntologyData.lemma, DC["description"], Literal("Alternative for unresolved name; exctarcted using Estnltk — Open source tools for Estonian natural language processing.")) )
+            #for mentionedAtSite
             g.add( (OntologyData.mentionedAtSite, RDF.type, OntologyData.datatypeProperty) )
+            g.add( (OntologyData.mentionedAtSite, DC["description"], Literal("Web site, where unresolved name was found using Estnltk — Open source tools for Estonian natural language processing.")) )
+            
+            
+             #define name-ner descriptions
+            #for orgName
+            gOrg = Graph()
+            gOrg.add( (OntologyData.orgName, RDF.type, OntologyData.datatypeProperty) )
+            gOrg.add( (OntologyData.orgName, DC["description"], Literal("Unresolved name of organization. Exctarcted using Estnltk — Open source tools for Estonian natural language processing [http://tpetmanson.github.io/estnltk/].")) )
+            
+            #for locationName
+            gLoc = Graph()
+            gLoc.add( (OntologyData.locationName, RDF.type, OntologyData.datatypeProperty) )
+            gLoc.add( (OntologyData.locationName, DC["description"], Literal("Unresolved name of location. Exctarcted using Estnltk — Open source tools for Estonian natural language processing [http://tpetmanson.github.io/estnltk/].")) )
+                     
 
             
-            self.locationGraph = g
-            self.organizatioGraph = g
             self.peopleGraph = g
+            self.organizatioGraph = g+gOrg #g #
+            self.locationGraph = g+gLoc #g#
         #write rdf into file if the file do not exist yet
         if not os.path.isfile(od.locRdf):
             self.locationGraph.serialize(od.locRdf, format='pretty-xml', encoding='utf-8')
         if not os.path.isfile(od.orgRdf):
-            self.locationGraph.serialize(od.orgRdf, format='pretty-xml', encoding='utf-8')
+            self.organizatioGraph.serialize(od.orgRdf, format='pretty-xml', encoding='utf-8')
         if not os.path.isfile(od.perRdf):
-            self.locationGraph.serialize(od.perRdf, format='pretty-xml', encoding='utf-8')
+            self.peopleGraph.serialize(od.perRdf, format='pretty-xml', encoding='utf-8')
         
       
