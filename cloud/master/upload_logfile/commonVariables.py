@@ -36,8 +36,8 @@ parentDir = "/var/www/html/"
     Lists file types, where one cannot find entities
 '''
 desiredFileTypes = ['excel', 'json', 'html', 'xml', 'pdf', 'plain', 'text']#
-undesiredFileTypes = ['image', 'no-type', 'javascript', 'flash', 'dns', 'ttf', 'js', 'css', 'video']
-undesiredFileExtensions = ['jpg', 'jpeg', 'gif', 'png', 'bmp', 'ico', 'swf', 'js', 'css', 'js', 'php', 'ShockwaveFlash', 'dns', 'ttf']
+undesiredFileTypes = ['image', 'no-type', 'javascript', 'flash', 'dns', 'ttf', 'js', 'css', 'video', "audio", 'zip', "video", "mpeg", "x-font-otf", "x-font-woff"]
+undesiredFileExtensions = ['jpg', 'jpeg', 'gif', 'png', 'bmp', 'ico', 'swf', 'js', 'css', 'php', 'ShockwaveFlash', 'dns', 'ttf', "video", "audio", "mpeg"]
 undesiredFileName = ['robots.txt', '/robots.txt']
 
 '''

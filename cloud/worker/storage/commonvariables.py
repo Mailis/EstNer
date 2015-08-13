@@ -33,8 +33,8 @@ chunksize=500
     Lists file types, where one cannot find entities
 '''
 desiredFileTypes = ['excel', 'json', 'html', 'xml', 'pdf', 'plain', 'text']#
-undesiredFileTypes = ['image', 'no-type', 'javascript', 'flash', 'dns', 'ttf', 'js', 'css', 'video', 'zip']
-undesiredFileExtensions = ['jpg', 'jpeg', 'gif', 'png', 'bmp', 'ico', 'swf', 'js', 'css', 'php', 'ShockwaveFlash', 'dns', 'ttf']
+undesiredFileTypes = ['image', 'no-type', 'javascript', 'flash', 'dns', 'ttf', 'js', 'css', 'video', "audio", 'zip', "video", "mpeg", "x-font-otf", "x-font-woff"]
+undesiredFileExtensions = ['jpg', 'jpeg', 'gif', 'png', 'bmp', 'ico', 'swf', 'js', 'css', 'php', 'ShockwaveFlash', 'dns', 'ttf', "video", "audio", "mpeg"]
 undesiredFileName = ['robots.txt', '/robots.txt', 'xmlrpc.php']
 
 
@@ -211,13 +211,29 @@ def is_number(s):
         return True
     except ValueError:
         return False
+ 
+#check for URI to not contain control chars
+#otherwise rdflib cannot serialize graph
+#http://rdflib.readthedocs.org/en/latest/rdf_terms.html
+#A URI reference within an RDF graph is 
+#a Unicode string that 
+#does not contain any control characters ( #x00 - #x1F, #x7F-#x9F) 
+def URIcontainsControlchars(s6ne):
+    control_chrs = [(0x00, 0x1F), (0x7F, 0x9F)] 
+    
+    for (low, high) in control_chrs:
+        for x in range(low, high):
+            if chr(x) in s6ne:
+                return 1
+            
+    return None
     
 #dont process strings that contain illegal chars for xml
 #http://stackoverflow.com/questions/1707890/fast-way-to-filter-illegal-xml-unicode-chars-in-python
 def containsXMLinvalidchars(s6ne):
-    includesIllegalChar = None
     _illegal_unichrs = [(0x00, 0x08), (0x0B, 0x0C), (0x0E, 0x1F), 
                         (0x7F, 0x84), (0x86, 0x9F), 
+                        (0x00, 0x1F), (0x7F, 0x9F), #illegal_control_chrs
                         (0xFDD0, 0xFDDF), (0xFFFE, 0xFFFF)] 
     if sys.maxunicode >= 0x10000:  # not narrow build 
             _illegal_unichrs.extend([(0x1FFFE, 0x1FFFF), (0x2FFFE, 0x2FFFF), 
@@ -228,8 +244,7 @@ def containsXMLinvalidchars(s6ne):
                                      (0xBFFFE, 0xBFFFF), (0xCFFFE, 0xCFFFF), 
                                      (0xDFFFE, 0xDFFFF), (0xEFFFE, 0xEFFFF), 
                                      (0xFFFFE, 0xFFFFF), (0x10FFFE, 0x10FFFF)]) 
-    _illegal_ranges = ["%s-%s" % (chr(low), chr(high)) for (low, high) in _illegal_unichrs] 
-    
+    #_illegal_ranges = ["%s-%s" % (chr(low), chr(high)) for (low, high) in _illegal_unichrs]    
     #_illegal_xml_chars_RE = re.compile('[%s]' % ''.join(_illegal_ranges)) 
     #return _illegal_xml_chars_RE.match(s6ne)
     for (low, high) in _illegal_unichrs:
@@ -251,7 +266,7 @@ def specialReplacements(s6ne):
 def replaceWith(repl, s6ne):
     p = s6ne.replace("¦", repl).replace(';', repl).replace(':', repl).replace('(', repl).replace(')', repl)
     r = p.replace('?', repl).replace('!', repl).replace(',', repl).replace(' | ', repl).replace('&', repl)
-    s = r.replace('@', repl).replace('˙', repl).replace('˚', repl).replace('ˇ', repl)
+    s = r.replace('@', repl).replace('˙', repl).replace('˚', repl).replace('ˇ', repl).replace('^', repl)
     t = s.replace('ˆ', repl).replace('/', repl).replace('\\', repl).replace('{', repl).replace('}', repl)
     u = t.replace('[', repl).replace(']', repl).replace('¬', repl).replace('_', repl).replace('~', repl)
     v = u.replace('#', repl).replace('%', repl)

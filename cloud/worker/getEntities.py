@@ -26,7 +26,7 @@ def printIncomingText(text):
 def getEntities(url, text, ontologyData, orgWords=['kogu', 'selts', 'ansambel', 'keskus', 'ühendus', 'ühing', 'mtü', 'oü', 'as', 'klubi', 'asutus', 'keskus', 'fond', 'cup'], locWords=['vabarii', 'maakond']):
     #print("GETENTITIES ", url)
     #printIncomingText(text)
-    if(comm.containsXMLinvalidchars(text) is None):
+    if("^" not in text):#invalid for RDFlibURI
         ntwl = list()
         ner_tagged = None
         try:
