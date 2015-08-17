@@ -51,6 +51,8 @@ if (not os.path.isdir(downloadsDir)) & (not os.path.exists(downloadsDir)):
 #jsonsbucket
 jsonsDir = "datadownload_jsons"
 
+
+pathToRDFbaseDir = parentDir + "rdf_files/"
 pathToRDFdir = parentDir + "rdf_files/"
 #create folder for rdf-files
 if not os.path.isdir(pathToRDFdir):
