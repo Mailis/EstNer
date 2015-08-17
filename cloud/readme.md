@@ -1,3 +1,8 @@
+DEMO
+===================
+demo version was deleted by Google with reason of end of free trial period.
+The web address of a new domo will be announced here in few days.
+
 INSTALLATION
 ===================
 Installation for master instance is described in master folder. 
