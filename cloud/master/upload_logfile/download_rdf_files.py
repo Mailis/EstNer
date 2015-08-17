@@ -90,7 +90,9 @@ if __name__ == '__main__':
     input_file_url = "http://" + ip + "/rdf_files/"#parent folder of incoming path of RDF
     #new file system
     #temporary target folder to download file system of rdf_files' folder of a worker
-    outp = "/var/www/html/outputf/"
+    outp = comm.outp_temp_rdf
+    if not os.path.isdir(outp): #make dirs ORG, PER, LOC in master's dir 'rdf_files'
+        os.makedirs(outp)
     #the resulting filesystem becomes
     #/var/www/html/outputf/
     #/var/www/html/outputf/<ip>/
@@ -102,8 +104,8 @@ if __name__ == '__main__':
     #walk through temporary filesystem of rdf_files' folder of a worker
     #in outp = "/var/www/html/outputf/"
     #get subfolders of 'outputf/.../rdf_files/'
-    first_subfolder = outp + "/" + ip + "/rdf_files/"
-    date_folders = os.listdir(first_subfolder)
+    f_subfolder = outp + "/" + ip + "/rdf_files/"
+    date_folders = os.listdir(f_subfolder)
     
     for date_dir in date_folders:#/var/www/html/outputf/<ip>/rdf_files/<date_dir>/
         remote_date_dir_path =  input_file_url + date_dir

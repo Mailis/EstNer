@@ -79,6 +79,7 @@ if not os.path.isdir(processed_logfiles_dir):
     os.makedirs(processed_logfiles_dir)
 
 #folder for saving collected rdf_files
+outp_temp_rdf = "/var/www/html/outputf/"
 pathToRDFdir = parentDir + "rdf_files/"
 #create folder for rdf-files
 if not os.path.isdir(pathToRDFdir):

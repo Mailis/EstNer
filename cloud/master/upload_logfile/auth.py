@@ -26,6 +26,7 @@ import downloadJsons
 import downloadErrors
 
 
+
 '''
 The main task of this file is to 
 parse log file rows and 
@@ -366,6 +367,11 @@ if __name__ == '__main__':
         #the aggregated RDF-files are in folder rdf_files
         
         for (dirpath, dirnames, filenames) in walk(comm.pathToRDFdir):
+            for dire in dirnames:
+                direpath = os.path.join(dirpath, dire)
+                if(os.path.isdir(direpath)):
+                    shutil.rmtree(direpath)
+        for (dirpath, dirnames, filenames) in walk(comm.outp_temp_rdf):
             for dire in dirnames:
                 direpath = os.path.join(dirpath, dire)
                 if(os.path.isdir(direpath)):
