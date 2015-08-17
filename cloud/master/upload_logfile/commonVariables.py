@@ -19,9 +19,10 @@ if sys.stdout.encoding is None or sys.stdout.encoding == 'ANSI_X3.4-1968':
 
 
 #variabless for authentication against GCE
+#change these variables to your own ones
 MASTERINSTANCE_NAME = "master"
 DEFAULT_ZONE = 'europe-west1-b'
-PROJECT_ID = "estn-1006" # 
+PROJECT_ID = "estn-12226" # 
 METADATA_SERVER = ('http://metadata/computeMetadata/v1/instance/service-accounts')
 SERVICE_ACCOUNT = 'default'
 
