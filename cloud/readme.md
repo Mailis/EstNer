@@ -1,6 +1,6 @@
 DEMO
 ===================
-demo version was deleted by Google with reason of end of free trial period.
+demo version was deleted by Google with the reason that the free trial period was ended.
 The web address of a new domo will be announced here in few days.
 
 INSTALLATION
