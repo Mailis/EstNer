@@ -34,7 +34,7 @@ def setNewRDFdir():
     comm.pathToRDFdir = ajastr
     
 minute_start = -1
-rdfInterval=2
+rdfInterval=15
 dirs=sorted(os.listdir(comm.pathToRDFbaseDir))
 if len(dirs)==0:#if no RDF-dirs are created yet   
     minute_start = int(time.strftime("%M")) 
