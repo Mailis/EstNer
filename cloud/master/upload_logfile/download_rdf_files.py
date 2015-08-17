@@ -33,7 +33,7 @@ def mergeRDFfiles():
             g_new = Graph()
             g_new_for_copy = Graph()
             for rdf_file in listdir(rdf_file_dir):
-                tmp_path = rdf_file_dir + "/" + rdf_file #/var/www/html/master/rdf_files/ORG/<worker-1>.rdf
+                tmp_path = rdf_file_dir + "/" + rdf_file #/var/www/html/master/rdf_files/ORG/<worker-1>_<date_dir>.rdf
                 try:
                     g_new.parse(tmp_path)#load temporary file into graph
                     g_new_for_copy.parse(tmp_path)#load temporary file into graph
@@ -85,20 +85,57 @@ if __name__ == '__main__':
     www_data = json.loads(sys.argv[1])
     ip = www_data["ip"]
     remoteName = www_data["name"]
-    mylargefile = www_data["statfile"]
+    #mylargefile = www_data["statfile"]
 
-    input_file_url = "http://" + ip + "/rdf_files/"
-    inp=("INPUT " + str(input_file_url))
-    for fname in rdfFnames:
-        inputf = input_file_url + fname + ".rdf"
-        outputDir = comm.pathToRDFdir + fname + "/"
-        if not os.path.isdir(outputDir):
-            os.makedirs(outputDir)
-        output = outputDir + remoteName + ".rdf"
-        try:
-            urr(inputf, output)
-        except:
-            pass
+    input_file_url = "http://" + ip + "/rdf_files/"#parent folder of incoming path of RDF
+    #new file system
+    #temporary target folder to download file system of rdf_files' folder of a worker
+    outp = "/var/www/html/outputf/"
+    #the resulting filesystem becomes
+    #/var/www/html/outputf/
+    #/var/www/html/outputf/<ip>/
+    #/var/www/html/outputf/<ip>/rdf_files/
+    #/var/www/html/outputf/<ip>/rdf_files/<datetime>/
+    ls = os.system('wget -r --no-parent --reject "index.html*" --directory-prefix=' + outp + ' ' + input_file_url)
+    
+     
+    #walk through temporary filesystem of rdf_files' folder of a worker
+    #in outp = "/var/www/html/outputf/"
+    #get subfolders of 'outputf/.../rdf_files/'
+    first_subfolder = outp + "/" + ip + "/rdf_files/"
+    date_folders = os.listdir(first_subfolder)
+    
+    for date_dir in date_folders:#/var/www/html/outputf/<ip>/rdf_files/<date_dir>/
+        remote_date_dir_path =  input_file_url + date_dir
+    
+        for fname in rdfFnames:
+            #rdf URL in worker machine
+            #/var/www/html/outputf/<ip>/rdf_files/<date_dir>/<fname>.rdf
+            #/var/www/html/outputf/<ip>/rdf_files/<date_dir>/LOC.rdf
+            #/var/www/html/outputf/<ip>/rdf_files/<date_dir>/ORG.rdf
+            #/var/www/html/outputf/<ip>/rdf_files/<date_dir>/PER.rdf
+            inputf = remote_date_dir_path + "/" + fname + ".rdf"
+            #create
+            #rdf dirs' paths in master machine: 
+            #/var/www/html/rdf_files/<fname>/
+            #e.g.
+            #/var/www/html/rdf_files/LOC/
+            #/var/www/html/rdf_files/ORG/
+            #/var/www/html/rdf_files/PER/
+            outputDir = comm.pathToRDFdir + fname + "/"
+            if not os.path.isdir(outputDir): #make dirs ORG, PER, LOC in master's dir 'rdf_files'
+                os.makedirs(outputDir)
+            
+            #rdf file path in master machine:
+            #/var/www/html/rdf_files/<fname>/<remoteName>_<date_dir>_.rdf
+            #e.g.
+            #/var/www/html/rdf_files/rdf_files/ORG/worker1_08_2015_09_10.rdf
+            #old was: output = outputDir + remoteName + ".rdf" 
+            output = outputDir + remoteName + "_"  + date_dir + "_" + ".rdf"
+            try:
+                urr(inputf, output)
+            except:
+                pass
     
     mergeRDFfiles()
     

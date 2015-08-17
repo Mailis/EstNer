@@ -11,6 +11,8 @@ from rdflib.namespace import RDF, RDFS, OWL, DC, FOAF
 from multiprocessing import Manager
 from storage import commonvariables as comm
 
+
+
 class OntologyData():
     
     '''
@@ -53,6 +55,7 @@ class OntologyData():
     LOC_TYPE = "LOC"
     ORG_TYPE = "ORG"
     PER_TYPE = "PER"
+    currentdir =""
    
     m = Manager()
     #chunk lists
@@ -60,13 +63,17 @@ class OntologyData():
     sharedList_org = m.list()
     sharedList_loc = m.list()
     
-    def __init__(self, namespaceURI = 'http://nerd.eurecom.fr/ontology'):
-        self.locRdf = comm.pathToRDFdir + self.LOC_TYPE + ".rdf"
-        self.orgRdf = comm.pathToRDFdir + self.ORG_TYPE + ".rdf"
-        self.perRdf = comm.pathToRDFdir + self.PER_TYPE + ".rdf"
+    def __init__(self):
+        self.currentdir = self.getLaetstDir()
+        self.locRdf = self.currentdir + self.LOC_TYPE + ".rdf"
+        self.orgRdf = self.currentdir + self.ORG_TYPE + ".rdf"
+        self.perRdf = self.currentdir + self.PER_TYPE + ".rdf"
         #os.chmod(self.locRdf, stat.S_IROTH)
         #os.chmod(self.orgRdf, stat.S_IROTH)
         #os.chmod(self.perRdf, stat.S_IROTH)
+    def getLaetstDir(self):
+        dirs=sorted(os.listdir(comm.pathToRDFbaseDir))
+        return comm.pathToRDFbaseDir + dirs[-1] + "/"
         
     def getLocRdfGraph(self):
         g = Graph()

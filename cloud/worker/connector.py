@@ -26,17 +26,38 @@ def sendUrl(url):
 
 
 
-      
+def setNewRDFdir():
+    ajastr = comm.pathToRDFbaseDir + time.strftime("%d_%m_%Y_%H_%M") + "/"
+    if not os.path.isdir(ajastr):
+        os.makedirs(ajastr)
+    #change rdf-dir variable
+    comm.pathToRDFdir = ajastr
+    
+minute_start = -1
+rdfInterval=2
+dirs=sorted(os.listdir(comm.pathToRDFbaseDir))
+if len(dirs)==0:#if no RDF-dirs are created yet   
+    minute_start = int(time.strftime("%M")) 
+    setNewRDFdir()#changes variable 'comm.pathToRDFdir'
+else:#if there are already some dir
+    comm.pathToRDFdir = comm.pathToRDFbaseDir + dirs[-1] + "/"#take newest dir
+        
+
+od = None
 nrOfJobs=""
-
-od = init_rdf.OntologyData(comm.pathToRDFdir)
-init_rdf.RdfFilesCreator(od)
-
 start = datetime.datetime.now()
 timeDir = time.strftime("%d_%m_%Y")+ "/"
 
 
 if __name__ == "__main__":
+    minute = int(time.strftime("%M"))
+    if( ( minute%rdfInterval is 0) & (minute_start != minute)):
+        setNewRDFdir()#changes variable 'comm.pathToRDFdir'
+    '''
+    setNewRDFdir()
+    '''
+    od = init_rdf.OntologyData()  
+    init_rdf.RdfFilesCreator(od)
     
     '''
     #
